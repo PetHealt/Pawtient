@@ -530,22 +530,42 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 
 ## 2.2. Entrevistas
 
-> *(Investigación basada en recolección de información mediante entrevistas a representantes de los segmentos objetivo)*
+Esta sección expone la investigación basada en entrevistas realizadas a médicos veterinarios (incluyendo administradores de clínicas) y dueños de mascotas, segmentos clave del proyecto. A través de sus testimonios se buscó identificar las principales dificultades en la gestión clínica, administrativa y en el seguimiento de la salud animal, para explorar cómo una solución digital integral podría responder de manera efectiva a sus necesidades
 
 ### 2.2.1. Diseño de entrevistas
 
-*(Incluir las preguntas principales y complementarias para entrevistas, dirigidas a cada segmento objetivo)*
+Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación cualitativa, estructurando las preguntas de lo general a lo específico. El objetivo principal es recolectar información demográfica, psicográfica, conductual y tecnológica de los entrevistados. Estos datos son fundamentales para construir posteriormente nuestros arquetipos (User Personas), identificando su biografía, dispositivos de preferencia, influencias, metas y puntos de dolor respecto a la gestión de salud veterinaria.
 
-**Segmento objetivo 1: `[Nombre del segmento]`**
+**Segmento objetivo 1: `Médicos Veterinarios y Administradores de Clínicas`**
 
-*Preguntas principales:*
-1. *(Pregunta 1)*
-2. *(Pregunta 2)*
-3. *(Pregunta 3)*
+- **Bloque 1: Perfilamiento y Demografía (Background del Arquetipo)**
+    
+    - **Pregunta principal:** 
+      - Para empezar, cuéntame un poco sobre ti: ¿Cuál es tu edad, en qué distrito resides y cuál es tu estado civil o composición familiar actual? 
+    - **Preguntas complementarias:**
 
-*Preguntas complementarias:*
-1. *(Pregunta complementaria 1)*
-2. *(Pregunta complementaria 2)*
+      - ¿Cuál es tu cargo exacto en la clínica y cuántos años de experiencia tienes en el rubro?
+
+      - ¿Cómo te describirías en tu entorno de trabajo? (Ej. ¿Te consideras alguien metódico, tradicional, innovador, acelerado?)
+      
+
+- **Bloque 2: Hábitos Digitales, Marcas e Influencias (Habilidades y Tecnología)**
+  
+    - **Pregunta principal:** 
+      - ¿Cuáles son los dispositivos que más utilizas en tu día a día tanto para tu vida personal como para la clínica?
+    - **Preguntas complementarias:**
+      - ¿Qué tan hábil te consideras aprendiendo a usar nuevos programas o aplicaciones?
+      - ¿Cuáles son tus redes sociales o canales digitales favoritos para informarte o interactuar con colegas?
+      - ¿Hay alguna marca, empresa o figura pública dentro del rubro veterinario o tecnológico que consideres un referente o influencia?
+
+
+- **Bloque 3: Objetivos y Frustraciones (El problema a resolver)**
+    - **Pregunta principal:**
+      - ¿Cuáles son tus objetivos profesionales principales para tu clínica este año y qué es lo que más te frustra o te impide lograrlos actualmente?
+    - **Preguntas complementarias:**
+      - Pensando en la gestión diaria (citas, historias clínicas, inventario), ¿cuál es la tarea que consideras más tediosa, desordenada o propensa a errores?
+      - ¿Cómo te afecta a nivel personal (estrés, tiempo libre) el no tener la información de tus pacientes o el stock de insumos centralizados y organizados?
+      - Si tuvieras una herramienta ideal para gestionar la clínica, ¿cuál sería la primera función que usarías?
 
 ---
 
