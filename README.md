@@ -569,16 +569,31 @@ Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación 
 
 ---
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
+**Segmento objetivo 2: `[Dueños de Mascotas (Pet Parents)]`**
 
-*Preguntas principales:*
-1. *(Pregunta 1)*
-2. *(Pregunta 2)*
-3. *(Pregunta 3)*
+- **Bloque 1: Perfilamiento y Demografía (Background del Arquetipo)**
+    - **Pregunta principal:**
+      - Cuéntame sobre ti y tu familia: ¿Cuál es tu edad, distrito de residencia, ocupación y con quiénes vives actualmente?
+    - **Preguntas complementarias:**
+      - Háblame de tu mascota: ¿Qué especie es, cuántos años tiene y cómo llegó a tu vida?
+      - ¿Cómo describirías tu personalidad como dueño de mascota? (Ej. ¿Eres sobreprotector, relajado, muy organizado con sus cosas?)
 
-*Preguntas complementarias:*
-1. *(Pregunta complementaria 1)*
-2. *(Pregunta complementaria 2)*
+
+- **Bloque 2: Hábitos Digitales, Marcas e Influencias (Habilidades y Tecnología)**
+    - **Pregunta principal:**
+      - ¿Qué dispositivos tecnológicos usas principalmente en tu rutina y cuáles son los canales digitales (apps, redes sociales) donde pasas más tiempo?
+    - **Preguntas complementarias:**
+      - Cuando compras productos para tu mascota (comida, accesorios), ¿qué marcas sueles preferir y por qué confías en ellas?
+      - ¿Sigues a algún influencer de mascotas, veterinario en redes sociales o blog que influya en cómo cuidas a tu animal?
+
+
+- **Bloque 3: Objetivos y Frustraciones (El problema a resolver)**
+    - **Pregunta principal:** 
+      - Como dueño, ¿cuál es tu objetivo principal respecto a la salud de tu mascota y qué es lo que más te genera estrés cuando tienes que llevarla al veterinario?
+    - **Preguntas complementarias:**
+      - ¿Cómo te organizas para recordar sus vacunas, citas o encontrar su historial médico si vas a una clínica nueva?
+      - ¿Alguna vez has olvidado una indicación médica importante o has perdido una receta física? ¿Cómo te hizo sentir eso frente al cuidado de tu mascota?
+      - Si existiera una plataforma web donde pudieras ver todo el historial de tu mascota y agendar citas desde tu celular, ¿qué te motivaría a usarla constantemente?
 
 ---
 
