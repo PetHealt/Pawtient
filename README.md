@@ -408,7 +408,7 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
   <tbody>
     <tr>
       <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
-      <td colspan="5" align="center"></td>
+      <td colspan="5" align="center">El objetivo de este análisis es identificar las características de los competidores, evaluar sus fortalezas y debilidades, y encontrar maneras de diferenciarnos para obtener una ventaja competitiva en el mercado de software veterinario.</td>
     </tr>
       <tr>
     <td colspan="2" rowspan="2" valign="top">Startup y Competidores</td>
