@@ -419,9 +419,9 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
   </tr>
   <tr>
     <td valign="top" align="center"><img src="pawtient-report/assets/images/pawtient.png" alt="Pawtient" height="80" /></td>
-    <td valign="top" align="center"><img src="assets/images/" alt="SmartVet" height="80" /></td>
-    <td valign="top" align="center"><img src="assets/images/" alt="Qvet" height="150" /></td>
-    <td valign="top" align="center"><img src="assets/images/" alt="Provet Cloud" height="130" /></td>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/Competidores-logo/SmartVet.png" alt="SmartVet" height="80" /></td>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/Competidores-logo/Qvet.jpg" alt="Qvet" height="80" /></td>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/Competidores-logo/Provet-cloud.jpeg" alt="Provet Cloud" height="80" /></td>
    </tr>
   <tr>
     <td rowspan="2" valign="top">Perfil</td>
