@@ -397,7 +397,6 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-> *(Estructura: "Creemos que [resultado] se logrará si [usuario] logra [beneficio] con [característica]")*
 - **Hypothesis 01:**
 
   <br>**Creemos que** los veterinarios y administradores mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
@@ -409,8 +408,6 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 02:**
 
-**Hypothesis 3:**
-> Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
   <br>**Creemos que** los dueños de mascotas se sentirán más tranquilos con la atención si pueden revisar la información médica de sus mascotas.
 
   <br>**Sabremos que** hemos tenido éxito.
@@ -457,11 +454,14 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 #### 1.2.2.4. Lean UX Canvas
 
-*(Incluir captura de imagen del Lean UX Canvas elaborado en la herramienta indicada)*
+El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer. En el caso de Pawtient, se utiliza para identificar las necesidades de veterinarios, administradores y dueños de mascotas, y definir cómo la plataforma aporta valor dentro de los centros veterinarios.
 
-![Lean UX Canvas](../assets/lean-ux/lean-ux-canvas.png)
+A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 *(Descripción y análisis del Lean UX Canvas)*
+![Lean UX Canvas](pawtient-report/assets/images/Cápitulo1/Lean-UX-Canvas.png)
+
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=379450686428)
 
 ---
 
