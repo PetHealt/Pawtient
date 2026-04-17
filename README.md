@@ -201,33 +201,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ###   1.1.2. Perfiles de integrantes del equipo
 
-<div align="center">
-  
-#### Integrante 1
-
-<img src="../assets/team/integrante1.jpg" alt="Foto Integrante 1" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Salinas Guzmán, Brianna` |
-| **Código de estudiante** | `U202410239` |
-| **Carrera** | Ingeniería de Software |
-
-</div>
-<br>
-
-**Descripción:**
-*Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia trabajando con lenguajes como C++, Pyhton, SQL para base de datos y en la gestión de proyectos utilizando Git y GitHub para el control de versiones. Además, cuento con formación complementaria en marketing digital, lo que me permite aportar una perspectiva orientada al usuario y al posicionamiento del producto. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera clara.*
-
----
-
-<br>
-
-<div align="center">
-  
-#### Integrante 2
-
-<img src="../assets/team/integrante2.jpg" alt="Foto Integrante 2" width="120"/>
+###   1.1.2. Perfiles de integrantes del equipo
 
 | Campo | Detalle |
 |:------|:--------|
@@ -293,10 +267,15 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 **Descripción:**
 *(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
+|                                        Miembro                                         |                                                                                                                                                                                                                                                                                                                                                Descripción                                                                                                                                                                                                                                                                                                                                                |
+|:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="pawtient-report/assets/images/Cápitulo1/members/Gonzalo.jpeg" width="3000"/> |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                             |
+|      <img src="pawtient-report/assets/images/Cápitulo1/members/ " width="3000"/>       |                                                                                                                                                   **Mathias Joaquin Acuache Lucas \- U202314898** <br> Soy Mathias Joaquin Acuache Lucas, me encuentro en el sexto ciclo de la carrera de ingeniería de software, mi código de alumno es u202314898. Tengo experiencia en C++, SQL, MongoDB, además de utilizar GitHub de manera correcta . Me considero una persona que trata de apoyar en los diversos trabajos en equipo e investigar cosas nuevas.                                                                                                                                                    |
+|      <img src="pawtient-report/assets/images/Cápitulo1/members/ " width="3000"/>       | **Brianna Cristina Salinas Guzman \- U202410239** <br> Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia trabajando con lenguajes como C++, Pyhton, SQL para base de datos y en la gestión de proyectos utilizando Git y GitHub para el control de versiones. Además, cuento con formación complementaria en marketing digital, lo que me permite aportar una perspectiva orientada al usuario y al posicionamiento del producto. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera clara. | 
+|      <img src="pawtient-report/assets/images/Cápitulo1/members/ " width="3000"/>       |                                                                                                                                                                                                                                                                                                                          **Mateo Paolo Salazar Miranda \- U202315171**   <br>  -                                                                                                                                                                                                                                                                                                                          | 
+|  <img src="pawtient-report/assets/images/Cápitulo1/members/Emily.png " width="3000"/>  |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
 
 ---
-<br>
-
 
 ## 1.2. Solution Profile
 
