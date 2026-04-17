@@ -339,6 +339,22 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 
 ---
 
+#### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions:**
+
+1. **Considero que** los centros veterinarios requieren una forma más ordenada y segura de manejar la información clínica y el seguimiento de sus pacientes.
+2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales médicos, control de insumos y gestión de citas.
+3. **Nuestros primeros usuarios serán** veterinarios y administradores de centros veterinarios, así como dueños de mascotas interesados en acceder y dar seguimiento a la información de salud de sus mascotas.
+4. **El principal beneficio que buscan los usuarios es** mejorar la calidad de atención y tomar decisiones basadas en información actualizada.
+5. **El sistema también ofrece** control de inventario, seguimiento de tratamientos y acceso a información del personal veterinario.
+6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con centros veterinarios y recomendaciones dentro del sector.
+7. **Generaré ingresos mediante** un modelo de suscripción mensual con diferentes niveles: Paw Basic(5 USD), Paw Care(15 USD), Paw Pro(30 USD).
+8. **Mi competencia estará conformada** por otros sistemas de gestión veterinaria y soluciones digitales similares.
+9. **Nos diferenciamos por** ofrecer una plataforma fácil de usar, con información centralizada y mayor transparencia para los usuarios.
+10. **Mi principal riesgo** será la baja adopción del sistema debido a la resistencia al cambio o poca familiaridad con herramientas digitales.
+11. **Abordaremos este riesgo mediante** una interfaz simple, guías de uso dentro de la plataforma y un proceso de adopción progresivo que facilite el uso desde el primer momento.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 > *(Estructura: "Creemos que [resultado] se logrará si [usuario] logra [beneficio] con [característica]")*
