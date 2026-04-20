@@ -880,11 +880,13 @@ Los principios de identidad visual se centran en:
 
 **Typography**
 
-| Tipo | Fuente | Uso |
-|:-----|:------:|:----|
-| Display / Heading | `[Fuente principal]` | Títulos y encabezados |
-| Body | `[Fuente secundaria]` | Texto de contenido |
-| Monospace | `[Fuente monoespaciada]` | Código y datos técnicos |
+| Tipo |    Fuente    | Uso |
+|:-----|:------------:|:----|
+| Display / Heading |   Poppins    | Títulos y encabezados |
+| Body |    Inter     | Texto de contenido |
+| Monospace | Roberto Mono | Código y datos técnicos |
+
+Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digitales y su compatibilidad con interfaces modernas.
 
 **Colors**
 
