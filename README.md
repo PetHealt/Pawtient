@@ -933,6 +933,9 @@ El tono busca generar confianza en un entorno clínico, sin perder cercanía con
 Las Web Style Guidelines de Pawtient definen los estándares visuales y de interacción para garantizar una experiencia consistente en la aplicación web.
 
 ---
+
+#### Diseño Responsive 
+
 La aplicación se adapta a distintos dispositivos:
 - Desktop
 - Tablet
@@ -941,6 +944,30 @@ La aplicación se adapta a distintos dispositivos:
 Se prioriza la usabilidad en pantallas pequeñas, asegurando navegación fluida y contenido legible.
 
 ---
+#### Componentes del sistema
+
+Los componentes del sistema de *Pawtient* han sido diseñados siguiendo principios de simplicidad, consistencia y reutilización, tomando como referencia Material Design y adaptándose a la identidad visual del producto.
+
+- **Navbar (Barra de navegación):**  
+  Ubicada en la parte superior, permite el acceso a secciones principales como Inicio, Servicios, Nosotros y Contacto. Mantiene una estructura limpia y fija para facilitar la navegación.
+
+- **Buttons (Botones):**  
+  Botones con bordes ligeramente redondeados y estilos definidos (primary, secondary).
+    - Primary: color azul (#3A86FF) para acciones principales
+    - Secondary: verde (#2ECC71) para acciones complementarias  
+      Incluyen estados: hover, active y disabled.
+
+- **Hero Section:**  
+  Sección principal de bienvenida con título destacado, subtítulo y call-to-action (CTA), diseñada para captar la atención del usuario y comunicar el valor del sistema.
+
+- **Cards:**  
+  Utilizadas para mostrar información estructurada como servicios, mascotas o funcionalidades. Incluyen imagen, título y descripción breve.
+
+- **Forms (Formularios):**  
+  Inputs claros con etiquetas visibles y validaciones en tiempo real. Se utilizan para registro, inicio de sesión y gestión de datos.
+
+- **Icons (Iconos):**  
+  Basados en representaciones simples y reconocibles (usuario, menú, mascota), alineados con el estilo minimalista del sistema.
 ---
 
 ## 4.2. Information Architecture
