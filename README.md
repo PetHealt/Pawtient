@@ -853,7 +853,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 ### 4.1.1. General Style Guidelines
 
 Las decisiones de estilo de *Pawtient* se basan en la necesidad de transmitir confianza, cercanía y profesionalismo en el contexto del cuidado de mascotas y la gestión de clínicas veterinarias. Se busca una interfaz clara, accesible y consistente, que facilite la interacción tanto de veterinarios como del personal administrativo.
-
+TEST    
 **Branding**
 
 *(Descripción del branding de BrandRadar: logo, isotipo, naming, y principios de identidad visual)*
