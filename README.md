@@ -930,8 +930,9 @@ El tono busca generar confianza en un entorno clínico, sin perder cercanía con
 
 ### 4.1.2. Web Style Guidelines
 
-*(Decisiones sobre los estándares visuales y de interacción para responsive web interfaces)*
+Las Web Style Guidelines de Pawtient definen los estándares visuales y de interacción para garantizar una experiencia consistente en la aplicación web.
 
+---
 *(Incluir capturas o especificaciones visuales del Design System basado en Material Design y Angular Material)*
 
 ---
