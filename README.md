@@ -933,8 +933,14 @@ El tono busca generar confianza en un entorno clínico, sin perder cercanía con
 Las Web Style Guidelines de Pawtient definen los estándares visuales y de interacción para garantizar una experiencia consistente en la aplicación web.
 
 ---
-*(Incluir capturas o especificaciones visuales del Design System basado en Material Design y Angular Material)*
+La aplicación se adapta a distintos dispositivos:
+- Desktop
+- Tablet
+- Mobile
 
+Se prioriza la usabilidad en pantallas pequeñas, asegurando navegación fluida y contenido legible.
+
+---
 ---
 
 ## 4.2. Information Architecture
