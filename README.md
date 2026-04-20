@@ -904,8 +904,17 @@ La paleta busca generar una experiencia visual equilibrada, transmitiendo seguri
 
 **Spacing**
 
-*(Describir el sistema de espaciado y las unidades base utilizadas)*
+El sistema de espaciado de *Pawtient* se basa en una unidad base de **8px**, siguiendo buenas prácticas de diseño UI modernas.
 
+Se utilizan múltiplos de esta unidad para mantener consistencia:
+- 8px → separación mínima
+- 16px → separación estándar
+- 24px / 32px → separación entre secciones
+- 48px+ → separación de bloques principales
+
+Esto permite una interfaz ordenada, clara y fácil de escanear visualmente.
+
+---
 **Tono de comunicación**
 
 | Dimensión | Selección |
