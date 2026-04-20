@@ -890,15 +890,17 @@ Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digi
 
 **Colors**
 
-| Nombre | Hex | Uso |
-|:-------|:---:|:----|
-| Primary | `#XXXXXX` | Color principal de la marca |
-| Secondary | `#XXXXXX` | Color de apoyo |
-| Accent | `#XXXXXX` | Énfasis y llamados a la acción |
-| Background | `#XXXXXX` | Fondo general |
-| Text | `#XXXXXX` | Texto principal |
-| Error | `#XXXXXX` | Estados de error |
-| Success | `#XXXXXX` | Estados de éxito |
+| Nombre | Hex | Uso                                |
+|:-------|:---:|:-----------------------------------|
+| Primary | #3A86FF | Color principal de la marca        |
+| Secondary | #2ECC71 | Color de apoyo (salud y bienestar) |
+| Accent | #FF9F1C | Énfasis y llamados a la acción     |
+| Background | #F5F5F5 | Fondo general                      |
+| Text | #2E2E2E | Texto principal                    |
+| Error | #E63946 | Estados de error                   |
+| Success | #2ECC71 | Estados de éxito                   |
+
+La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
 
 **Spacing**
 
