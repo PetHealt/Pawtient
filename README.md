@@ -990,6 +990,30 @@ Las interacciones en Pawtient están diseñadas para ser intuitivas, fluidas y c
   Botones destacados como “Comenzar gratis” guían al usuario hacia las acciones principales del sistema.
 
 ---
+#### Design System
+
+El diseño de *Pawtient* se basa en un sistema de diseño modular que garantiza consistencia visual y escalabilidad en toda la aplicación.
+
+Se toman como referencia los principios de **Material Design**, adaptados a la identidad del producto.
+
+- **Grid system:**  
+  Uso de grillas flexibles para organizar el contenido en diferentes resoluciones (desktop, tablet y mobile).
+
+- **Spacing system:**  
+  Basado en una unidad de 8px para mantener consistencia en márgenes y paddings.
+
+- **Color system:**  
+  Aplicación coherente de la paleta definida (primary, secondary, accent, neutrals) en todos los componentes.
+
+- **Typography system:**  
+  Uso consistente de jerarquías tipográficas (heading, subheading, body) para mejorar la legibilidad.
+
+- **Component-based design:**  
+  Todos los elementos UI (botones, cards, forms) son reutilizables, permitiendo mantener coherencia y facilitar el desarrollo en Angular.
+
+![Landing Pawtient](pawtient-report/assets/images/pcpet.png)
+
+---
 ## 4.2. Information Architecture
 
 *(Decisiones que dirigen la organización del contenido en las experiencias web — Landing Page y Web Application)*
