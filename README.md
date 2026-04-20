@@ -1011,7 +1011,7 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
 - **Component-based design:**  
   Todos los elementos UI (botones, cards, forms) son reutilizables, permitiendo mantener coherencia y facilitar el desarrollo en Angular.
 
-![Landing Pawtient](pawtient-report/assets/images/pcpet.png)
+![Landing Pawtient](pawtient-report\assets\images\pcpet.PNG)
 
 ---
 ## 4.2. Information Architecture
