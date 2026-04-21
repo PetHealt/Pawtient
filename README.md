@@ -756,25 +756,21 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 
 ## 2.3. Needfinding
 
-> *(Artefactos resultantes del proceso de análisis de la información recolectada)*
-
 ### 2.3.1. User Personas
 
-*(Introducción explicando la relación entre los artefactos y las principales características tomadas del análisis de entrevistas y competencia)*
+Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas, representando a los principales segmentos del proyecto. Cada uno sintetiza características, comportamientos y necesidades que orientan el diseño y la propuesta de valor de la plataforma.
 
-**User Persona — Segmento 1: `[Nombre del Persona]`**
+User Persona 1: Personal clínico veterinario
 
-*(Captura de la ficha elaborada en UXPressia)*
+Sebastián Navarro es un veterinario joven que trabaja en una clínica y atiende a varios pacientes al día. Su principal reto es organizar la información clínica, gestionar citas e insumos y optimizar su tiempo, por lo que busca herramientas digitales que le permitan trabajar de manera más eficiente.
 
-![User Persona Segmento 1](../assets/user-personas/user-persona-seg1.png)
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-2.png)
 
----
+User Persona 2: Dueña de mascota
 
-**User Persona — Segmento 2: `[Nombre del Persona]`**
+Camila Rodríguez es una joven dueña de mascota que busca mantener la salud de su perro bajo control. Su principal dificultad es no contar con información clara y centralizada, por lo que valora soluciones simples que le permitan hacer seguimiento y tomar decisiones con mayor seguridad.
 
-*(Captura de la ficha elaborada en UXPressia)*
-
-![User Persona Segmento 2](../assets/user-personas/user-persona-seg2.png)
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-1.png)
 
 ---
 
