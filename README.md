@@ -1190,13 +1190,32 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 ### 4.6.1. Design-Level Event Storming
 
-*(Introducción y explicación del proceso de Design-Level EventStorming realizado. Referencia: https://bit.ly/dles-guide)*
+En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
 
-*(Capturas del Event Storming elaborado en LucidChart / Miro)*
 
-![Design Level Event Storming](../assets/event-storming/design-level-event-storming.png)
+**IAM Bounded Context**
+![IAM](pawtient-report/assets/images/Design-Level-Event-Storming/IAM.png)
 
-*(Identificación de Bounded Contexts, Aggregates, Events, Commands and Queries)*
+**Profile Bounded Context**
+![Profile](pawtient-report/assets/images/Design-Level-Event-Storming/Profile.png)
+
+**Clinic Bounded Context**
+![Clinic](pawtient-report/assets/images/Design-Level-Event-Storming/Clinic.png)
+
+**Appointment Bounded Context**
+![Appointment](pawtient-report/assets/images/Design-Level-Event-Storming/Appoiments.png)
+
+**Report Bounded Context**
+![Report](pawtient-report/assets/images/Design-Level-Event-Storming/Reports.png)
+
+**Store Bounded Context**
+![Store](pawtient-report/assets/images/Design-Level-Event-Storming/Store.png)
+
+**Bounded Contexts y sus relaciones**
+![Bounded Contexts](pawtient-report/assets/images/Design-Level-Event-Storming/Bounded-Context.png)
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente marco los eventos de dominio que fueron implementados.
+
+[Ver en miro](`https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919`)
 
 ### 4.6.2. Software Architecture Context Diagram
 
