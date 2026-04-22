@@ -973,7 +973,6 @@ que tiene esta landing, como diversos apartados en donde el usuario pueda intera
 ![Page-Wireframe1](pawtient-report/assets/images/landing-page/Page-Wireframe1.png)
 ![Page-Wireframe2](pawtient-report/assets/images/landing-page/Page-Wireframe2.png)
 ![Page-Wireframe3](pawtient-report/assets/images/landing-page/Page-Wireframe3.png)
-![Page-Wireframe4](pawtient-report/assets/images/landing-page/Page-Wireframe4.png)
 ![Page-Wireframe5](pawtient-report/assets/images/landing-page/Page-Wireframe5.png)
 ![Page-Wireframe6](pawtient-report/assets/images/landing-page/Page-Wireframe6.png)
 ![Page-Wireframe7](pawtient-report/assets/images/landing-page/Page-Wireframe7.png)
@@ -1027,22 +1026,18 @@ diversos tipos de colores, tipografías, etc.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-*(Un Wireflow por cada User goal, considerando los User Personas definidos)*
+En esta sección usamos los Wireframes. El objetivos es mostrar la lógica que queremos transmitir para nuestros usuarios
 
-**User goal: `[Nombre del User goal]`**
+**User goal: `[Usuario y selección de Perfil]`**
 
-*(Descripción del flujo especificado)*
+El Wireflow describe la transición jerárquica desde el punto de entrada público hacia la función de la aplicación. 
+En este apartado se aplica un diseño de navegación lineal, el cual va a garantizar que el usuarios defina su rol
+antes de poder acceder al sistema y realizar los debido servicios. 
 
-![Wireflow Diagrama 1](../assets/web-app/wireflow-1.png)
+![Wireflow Diagrama 4](pawtient-report/assets/images/landing-page/Page-Wireframe4.png)
+![Wireflow Diagrama 4](pawtient-report/assets/images/mobile-app/Mobile-Wireframe4.png)
 
 ---
-
-**User goal: `[Nombre del User goal]`**
-
-*(Descripción del flujo especificado)*
-
-![Wireflow Diagrama 2](../assets/web-app/wireflow-2.png)
-
 ### 4.4.3. Web Applications Mock-ups
 
 **Panorama Completo de los Mock-ups Desktop and Mobile, teniendo en cuenta los diversos styles anteriormente puesto**
