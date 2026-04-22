@@ -652,7 +652,7 @@ Valeria es una médica veterinaria de 23 años que trabaja en el distrito de Lin
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Adrián es un médico veterinario de 35 años residente en Miraflores con una década de experiencia profesional, quien se define como una persona metódica y responsable que busca optimizar la gestión interna y la fidelización de clientes en su clínica. Su mayor desafío es el estrés provocado por la gestión manual de citas y el uso de historias clínicas en papel o Excel, lo que le genera errores y le impide desconectarse totalmente del trabajo, por lo cual considera fundamental implementar una agenda digital automatizada y un control de inventarios en tiempo real que facilite su labor diaria y mejore la comunicación con los dueños de las mascotas.
 
 <br>
 <div align="center">
@@ -678,7 +678,7 @@ Valeria es una médica veterinaria de 23 años que trabaja en el distrito de Lin
 
 </div>
 
-*Redactar resumen de la entrevista*
+Luciana es una veterinaria y administradora de 28 años que reside en Surco y cuenta con tres años de experiencia, desempeñando un rol multifuncional donde su perfil organizado choca frecuentemente con la falta de tiempo y el desorden en los procesos internos. Para ella, el manejo de información no centralizada y la necesidad de resolver temas administrativos fuera del horario laboral representan su principal fuente de estrés, por lo que aspira a que la clínica crezca mediante una herramienta integral que digitalice las historias médicas y automatice los recordatorios mediante dispositivos móviles, permitiéndole ser más práctica y elevar la calidad del servicio.
 
 ---
 <div align="center">
