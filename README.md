@@ -735,44 +735,148 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## 2.5. Ubiquitous Language
 
-> *A continuación, se presenta el glosario de términos clave utilizados en el dominio del sistema Pawtient, orientado a la gestión de clínicas veterinarias. Este lenguaje común permite una comunicación clara y sin ambigüedades entre todos los stakeholders.*
+>*A continuación se presenta el glosario de términos clave utilizados en el dominio del sistema **Pawtient**, orientado a la gestión de clínicas veterinarias. Este lenguaje común permite una comunicación clara y sin ambigüedades entre todos los stakeholders: veterinarios, administradores, dueños de mascotas y el equipo de desarrollo.*
 
 <br>
 
+## Actores del dominio
+
 | Término (EN) | Término (ES) | Definición |
-|:-------------|:-------------|:-----------|
-| `Patient` | Paciente | Animal que recibe atención médica en la clínica veterinaria. |
-| `Pet Owner` | Propietario de la mascota | Persona responsable del paciente, encargada de autorizar tratamientos y gestionar citas. |
-| `Veterinarian` | Veterinario | Profesional de la salud encargado de diagnosticar, tratar y dar seguimiento al paciente. |
-| `Clinical Record` | Historia clínica | Registro detallado del estado de salud del paciente, incluyendo diagnósticos, tratamientos y antecedentes. |
-| `Medical History` | Historial médico | Conjunto de registros previos relacionados con la salud del paciente a lo largo del tiempo. |
+|:---|:---|:---|
+| `Veterinarian / Admin` | Veterinario / Administrador | Usuario interno de la clínica con privilegios para gestionar citas, consultas, inventario y reportes. En el sistema se identifica como un único rol con acceso completo. |
+| `Pet Owner` | Dueño de mascota | Persona externa responsable de una o más mascotas registradas. Puede iniciar sesión para consultar información, pero no tiene acceso administrativo. |
+| `Supplier` | Proveedor | Entidad externa que abastece insumos médicos a la clínica. Puede ser registrado, editado o eliminado por el veterinario/admin. |
+
+<br>
+
+## Gestión de clínica y usuarios
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
+| `Clinic` | Clínica | Entidad principal del sistema que agrupa veterinarios, mascotas, citas e inventario bajo una misma organización. |
+| `Subscription Plan` | Plan de suscripción | Plan comercial que determina las funcionalidades habilitadas para una clínica (ej. Paw Basic). Activado al registrar la clínica. |
+| `User Account` | Cuenta de usuario | Credenciales de acceso al sistema, asociadas a un rol (veterinario/admin o dueño de mascota). |
+| `Session` | Sesión | Período activo de uso del sistema tras autenticación exitosa. |
+| `Access Data` | Datos de acceso | Información guardada localmente para facilitar el inicio de sesión recurrente. |
+
+<br>
+
+## Mascotas y pacientes
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
+| `Pet` | Mascota | Animal registrado en el sistema, asociado a un dueño de mascota. Es la unidad de atención clínica. |
+| `Patient` | Paciente | Mascota en el contexto de una consulta médica activa. El término se usa cuando la mascota está siendo atendida. |
+| `Triage` | Triaje | Proceso de valoración inicial del paciente al ingresar a consulta, donde se registran signos vitales básicos. |
+| `Vital Signs` | Signos vitales | Mediciones fisiológicas registradas durante el triaje (temperatura, peso, frecuencia cardíaca, etc.). |
+
+<br>
+
+## Citas y agenda
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
 | `Appointment` | Cita | Reserva programada para la atención de un paciente en una fecha y hora específica. |
-| `Consultation` | Consulta | Atención médica realizada durante una cita donde se evalúa al paciente. |
-| `Diagnosis` | Diagnóstico | Identificación de una enfermedad o condición médica basada en la evaluación del veterinario. |
-| `Treatment` | Tratamiento | Conjunto de acciones o procedimientos indicados para mejorar la salud del paciente. |
-| `Prescription` | Receta médica | Documento que especifica medicamentos, dosis y duración del tratamiento. |
-| `Medication` | Medicamento | Sustancia utilizada para tratar o prevenir enfermedades en el paciente. |
-| `Vaccine` | Vacuna | Sustancia administrada para prevenir enfermedades específicas en el paciente. |
-| `Check-up` | Chequeo | Evaluación general del estado de salud del paciente, generalmente preventiva. |
-| `Emergency Case` | Caso de emergencia | Situación médica crítica que requiere atención inmediata. |
-| `Symptom` | Síntoma | Manifestación observable de una enfermedad o condición en el paciente. |
-| `Allergy` | Alergia | Reacción adversa del paciente a ciertos medicamentos, alimentos o factores ambientales. |
-| `Procedure` | Procedimiento | Intervención médica realizada al paciente, como cirugías o tratamientos específicos. |
-| `Supply` | Suministro | Producto o insumo utilizado en la clínica, como medicamentos o materiales médicos. |
-| `Inventory` | Inventario | Conjunto de suministros disponibles en la clínica en un momento determinado. |
-| `Stock Level` | Nivel de stock | Cantidad disponible de un suministro en el inventario. |
-| `Stock Movement` | Movimiento de stock | Registro de entradas y salidas de suministros dentro del inventario. |
-| `Supply Traceability` | Trazabilidad de suministros | Capacidad de rastrear el origen, uso y destino de los suministros. |
-| `Supplier` | Proveedor | Entidad que abastece de productos o insumos a la clínica. |
-| `Batch` | Lote | Grupo de suministros producidos o adquiridos bajo las mismas condiciones. |
-| `Expiration Date` | Fecha de vencimiento | Fecha límite en la que un suministro puede ser utilizado de forma segura. |
-| `Restock` | Reabastecimiento | Proceso de reposición de suministros en el inventario. |
-| `Appointment Schedule` | Agenda de citas | Organización de todas las citas programadas en la clínica. |
-| `Availability` | Disponibilidad | Horarios en los que un veterinario puede atender citas. |
-| `Follow-up` | Seguimiento | Evaluación posterior al tratamiento para verificar la evolución del paciente. |
-| `Clinical Note` | Nota clínica | Observaciones registradas por el veterinario durante o después de una consulta. |
-| `Weight Record` | Registro de peso | Historial del peso del paciente para control de su salud. |
-| `Treatment Plan` | Plan de tratamiento | Estrategia médica definida para tratar una condición específica del paciente. |
+| `Availability` | Disponibilidad | Configuración de horarios en los que un veterinario puede recibir citas. |
+| `Appointment Request` | Solicitud de cita | Acción del dueño de mascota de pedir una cita. Inicia el flujo de confirmación. |
+| `Confirmed Appointment` | Cita confirmada | Cita que ha sido aceptada y agendada formalmente. |
+| `Cancelled Appointment` | Cita cancelada | Cita que fue anulada antes de realizarse. Genera una pregunta de negocio: ¿se bloquea al usuario si cancela con poca anticipación? |
+| `Rescheduled Appointment` | Cita reprogramada | Cita que fue modificada a una nueva fecha u hora. |
+| `Appointment Reminder` | Recordatorio de cita | Notificación enviada automáticamente al dueño de mascota antes de la cita. |
+
+<br>
+
+## Consulta médica
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
+| `Medical Consultation` | Consulta médica | Atención clínica realizada durante una cita donde el veterinario evalúa al paciente. Comienza con el triaje y finaliza con el cierre de la consulta. |
+| `Diagnosis` | Diagnóstico | Identificación de una enfermedad o condición médica, emitida por el veterinario tras la evaluación. |
+| `Prescription` | Receta médica | Documento generado por el veterinario que especifica medicamentos, dosis y duración del tratamiento. |
+| `Medical Exam` | Examen médico | Estudio complementario solicitado durante la consulta (ej. análisis de sangre, rayos X). Se adjunta como archivo al historial. |
+| `Lab Result` | Resultado de laboratorio | Resultado de un examen médico. Puede cargarse como PDF o JPG al historial del paciente. |
+| `Closed Consultation` | Consulta finalizada | Estado de la consulta una vez que el veterinario ha completado el diagnóstico, emitido receta y adjuntado exámenes si aplica. |
+| `Medical History` | Historial médico | Registro acumulado de todas las consultas, diagnósticos, recetas y exámenes de un paciente a lo largo del tiempo. |
+| `Shared Medical History` | Historial compartido | Historial médico enviado/entregado al dueño de mascota al finalizar la consulta. |
+
+<br>
+
+## Inventario y suministros
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
+| `Medical Supply` | Insumo médico | Producto utilizado en la clínica: medicamentos, materiales de uso clínico, etc. Registrado con un stock inicial. |
+| `Initial Stock` | Stock inicial | Cantidad definida al registrar un insumo médico por primera vez en el sistema. |
+| `Stock Adjustment` | Ajuste de inventario | Modificación manual del nivel de stock de un insumo, registrada por el veterinario/admin. |
+| `Critical Stock Alert` | Alerta de stock crítico | Notificación generada automáticamente cuando el stock de un insumo cae por debajo del umbral mínimo. |
+| `Discounted Medication` | Medicamento descontado | Medicamento dispensado al paciente durante una consulta, que descuenta unidades del inventario automáticamente. |
+| `Supply Expense` | Gasto de insumos | Registro del costo asociado al uso o compra de insumos. Aparece en los reportes financieros. |
+
+<br>
+
+## Proveedores
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
+| `Added Supplier` | Proveedor agregado | Proveedor nuevo registrado en el sistema. |
+| `Edited Supplier` | Proveedor editado | Proveedor cuya información fue actualizada. |
+| `Deleted Supplier` | Proveedor eliminado | Proveedor removido del sistema. Acción irreversible. |
+
+<br>
+
+## Facturación y reportes
+
+| Término (EN) | Término (ES) | Definición |
+|:---|:---|:---|
+| `Service Invoice` | Boleta de atención | Documento generado al finalizar una consulta que detalla los servicios prestados y su costo. |
+| `Client Payment` | Pago de cliente | Registro del pago efectuado por el dueño de mascota, asociado a una boleta de atención. |
+| `Cancelled Sale` | Venta cancelada | Registro de una transacción que fue anulada antes o después de la emisión de la boleta. |
+| `Income Report` | Reporte de ingresos | Reporte generado que consolida los ingresos de la clínica en un período determinado. |
+| `Supply Expense Report` | Reporte de gastos de insumos | Reporte que detalla el consumo y costo de los insumos utilizados en un período. |
+
+<br>
+
+## Eventos del dominio (Domain Events)
+
+Los siguientes son los eventos significativos identificados en el Event Storming. Representan hechos ocurridos en el sistema que tienen impacto en el negocio:
+
+| Evento (EN) | Evento (ES) | Bounded Context |
+|:---|:---|:---|
+| `ClinicRegistered` | Clínica registrada | Gestión de clínica |
+| `SubscriptionPlanActivated` | Plan de suscripción activado | Gestión de clínica |
+| `UserRegistered` | Usuario registrado | Gestión de usuarios |
+| `SessionStarted` | Sesión iniciada | Gestión de usuarios |
+| `AccessDataSaved` | Datos de acceso guardados | Gestión de usuarios |
+| `PetOwnerAccountRegistered` | Cuenta de dueño registrada | Gestión de usuarios |
+| `PetRegistered` | Mascota registrada | Mascotas |
+| `AvailabilityConfigured` | Disponibilidad configurada | Agenda |
+| `AppointmentRequested` | Cita solicitada | Agenda |
+| `AppointmentConfirmed` | Cita confirmada | Agenda |
+| `AppointmentCancelled` | Cita cancelada | Agenda |
+| `AppointmentRescheduled` | Cita reprogramada | Agenda |
+| `AppointmentReminderSent` | Recordatorio de cita enviado | Agenda |
+| `PatientAdmittedToTriage` | Paciente ingresado a triaje | Consulta médica |
+| `VitalSignsRegistered` | Signos vitales registrados | Consulta médica |
+| `MedicalConsultationStarted` | Consulta médica iniciada | Consulta médica |
+| `DiagnosisIssued` | Diagnóstico emitido | Consulta médica |
+| `PrescriptionGenerated` | Receta médica generada | Consulta médica |
+| `MedicalExamAttached` | Examen adjuntado | Consulta médica |
+| `ConsultationClosed` | Consulta finalizada | Consulta médica |
+| `MedicalHistoryShared` | Historial médico compartido | Consulta médica |
+| `SupplierAdded` | Proveedor agregado | Inventario |
+| `SupplierEdited` | Proveedor editado | Inventario |
+| `SupplierDeleted` | Proveedor eliminado | Inventario |
+| `MedicalSupplyRegistered` | Insumo médico registrado | Inventario |
+| `InitialStockDefined` | Stock inicial definido | Inventario |
+| `MedicationDispensed` | Medicamento descontado por venta | Inventario |
+| `CriticalStockAlertGenerated` | Alerta de stock crítico generada | Inventario |
+| `StockAdjustmentMade` | Ajuste de inventario realizado | Inventario |
+| `ServiceInvoiceGenerated` | Boleta de atención generada | Facturación |
+| `ClientPaymentRegistered` | Pago de cliente registrado | Facturación |
+| `SaleCancelled` | Venta cancelada | Facturación |
+| `IncomeReportGenerated` | Reporte de ingresos generado | Facturación |
+| `SupplyExpenseRegistered` | Gasto de insumos registrado | Facturación |
+
 
 <br>
 
