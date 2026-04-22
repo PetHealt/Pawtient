@@ -812,13 +812,13 @@ Los dueños de mascotas realizan actividades para asegurar su bienestar, vigilar
 
 ### 2.3.3. User Journey Mapping
 
-*(Introducción resumiendo el end-to-end journey que se pretende ilustrar — versión As-Is)*
+En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de comprender como es que interactúan los dueños de mascotas y el personal clínico en el contexto de atención veterinaria. Analizamos las distintas etapas que atraviesan, desde la detección de un problema hasta el seguimiento posterior al tratamiento, identificando dificultades y oportunidades de mejora. Este análisis nos permite plantear una solución que se integra de forma natural en sus actividades diarias, facilitando el acceso a la información, mejorando la organización de los procesos y fortaleciendo la calidad de la atención.
 
-**User Journey Map — `[Persona 1]`**
+**User Journey Map — Personal clínico**
 
-*(Captura del diagrama elaborado en UXPressia)*
+<img alt= "User Journey Mapping Personal Clínico" src="">
 
-![User Journey Map Persona 1](../assets/journey-maps/journey-map-persona1.png)
+[Ver Imagen]()
 
 ---
 
