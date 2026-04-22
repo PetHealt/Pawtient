@@ -903,80 +903,118 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## 4.2. Information Architecture
 
-*(Decisiones que dirigen la organización del contenido en las experiencias web — Landing Page y Web Application)*
+En nuestra aplicación Pawtient nos basamos en un enfoque centrado en el usuario, diferenciando claramanete la experiencia de captación en la Landing Page de la experiencia operativa en la Web Application.
+
+Para la Landing Page, se ha optado por una estructura narrativa que guía al usuario a traves de toda la aplicación para guiarlo de una buena manera, centrandonos en el objetivo
+de ayudar a estos usuarios como una guía de lo que ofrecemos en los planes de membresia, en esta App priorizamos la claridad visual y la confianza hacia el usuario.
+Para esta Web Application, la organización es funcional y modular, permitiendo a veterinarios y administradores acceder a las herramientas de regirstro e inventario con la menor cantidad de clics
+posibles, optimizando asi los procesos diarios.
 
 ### 4.2.1. Organization Systems
 
-*(Explicar en qué grupos de información se aplica cada sistema de organización: jerárquica, secuencial o matricial; y los esquemas de categorización: alfabético, cronológico, por tópicos, según audiencia)*
+Se utiliza un sistema de organización jerárquica para la Landing Page, permitiendo que el usuario entienda primero la propuesta de valor y luego baje
+hacia los detalles de servicios y planes. Para la Web Application, se aplica un sistema orientado a tareas, facilitando que el veterinario acceda directamente a las funciones
+de registro clínico e inventario.
 
 ### 4.2.2. Labeling Systems
 
-*(Especificar las etiquetas a utilizar con el mínimo número de palabras, para representar los conjuntos de información y sus asociaciones)*
 
-| Etiqueta | Descripción del contenido que representa |
-|:--------:|:-----------------------------------------|
-| `[Etiqueta]` | *(Descripción)* |
-| `[Etiqueta]` | *(Descripción)* |
-| `[Etiqueta]` | *(Descripción)* |
-
+|  Etiqueta   | Descripción del contenido que representa                 |
+|:-----------:|:---------------------------------------------------------|
+|  `Inicio`   | Página principal con la propuesta de valor de Pawtient.  |
+| `Servicios` | Detalle de las funcionalidades (Historial, Insumo, IoT). |
+| `Membresía` | Planes de Suscripción (Basic, Mid, Pro) y beneficios     |
+| `Contacto`  | Formulario para soporte y consultas de nuevos centros    |
 ### 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page**
 
 ```html
-<title>[Título del Landing Page]</title>
-<meta name="description" content="[Descripción del Landing Page]" />
-<meta name="keywords" content="[keywords, separadas, por, comas]" />
-<meta name="author" content="[Nombre del Startup]" />
+<title>Pawtient - Gestión Veterinaria Inteligente e Integral</title>
+<meta name="description" content="Plataforma para digitalizar centros veterinarios, gestionar historiales clínicos" />
+<meta name="keywords" content="veterinaria, gestión clínica, historiales médicos,control de insumos, software veterinario" />
+<meta name="author" content="PetHealth" />
 ```
 
 **Web Application**
 
 ```html
 <title>[Título de la Web Application]</title>
-<meta name="description" content="[Descripción de la Web Application]" />
-<meta name="keywords" content="[keywords, separadas, por, comas]" />
-<meta name="author" content="[Nombre del Startup]" />
+<meta name="description" content="Panel de administración para veterinarios: registro clínico, control de inventario de insumos" />
+<meta name="keywords" content="gestión veterinaria, dashboard, historial clínico digital" />
+<meta name="author" content="PetHealth" />
 ```
 
 ### 4.2.4. Searching Systems
 
-*(Describir qué opciones de búsqueda ofrecen las aplicaciones, con qué filtros contará el usuario y cómo lucirán los datos después de la búsqueda)*
+El sistema de búsqueda en Pawtient está diseñado para ser reactivo y eficiente. Se implementará una barra de búsqueda global en el DashBoard que permitirá a los veterianos encontrar
+pacientes por nombre de la mascota, nombre del dueño o DNI del usuario. Ademas, se incluirán filtros avanzados en la sección de inventario para categorizar insumos por tipo. 
 
 ### 4.2.5. Navigation Systems
 
-*(Explicar las acciones y técnicas que guiarán a los usuarios a través del Landing Page y las aplicaciones, describiendo cómo recorrerán el contenido)*
+Se han definido tres sistemas de navegación principales para garantizar la usabilidad:
+
+* Navegación Estructural (Menús):La Landing Page utiliza un menú superior fijo con enlaces ancla a las secciones de beneficios y precios. La Web Application utiliza una barra lateral con iconos reconocibles para el acceso rápido.
+* Navegación Asociativa: Se incluyen botones de 'Llamada a la Acción' (CTA) estratégicos como 'Comenzar gratis' para convertir visitantes en usuarios.
+* Navegación de Utilidad: Un menú de perfil de usuario en la esquina superior derecha para gestionar la configuración de la cuenta y el cierre de sesión, manteniendo la consistencia visual mediante el uso de avatars."
 
 ---
 
 ## 4.3. Landing Page UI Design
 
-*(Introducción explicando cómo se traducen las decisiones de diseño y arquitectura de información)*
-
 ### 4.3.1. Landing Page Wireframe
 
-*(Wireframes del Landing Page para Desktop Web Browser y Mobile Web Browser)*
+En esta sección se presenta los wireframes de la versión Desktop de la Landing page, donde se observa la estructura
+que tiene esta landing, como diversos apartados en donde el usuario pueda interacturar de manera autonoma y con una interfaz fácil de usar.
+
 
 **Desktop Web Browser**
 
-![Landing Page Wireframe Desktop](../assets/landing-page/wireframe-desktop.png)
+![Page-Wireframe1](pawtient-report/assets/images/landing-page/Page-Wireframe1.png)
+![Page-Wireframe2](pawtient-report/assets/images/landing-page/Page-Wireframe2.png)
+![Page-Wireframe3](pawtient-report/assets/images/landing-page/Page-Wireframe3.png)
+![Page-Wireframe4](pawtient-report/assets/images/landing-page/Page-Wireframe4.png)
+![Page-Wireframe5](pawtient-report/assets/images/landing-page/Page-Wireframe5.png)
+![Page-Wireframe6](pawtient-report/assets/images/landing-page/Page-Wireframe6.png)
+![Page-Wireframe7](pawtient-report/assets/images/landing-page/Page-Wireframe7.png)
 
 **Mobile Web Browser**
 
-![Landing Page Wireframe Mobile](../assets/landing-page/wireframe-mobile.png)
+![Mobile-Wireframe1](pawtient-report/assets/images/mobile-app/Mobile-Wireframe1.png)
+![Mobile-Wireframe2](pawtient-report/assets/images/mobile-app/Mobile-Wireframe2.png)
+![Mobile-Wireframe3](pawtient-report/assets/images/mobile-app/Mobile-Wireframe3.png)
+![Mobile-Wireframe4](pawtient-report/assets/images/mobile-app/Mobile-Wireframe4.png)
+![Mobile-Wireframe5](pawtient-report/assets/images/mobile-app/Mobile-Wireframe5.png)
+![Mobile-Wireframe6](pawtient-report/assets/images/mobile-app/Mobile-Wireframe6.png)
+![Mobile-Wireframe7](pawtient-report/assets/images/mobile-app/Mobile-Wireframe7.png)
+![Mobile-Wireframe8](pawtient-report/assets/images/mobile-app/Mobile-Wireframe8.png)
 
 ### 4.3.2. Landing Page Mock-up
 
-*(Mock-ups del Landing Page para Desktop y Mobile, con Design System aplicado)*
+En este apartado se muestra todos los Mocku-ups de nuestra App web, tanto desktop como mobile tienen una interfaz la cual es agradable para el usuario,
+además de ser fácil de poder utilizar, cumple con el objetivo que nosotros queremos ofrecer, asimismo sigue un lineamiento usando
+diversos tipos de colores, tipografías, etc.
 
 **Desktop Web Browser**
 
-![Landing Page Mockup Desktop](../assets/landing-page/mockup-desktop.png)
-
+![Desktop-Mockup1](pawtient-report/assets/images/landing-page/Page-Mockup1.png)
+![Desktop-Mockup2](pawtient-report/assets/images/landing-page/Page-Mockup2.png)
+![Desktop-Mockup3](pawtient-report/assets/images/landing-page/Page-Mockup3.png)
+![Desktop-Mockup4](pawtient-report/assets/images/landing-page/Page-Mockup4.png)
+![Desktop-Mockup5](pawtient-report/assets/images/landing-page/Page-Mockup5.png)
+![Desktop-Mockup6](pawtient-report/assets/images/landing-page/Page-Mockup6.png)
+![Desktop-Mockup7](pawtient-report/assets/images/landing-page/Page-Mockup7.png)
 **Mobile Web Browser**
 
-![Landing Page Mockup Mobile](../assets/landing-page/mockup-mobile.png)
-
+![Mobile-Mockup1](pawtient-report/assets/images/mobile-app/Mobile-Mockup1.png)
+![Mobile-Mockup2](pawtient-report/assets/images/mobile-app/Mobile-Mockup2.png)
+![Mobile-Mockup3](pawtient-report/assets/images/mobile-app/Mobile-Mockup3.png)
+![Mobile-Mockup4](pawtient-report/assets/images/mobile-app/Mobile-Mockup4.png)
+![Mobile-Mockup5](pawtient-report/assets/images/mobile-app/Mobile-Mockup5.png)
+![Mobile-Mockup6](pawtient-report/assets/images/mobile-app/Mobile-Mockup6.png)
+![Mobile-Mockup7](pawtient-report/assets/images/mobile-app/Mobile-Mockup7.png)
+![Mobile-Mockup8](pawtient-report/assets/images/mobile-app/Mobile-Mockup8.png)
+![Mobile-Mockup9](pawtient-report/assets/images/mobile-app/Mobile-Mockup9.png)
 ---
 
 ## 4.4. Web Applications UX/UI Design
