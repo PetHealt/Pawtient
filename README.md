@@ -1019,13 +1019,11 @@ diversos tipos de colores, tipografías, etc.
 
 ## 4.4. Web Applications UX/UI Design
 
-*(Propuesta visual y de interacción para las aplicaciones web)*
-
 ### 4.4.1. Web Applications Wireframes
 
-*(Wireframes de las aplicaciones web con principios de diseño inclusivo y arquitectura de información aplicados)*
+**Panorama Completo de los WireFrames Desktop and Mobile**
 
-![Web App Wireframes](../assets/web-app/wireframes.png)
+![Web App Wireframes](pawtient-report/assets/images/landing-page/AllWireframes.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1047,9 +1045,9 @@ diversos tipos de colores, tipografías, etc.
 
 ### 4.4.3. Web Applications Mock-ups
 
-*(Mock-ups de las aplicaciones web con Design System aplicado)*
+**Panorama Completo de los Mock-ups Desktop and Mobile, teniendo en cuenta los diversos styles anteriormente puesto**
 
-![Web App Mockups](../assets/web-app/mockups.png)
+![Web App Mockups](pawtient-report/assets/images/landing-page/AllMockUps.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
