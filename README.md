@@ -975,15 +975,13 @@ El Impact Mapping nos permitió conectar los objetivos de negocio con el comport
 
 <br>
 
+<div align="center">
+  
 **Herramienta utilizada:** `Jira`
 
 **URL del Product Backlog:** [`[URL del Product Backlog]`](`[URL]`)
 
 <br>
-
-<div align="center">
-  
-*Product Backlog en Jira*
 
 ![Product Backlog](../assets/product-backlog/product-backlog.png)
 
