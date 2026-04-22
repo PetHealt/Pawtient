@@ -466,7 +466,7 @@ En el análisis del segmento objetivo para Pawtient, se ha identificado que nues
 
 Incluye veterinarios y personal administrativo, quienes necesitan gestionar la información clínica, registrar consultas, controlar insumos y organizar los procesos del centro de forma eficiente.
 
-- **Edad:** 23 a 60 años
+- **Edad:** 20 a 60 años
 
 
 - **Necesidad clave:** Centralizar información clínica y optimizar la gestión del centro.
@@ -483,7 +483,7 @@ Incluye veterinarios y personal administrativo, quienes necesitan gestionar la i
 Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y entender mejor la atención que reciben. Muchas veces no cuentan con acceso a esta.
 
 
-- **Edad:** 20 a 60 años
+- **Edad:** 18 a 60 años
 
 
 - **Necesidad clave:** Consultar el estado de salud de sus mascotas.
