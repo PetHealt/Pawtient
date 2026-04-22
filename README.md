@@ -948,13 +948,24 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 
 ## 3.2. Impact Mapping
 
-*(Introducción y capturas del Impact Mapping elaborado en la herramienta indicada — UXPressia)*
+>*El Impact Mapping de Pawtient permite alinear los objetivos del negocio con las necesidades de los usuarios, asegurando que cada funcionalidad desarrollada genere valor real. A partir de los User Personas identificados: Sebastián Navarro (veterinario) y Camila Rodríguez (dueña de mascota), se definieron los objetivos de negocio (Business Goals), los actores involucrados, los impactos esperados en su comportamiento y los entregables que permiten alcanzarlos.
+Los Business Goals han sido formulados bajo el criterio SMART, asegurando que sean específicos, medibles, alcanzables, relevantes y definidos en el tiempo.*
 
-*(Business Goals deben cumplir criterios SMART. Ejemplo: "Alcanzar los 600 usuarios suscritos al plan A en el lapso de 8 meses.")*
+<br>
+
+<div align="center">
+  
+**Herramienta utilizada:** `UXPressia`
 
 ![Impact Map](../assets/impact-mapping/impact-map.png)
 
-*(Explicación del Impact Map: Business Goals, Actors/Personas, Impacts, Deliverables y User Stories)*
+</div>
+
+<br>
+
+El Impact Mapping nos permitió conectar los objetivos de negocio con el comportamiento esperado de los usuarios. A partir de los User Personas, identificamos qué acciones deben realizar para lograr los objetivos, y definimos funcionalidades concretas que luego se traducen en User Stories dentro del Product Backlog.
+
+<br>
 
 ---
 
