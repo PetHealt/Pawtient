@@ -836,15 +836,17 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 **Empathy Map — Personal clínico**
 
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png">
 
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png)
 
 ---
 
-**Empathy Map — `[Persona 2]`**
+**Empathy Map — Dueños de mascotas**
 
-*(Captura elaborada en UXPressia)*
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png">
 
-![Empathy Map Persona 2](../assets/empathy-maps/empathy-map-persona2.png)
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png)
 
 ---
 
