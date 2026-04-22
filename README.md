@@ -957,7 +957,7 @@ Los Business Goals han sido formulados bajo el criterio SMART, asegurando que se
   
 **Herramienta utilizada:** `UXPressia`
 
-![Impact Map](../assets/impact-mapping/impact-map.png)
+![Impact Map](pawtient-report/assets/images/impact-mapping/impact-map.png)
 
 </div>
 
