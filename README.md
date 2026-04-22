@@ -832,13 +832,11 @@ En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de 
 
 ### 2.3.4. Empathy Mapping
 
-*(Resumen del proceso de elaboración y capturas de los Empathy Maps)*
+En esta sección se presentarán los Empathy Maps de cada segmento objetivo, construidos a partir de los User Persona previamente definidos. Esta herramienta permite analizar de forma integral lo que los usuarios piensan, sienten, dicen y hacen, facilitando la identificación de sus necesidades, frustraciones y motivaciones. De esta manera, se obtienen insights clave que orientan el diseño de la solución propuesta.
 
-**Empathy Map — `[Persona 1]`**
+**Empathy Map — Personal clínico**
 
-*(Captura elaborada en UXPressia)*
 
-![Empathy Map Persona 1](../assets/empathy-maps/empathy-map-persona1.png)
 
 ---
 
