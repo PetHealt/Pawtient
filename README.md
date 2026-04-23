@@ -971,7 +971,43 @@ El Impact Mapping nos permitió conectar los objetivos de negocio con el comport
 
 ## 3.3. Product Backlog
 
->*El Product Backlog de Pawtient contiene las funcionalidades priorizadas del sistema en función del valor de negocio. Se inicia con la Landing Page para validar la propuesta de valor, seguida por las funcionalidades core como gestión de usuarios, historiales clínicos y citas, y finalmente módulos de soporte como inventario y API. Cada User Story incluye una estimación en Story Points para facilitar la planificación ágil.*
+>*El Product Backlog de Pawtient representa el conjunto ordenado de todas las User Stories y Technical Stories que guían el desarrollo del producto. El orden de priorización está determinado por el valor que cada historia aporta al negocio, considerando los Business Goals definidos en el Impact Map. Las historias relacionadas con la Landing Page se ubican al inicio dado que deben estar disponibles desde el primer sprint. Las Technical Stories se ubican al final por tratarse de soporte técnico al desarrollo. La estimación de esfuerzo se realizó utilizando la escala de Story Points de Fibonacci (1, 2, 3, 5, 8).*
+
+<br>
+
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1 | US22 | Propuesta de valor para clínicas | Como visitante del segmento clínica, deseo ver los beneficios del sistema en la landing page para evaluar si Pawtient se adapta a las necesidades de mi centro. | 3 |
+| 2 | US23 | Propuesta de valor para dueños | Como visitante del segmento dueño de mascota, deseo entender cómo Pawtient me ayuda a cuidar mejor a mi mascota para decidir si me registro en la plataforma. | 3 |
+| 3 | US24 | Navegación en landing page | Como visitante de la landing page, deseo usar el menú de navegación para desplazarme rápidamente a cualquier sección y conocer todo el contenido disponible. | 2 |
+| 4 | US25 | Preguntas frecuentes | Como visitante de la landing page, deseo consultar las preguntas frecuentes para resolver dudas antes de registrarme sin necesidad de contactar al equipo de soporte. | 2 |
+| 5 | US04 | Registrar historia clínica | Como veterinario, deseo crear y guardar la historia clínica digital de una mascota para eliminar el uso de registros físicos y acceder a la información desde cualquier dispositivo. | 8 |
+| 6 | US05 | Consultar historial clínico | Como veterinario, deseo buscar y visualizar el historial completo de una mascota para tomar decisiones clínicas informadas durante la consulta. | 5 |
+| 7 | US08 | Agendar cita desde la clínica | Como veterinario, deseo registrar una nueva cita en el sistema para organizar la agenda diaria sin depender de llamadas manuales ni registros en papel. | 5 |
+| 8 | US10 | Visualizar agenda diaria | Como veterinario, deseo ver un resumen de las citas programadas para el día en curso para organizar mi jornada de trabajo de forma eficiente. | 3 |
+| 9 | US16 | Crear perfil de mascota | Como dueño de mascota, deseo registrar el perfil de mi mascota en la plataforma para centralizar su información médica y acceder a ella en cualquier momento. | 5 |
+| 10 | US09 | Agendar cita como dueño | Como dueño de mascota, deseo solicitar una cita veterinaria desde mi celular para evitar llamadas telefónicas y reducir el tiempo invertido en coordinar turnos. | 5 |
+| 11 | US11 | Recordatorios de citas | Como dueño de mascota, deseo recibir recordatorios automáticos antes de las citas de mi mascota para no olvidar los turnos médicos. | 3 |
+| 12 | US07 | Registrar vacunas | Como veterinario, deseo registrar cada vacuna aplicada durante una consulta vinculándola al historial de la mascota para mantener un calendario de vacunación actualizado. | 5 |
+| 13 | US19 | Recordatorios de vacunación | Como dueño de mascota, deseo recibir alertas cuando la vacuna de mi mascota esté próxima para no perder el calendario de vacunación. | 3 |
+| 14 | US12 | Registrar suministros | Como administrador de clínica, deseo registrar el ingreso de nuevos suministros al inventario para mantener el stock actualizado en tiempo real. | 5 |
+| 15 | US13 | Consultar stock | Como veterinario, deseo consultar el nivel actual de un suministro para verificar disponibilidad antes de prescribir un tratamiento. | 3 |
+| 16 | US14 | Registrar consumo de suministros | Como veterinario, deseo registrar los insumos utilizados durante una consulta para descontarlos automáticamente del inventario y mantener la trazabilidad de uso. | 5 |
+| 17 | US15 | Alertas de reabastecimiento | Como administrador de clínica, deseo recibir alertas automáticas cuando el stock de un suministro sea bajo para solicitar reposición con anticipación y evitar faltantes. | 3 |
+| 18 | US06 | Editar historia clínica | Como veterinario, deseo actualizar la historia clínica de una mascota después de cada consulta para mantener la información vigente y con trazabilidad de cambios. | 5 |
+| 19 | US20 | Configurar notificaciones | Como dueño de mascota, deseo personalizar el tipo y frecuencia de notificaciones que recibo para gestionar las alertas según mis necesidades. | 2 |
+| 20 | US21 | Notificaciones de seguimiento | Como dueño de mascota, deseo recibir notificaciones cuando el veterinario actualice el estado de seguimiento de mi mascota para mantenerme informado después de cada consulta. | 3 |
+| 21 | US17 | Compartir historial con clínica | Como dueño de mascota, deseo compartir el historial de mi mascota con una nueva clínica para que el veterinario cuente con información previa relevante. | 5 |
+| 22 | US18 | Buscar clínicas cercanas | Como dueño de mascota, deseo buscar clínicas veterinarias cercanas con sus reseñas y servicios para elegir el mejor lugar para atender a mi mascota. | 5 |
+| 23 | US01 | Registro de veterinario | Como veterinario, deseo crear una cuenta en Pawtient con mis datos profesionales para acceder a las funcionalidades del sistema de gestión clínica. | 5 |
+| 24 | US02 | Inicio de sesión | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a las funcionalidades según mi rol. | 3 |
+| 25 | US03 | Recuperar contraseña | Como usuario registrado, deseo recuperar el acceso a mi cuenta en caso de olvidar mi contraseña para no perder el acceso a la plataforma. | 3 |
+| 26 | TS01 | API – Autenticación | Como developer, deseo un endpoint POST /api/v1/auth/login que valide credenciales y devuelva un token JWT para que el frontend pueda gestionar sesiones de forma segura. | 5 |
+| 27 | TS02 | API – Historial clínico | Como developer, deseo un endpoint POST /api/v1/records que permita crear una nueva historia clínica para que el frontend registre consultas desde cualquier cliente. | 5 |
+| 28 | TS03 | API – Citas | Como developer, deseo un endpoint POST /api/v1/appointments que permita crear citas para que el frontend web y la app móvil puedan agendar turnos de forma unificada. | 5 |
+| 29 | TS04 | API – Inventario | Como developer, deseo endpoints GET y POST /api/v1/inventory para consultar y registrar suministros para que el módulo de trazabilidad opere correctamente. | 5 |
+| 30 | TS05 | API – Notificaciones | Como developer, deseo un endpoint POST /api/v1/notifications/send que dispare notificaciones push para que el sistema automatice recordatorios de vacunas y citas. | 5 |
 
 <br>
 
@@ -983,44 +1019,11 @@ El Impact Mapping nos permitió conectar los objetivos de negocio con el comport
 
 <br>
 
+*Captura del Product Backlog en herramienta*
+
 ![Product Backlog](../assets/product-backlog/product-backlog.png)
 
 </div>
-
-<br>
-
-| Orden | User Story Id | Título                           | Descripción                                                                      | Story Points |
-| ----- | ------------- | -------------------------------- | -------------------------------------------------------------------------------- | ------------ |
-| 1     | US22          | Propuesta de valor para clínicas | Como visitante de clínica, deseo ver beneficios del sistema para evaluar su uso  | 3            |
-| 2     | US23          | Propuesta de valor para dueños   | Como dueño de mascota, deseo entender beneficios para decidir registrarme        | 3            |
-| 3     | US24          | Navegación en landing page       | Como visitante, deseo navegar fácilmente entre secciones para explorar contenido | 2            |
-| 4     | US25          | Preguntas frecuentes             | Como visitante, deseo ver FAQs para resolver dudas sin contactar soporte         | 2            |
-| 5     | US03          | Recuperar contraseña             | Como usuario, deseo recuperar mi contraseña para acceder nuevamente              | 3            |
-| 6     | US01          | Registro de veterinario          | Como veterinario, deseo crear cuenta para usar el sistema                        | 5            |
-| 7     | US02          | Inicio de sesión                 | Como usuario, deseo iniciar sesión para acceder al sistema                       | 3            |
-| 8     | US16          | Crear perfil de mascota          | Como dueño, deseo registrar mi mascota para centralizar su información           | 5            |
-| 9     | US04          | Registrar historia clínica       | Como veterinario, deseo registrar historial para seguimiento médico              | 8            |
-| 10    | US05          | Consultar historial clínico      | Como veterinario, deseo visualizar historial para tomar decisiones informadas    | 5            |
-| 11    | US06          | Editar historia clínica          | Como veterinario, deseo actualizar historial para mantener datos vigentes        | 5            |
-| 12    | US07          | Registrar vacunas                | Como veterinario, deseo registrar vacunas para control sanitario                 | 5            |
-| 13    | US08          | Agendar cita clínica             | Como veterinario, deseo registrar citas para organizar la agenda                 | 5            |
-| 14    | US10          | Visualizar agenda diaria         | Como veterinario, deseo ver las citas del día para organizar mi jornada          | 3            |
-| 15    | US09          | Agendar cita (dueño)             | Como dueño, deseo reservar citas desde mi celular                                | 5            |
-| 16    | US11          | Recordatorios de citas           | Como dueño, deseo recibir recordatorios para no olvidar citas                    | 3            |
-| 17    | US19          | Recordatorios de vacunación      | Como dueño, deseo recibir alertas de vacunas                                     | 3            |
-| 18    | US21          | Notificaciones de seguimiento    | Como dueño, deseo recibir actualizaciones médicas                                | 3            |
-| 19    | US20          | Configurar notificaciones        | Como dueño, deseo personalizar las alertas                                       | 2            |
-| 20    | US12          | Registrar suministros            | Como administrador, deseo registrar inventario                                   | 5            |
-| 21    | US13          | Consultar stock                  | Como veterinario, deseo verificar disponibilidad de insumos                      | 3            |
-| 22    | US14          | Registrar consumo                | Como veterinario, deseo descontar insumos usados en consulta                     | 5            |
-| 23    | US15          | Alertas de stock                 | Como administrador, deseo recibir alertas de bajo stock                          | 3            |
-| 24    | US17          | Compartir historial              | Como dueño, deseo compartir historial con clínicas                               | 5            |
-| 25    | US18          | Buscar clínicas                  | Como dueño, deseo encontrar clínicas cercanas                                    | 5            |
-| 26    | TS01          | API autenticación                | Endpoint para autenticación mediante JWT                                         | 5            |
-| 27    | TS02          | API historial clínico            | Endpoint para registro de historias clínicas                                     | 5            |
-| 28    | TS03          | API citas                        | Endpoint para programación de citas                                              | 5            |
-| 29    | TS04          | API inventario                   | Endpoint para gestión de inventario                                              | 5            |
-| 30    | TS05          | API notificaciones               | Endpoint para envío de notificaciones                                            | 5            |
 
 <br>
 
