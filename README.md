@@ -1021,7 +1021,7 @@ El Impact Mapping nos permitió conectar los objetivos de negocio con el comport
 
 *Captura del Product Backlog en herramienta*
 
-![Product Backlog](../assets/product-backlog/product-backlog.png)
+![Product Backlog](pawtient-report/assets/images/product-backlog/product-backlog.png)
 
 </div>
 
