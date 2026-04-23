@@ -1442,74 +1442,24 @@ Las relaciones establecidas reflejan que un proveedor puede suministrar múltipl
 
 ### 4.8.1. Database Diagrams
 
-*En esta sección se presentan los diagramas de base de datos para cada bounded context del sistema Pawtient. Estos diagramas describen la estructura de las tablas, sus columnas, claves primarias y foráneas, así como las relaciones entre ellas, permitiendo definir la persistencia de la información del sistema. Los diagramas han sido elaborados en Visual Studio Code utilizando la extensión **ERD Editor**, la cual permite generar modelos entidad-relación a partir de archivos en formato JSON.*
+*El diseño de la base de datos del sistema Pawtient se desarrolló con el objetivo de garantizar la persistencia, integridad y trazabilidad de la información en los distintos procesos del sistema, incluyendo la gestión de usuarios, mascotas, citas médicas, historial clínico e inventario de suministros. Para la elaboración del modelo relacional se utilizó la herramienta MySQL Workbench, la cual permitió diseñar y visualizar el diagrama de base de datos, así como definir de manera estructurada las tablas, columnas, claves primarias y claves foráneas. A través de esta herramienta se logró representar de forma clara las relaciones entre las entidades del sistema.*
 
 <br>
 
 <div align="center">
   
-**Bounded Context: `Identity & Access (Database Diagram)`**
+
+**`Database Diagram`**
 
 <br>
 
-![Database Diagram BC1](pawtient-report/assets/images/database/db-1.png)
+![Database Diagram](pawtient-report/assets/images/database/database-diagram.png)
 
 </div>
 
 <br>
 
-*Descripcion*
-
-<br>
-
-<div align="center">
-  
-**Bounded Context: `Appointment Management (Database Diagram)`**
-
-<br>
-
-![Database Diagram BC2](pawtient-report/assets/images/database/db-2.png)
-
-</div>
-
-<br>
-
-*Descripcion*
-
-<br>
-
-<div align="center">
-  
-**Bounded Context: `Clinical Management (Database Diagram)`**
-
-<br>
-
-![Database Diagram BC3](pawtient-report/assets/images/database/db-3.png)
-
-</div>
-
-<br>
-
-*Descripcion*
-
-
-<br>
-
-
-<div align="center">
-  
-**Bounded Context: `Inventory & Supply (Database Diagram)`**
-
-<br>
-
-![Database Diagram BC4](pawtient-report/assets/images/database/db-4.png)
-
-</div>
-
-<br>
-
-*Descripcion*
-
+*El diseño integra los diferentes bounded contexts previamente identificados en un único modelo de datos unificado, asegurando la coherencia entre los distintos módulos del sistema. Asimismo, se aplicaron restricciones como claves únicas y tipos enumerados para mantener la consistencia de los datos. Finalmente, el modelo permite una trazabilidad completa de los procesos clínicos, desde la programación de citas hasta la generación de recetas médicas, las cuales se encuentran vinculadas con el inventario de productos, facilitando así el control y seguimiento de los insumos utilizados en la atención veterinaria.*
 
 <br>
 
