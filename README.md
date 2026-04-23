@@ -1460,7 +1460,7 @@ El bounded context de inventario gestiona suministros, proveedores, consumo y al
 
 <br>
 
-![Database Diagram BC4](pawtient-report/assets/images/database/db_4.png)
+![Database Diagram BC4](pawtient-report/assets/images/database/db-4.png)
 
 </div>
 
