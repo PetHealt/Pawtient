@@ -198,7 +198,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
   
 #### Integrante 1
 
-<img src="../assets/team/integrante1.png" alt="Foto Integrante 1" width="200"/>
+<img src="pawtient-report/assets/images/team/integrante1.png" alt="Foto Integrante 1" width="200"/>
 
 <br>
 
