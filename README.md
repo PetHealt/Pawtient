@@ -1520,16 +1520,19 @@ Tipos: feat | fix | docs | style | refactor | test | chore
 
 ---
 
-<br>
 
 ##  Bibliografía
 
-*(Listar referencias en formato APA)*
+- Lolimsa(12 de Marzo, 2024 ) _Problemas Comunes en Clínicas Veterinarias y Cómo Prevenirlos_. Recuperado el 25 de abril del 2026 de:
+https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
 
+
+- Rafael Antonio Gutiérrez Lerma (5 de Octubre, 2024) VetStrategies Consulting  _Los principales problemas con clientes y motivos de insatisfacción en clínicas veterinarias_. Recuperado el 25 de abril del 2026 de:  https://www.vetstrategiesconsulting.com/blog/los-principales-problemas-con-clientes-y-motivos-de-insatisfaccion-en-clinicas-veterinarias-
+
+
+- Cedeno Ochoa, A., Catuto Murillo, A., & Rodas-Silva, J. (31 de agosto,2020)._Use of Web applications for the management of veterinary clinics and their impact on the improvement of administrative processes_. Recuperado el 25 de abril del 2026 de:  https://portal.amelica.org/ameli/jatsRepo/606/6062739010/index.html
 
 ---
-
-<br>
 
 ## Anexos
 
