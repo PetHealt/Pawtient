@@ -1320,26 +1320,31 @@ A continuación, se presentan los diagramas de clases UML para cada bounded cont
 
 El diagrama de clases del bounded context Identity & Access representa la gestión de autenticación y control de acceso dentro del sistema Pawtient.
 
+
+
 <br>
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/class-diagram-1.png)
+**Frontend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Frontend Diagram BC1](pawtient-report/assets/images/class-diagrams/front-diagram-1.png)
 
 </div>
-
 <br>
 
-Este contexto define la entidad principal User, que encapsula la información básica de autenticación como correo electrónico, contraseña y estado de la cuenta.
+Descripcion
 
-Adicionalmente, se modelan las especializaciones del usuario mediante las entidades PetOwner y Veterinarian, permitiendo diferenciar comportamientos y atributos específicos según el rol dentro del sistema. La clase Account complementa la gestión de sesión, almacenando información relevante como el último inicio de sesión.
+<br>
+<div align="center">
 
-El comportamiento del sistema se abstrae a través de la interfaz AuthService, la cual define operaciones clave como autenticación y generación de tokens. Asimismo, se emplean enumeraciones como UserRole y UserStatus para garantizar consistencia en los estados y roles definidos.
+**Backend Components Diagrams**
 
-Las relaciones establecidas reflejan una asociación uno a uno entre usuario y cuenta, así como relaciones opcionales hacia los perfiles específicos. Este diseño permite una adecuada separación de responsabilidades y facilita la escalabilidad del sistema.
+![Backend Diagram BC1](pawtient-report/assets/images/class-diagrams/back-diagram-1.png)
+
+</div>
+<br>
+
+Descripcion
 
 <br>
 
@@ -1349,26 +1354,30 @@ Las relaciones establecidas reflejan una asociación uno a uno entre usuario y c
 
 El diagrama de clases del bounded context Appointment Management modela la gestión completa del ciclo de vida de las citas médicas dentro del sistema Pawtient.
 
+
 <br>
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC2](pawtient-report/assets/images/class-diagrams/class-diagram-2.png)
+**Frontend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Frontend Diagram BC2](pawtient-report/assets/images/class-diagrams/front-diagram-2.png)
 
 </div>
-
 <br>
 
-La entidad central es Appointment, la cual contiene información relevante como fecha, estado y motivo de la cita, además de métodos que permiten gestionar su flujo, tales como confirmación, cancelación y reprogramación. La clase Schedule permite representar la disponibilidad horaria del sistema, asegurando que las citas se asignen en intervalos válidos.
+Descripcion
 
-El modelo incorpora también la entidad Reminder, encargada de gestionar notificaciones hacia los usuarios, mejorando la asistencia a las citas programadas. Asimismo, se incluyen las entidades Pet, PetOwner y Veterinarian, reflejando la interacción entre los actores principales del dominio.
+<br>
+<div align="center">
 
-La interfaz AppointmentService encapsula la lógica de negocio asociada a la gestión de citas, promoviendo una arquitectura desacoplada. La enumeración AppointmentStatus define los posibles estados del ciclo de vida de una cita.
+**Backend Components Diagrams**
 
-Las relaciones muestran claramente que un dueño puede tener múltiples mascotas, cada mascota puede tener múltiples citas, y cada cita es atendida por un veterinario y asociada a un horario específico, lo que asegura coherencia en la programación.
+![Backend Diagram BC2](pawtient-report/assets/images/class-diagrams/back-diagram-2.png)
+
+</div>
+<br>
+
+Descripcion
 
 <br>
 
@@ -1378,28 +1387,30 @@ Las relaciones muestran claramente que un dueño puede tener múltiples mascotas
 
 El bounded context Clinical Management constituye el núcleo del sistema Pawtient, ya que modela la gestión del historial clínico de las mascotas y la atención médica brindada.
 
+
 <br>
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC3](pawtient-report/assets/images/class-diagrams/class-diagram-3.png)
+**Frontend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Frontend Diagram BC3](pawtient-report/assets/images/class-diagrams/front-diagram-3.png)
 
 </div>
-
 <br>
 
-La entidad principal es MedicalRecord, definida como un aggregate root, que agrupa todas las consultas médicas asociadas a una mascota. Cada Consultation representa un evento clínico específico, incluyendo información sobre su estado, fecha y observaciones.
+Descripcion
 
-Dentro de cada consulta se registran elementos fundamentales como VitalSigns, modelado como un value object debido a su naturaleza inmutable, así como Diagnosis, Prescription y Exam, que representan los resultados clínicos derivados de la atención.
+<br>
+<div align="center">
 
-La clase PrescriptionItem permite descomponer una receta en múltiples elementos, facilitando la trazabilidad de medicamentos. Asimismo, la entidad Veterinarian se asocia a la consulta, indicando el profesional responsable.
+**Backend Components Diagrams**
 
-La interfaz ClinicalService abstrae las operaciones principales del dominio clínico, como el inicio de consultas y la generación de recetas. La enumeración ConsultationStatus define el estado del proceso clínico.
+![Backend Diagram BC3](pawtient-report/assets/images/class-diagrams/back-diagram-3.png)
 
-Las relaciones establecidas reflejan que cada mascota posee un único historial médico, el cual contiene múltiples consultas, asegurando una correcta trazabilidad de la información clínica a lo largo del tiempo.
+</div>
+<br>
+
+Descripcion
 
 <br>
 
@@ -1409,28 +1420,30 @@ Las relaciones establecidas reflejan que cada mascota posee un único historial 
 
 El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
 
+
 <br>
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC4](pawtient-report/assets/images/class-diagrams/class-diagram-4.png)
+**Frontend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Frontend Diagram BC4](pawtient-report/assets/images/class-diagrams/front-diagram-4.png)
 
 </div>
-
 <br>
 
-La entidad principal Product representa los insumos o medicamentos disponibles, incluyendo atributos como stock actual y stock mínimo, lo que permite controlar la disponibilidad. La entidad Supplier modela los proveedores responsables del abastecimiento de dichos productos.
+Descripcion
 
-Para registrar los cambios en el inventario, se utiliza la entidad InventoryMovement, la cual captura entradas, salidas y ajustes mediante la enumeración MovementType. Asimismo, la clase StockAlert permite generar alertas cuando los niveles de inventario alcanzan umbrales críticos.
+<br>
+<div align="center">
 
-Un aspecto clave del diseño es la relación entre Product y PrescriptionItem, lo que permite vincular directamente los insumos utilizados en el contexto clínico, logrando así la trazabilidad entre el inventario y la atención médica.
+**Backend Components Diagrams**
 
-La interfaz InventoryService encapsula las operaciones principales relacionadas con la gestión de inventario, como el registro de movimientos y la generación de alertas.
+![Backend Diagram BC4](pawtient-report/assets/images/class-diagrams/back-diagram-4.png)
 
-Las relaciones establecidas reflejan que un proveedor puede suministrar múltiples productos, y que cada producto puede estar asociado a múltiples movimientos y alertas, garantizando un control detallado del inventario.
+</div>
+<br>
+
+Descripcion
 
 <br>
 
@@ -1444,7 +1457,7 @@ Las relaciones establecidas reflejan que un proveedor puede suministrar múltipl
 
 ### 4.8.1. Database Diagrams
 
-*El diagrama de base de datos de Pawtient refleja una arquitectura orientada a dominios, organizada en cuatro bounded contexts claramente delimitados, cada uno con responsabilidad sobre un conjunto cohesivo de entidades. Para la elaboración del modelo relacional se utilizó la herramienta MySQL Workbench, la cual permitió diseñar y visualizar el diagrama de base de datos, así como definir de manera estructurada las tablas, columnas, claves primarias y claves foráneas. A través de esta herramienta se logró representar de forma clara las relaciones entre las entidades del sistema.*
+>*El diagrama de base de datos de Pawtient refleja una arquitectura orientada a dominios, organizada en cuatro bounded contexts claramente delimitados, cada uno con responsabilidad sobre un conjunto cohesivo de entidades. Para la elaboración del modelo relacional se utilizó la herramienta MySQL Workbench, la cual permitió diseñar y visualizar el diagrama de base de datos, así como definir de manera estructurada las tablas, columnas, claves primarias y claves foráneas. A través de esta herramienta se logró representar de forma clara las relaciones entre las entidades del sistema.*
 
 <br>
 
