@@ -1318,33 +1318,31 @@ A continuación, se presentan los diagramas de clases UML para cada bounded cont
 
 <br>
 
-El diagrama de clases del bounded context Identity & Access representa la gestión de autenticación y control de acceso dentro del sistema Pawtient.
-
-
+Este diagrama corresponde al Identity & Access Bounded Context, encargado de gestionar la autenticación y autorización de los usuarios dentro del sistema Pawtient. El agregado principal User administra la información esencial del usuario, incluyendo su identificador, correo electrónico, contraseña cifrada, rol y fecha de registro. Este contexto permite controlar el acceso al sistema mediante operaciones como registro, inicio de sesión y validación de credenciales. Además, el modelo considera diferentes roles (administrador, veterinario y dueño de mascota), los cuales determinan los permisos y funcionalidades disponibles dentro de la plataforma. En conjunto, este contexto garantiza la seguridad del sistema y el control adecuado de acceso a los recursos.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC1](pawtient-report/assets/images/class-diagrams/front-diagram-1.png)
+![Frontend Diagram BC1](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-1.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo IAM permite a los usuarios registrarse, iniciar sesión y gestionar su sesión activa. Incluye vistas como LoginView, RegisterView y ProfileView, junto con un AuthStore que maneja el estado de autenticación y la comunicación con la API mediante Observables.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC1](pawtient-report/assets/images/class-diagrams/back-diagram-1.png)
+![Backend Diagram BC1](pawtient-report/assets/images/class-diagrams/backend/back-diagram-1.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo IAM gestiona la lógica de negocio relacionada con autenticación y control de acceso. Implementa comandos como registro e inicio de sesión, handlers para procesar dichas operaciones, repositorios para persistencia de usuarios y servicios de seguridad como generación de tokens JWT.
 
 <br>
 
@@ -1352,7 +1350,7 @@ Descripcion
 
 <br>
 
-El diagrama de clases del bounded context Appointment Management modela la gestión completa del ciclo de vida de las citas médicas dentro del sistema Pawtient.
+Este diagrama corresponde al contexto de gestión de citas, responsable de administrar la programación, modificación y cancelación de citas médicas para las mascotas. El agregado principal Appointment contiene información clave como la mascota asociada, el veterinario asignado, la fecha y el estado de la cita. Este contexto permite organizar la agenda de atención, asegurando un flujo ordenado de consultas dentro de la clínica. Además, el sistema contempla distintos estados de la cita (programada, cancelada, completada), lo que permite llevar un control preciso del ciclo de vida de cada atención.
 
 
 <br>
@@ -1360,24 +1358,24 @@ El diagrama de clases del bounded context Appointment Management modela la gesti
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC2](pawtient-report/assets/images/class-diagrams/front-diagram-2.png)
+![Frontend Diagram BC2](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-2.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Appointments permite a los usuarios visualizar el calendario de citas, registrar nuevas citas y gestionar las existentes. Incluye componentes como AppointmentDashboard, AppointmentForm y AppointmentCard, junto con un AppointmentStore que gestiona el estado y sincroniza los datos con el backend.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC2](pawtient-report/assets/images/class-diagrams/back-diagram-2.png)
+![Backend Diagram BC2](pawtient-report/assets/images/class-diagrams/backend/back-diagram-2.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Appointments gestiona la lógica de negocio relacionada con la programación de citas. Implementa comandos como creación y cancelación de citas, handlers para procesar estas acciones y repositorios para la persistencia de la información.
 
 <br>
 
@@ -1385,99 +1383,95 @@ Descripcion
 
 <br>
 
-El bounded context Clinical Management constituye el núcleo del sistema Pawtient, ya que modela la gestión del historial clínico de las mascotas y la atención médica brindada.
-
-
-<br>
-<div align="center">
-
-**Frontend Components Diagrams**
-
-![Frontend Diagram BC3](pawtient-report/assets/images/class-diagrams/front-diagram-3.png)
-
-</div>
-<br>
-
-Descripcion
-
-<br>
-<div align="center">
-
-**Backend Components Diagrams**
-
-![Backend Diagram BC3](pawtient-report/assets/images/class-diagrams/back-diagram-3.png)
-
-</div>
-<br>
-
-Descripcion
-
-<br>
-
-**4. Bounded Context: `Store`**
-
-<br>
-
-El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
-
+Este diagrama corresponde al contexto principal del sistema Pawtient, encargado de la gestión clínica de las mascotas. El agregado principal Pet representa al paciente veterinario, incluyendo información como nombre, especie, raza, fecha de nacimiento y su propietario. Este contexto incluye las entidades Consultation, que registra cada atención médica con diagnóstico y tratamiento, y MedicalRecord, que almacena el historial clínico completo de la mascota, incluyendo antecedentes, alergias y observaciones. En conjunto, este contexto permite centralizar toda la información médica del paciente, facilitando el seguimiento continuo de su estado de salud y la toma de decisiones clínicas.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC4](pawtient-report/assets/images/class-diagrams/front-diagram-4.png)
+![Frontend Diagram BC3](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-3.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Clinical Management permite a los usuarios gestionar mascotas, consultas y registros médicos. Incluye vistas como PetDashboardView, ConsultationView y MedicalRecordView, junto con componentes especializados como formularios y tarjetas. El estado es gestionado por ClinicStore, que coordina la comunicación con la API y mantiene sincronizados los datos clínicos.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC4](pawtient-report/assets/images/class-diagrams/back-diagram-4.png)
+![Backend Diagram BC3](pawtient-report/assets/images/class-diagrams/backend/back-diagram-3.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Clinical Management gestiona la lógica de negocio relacionada con pacientes, consultas y registros médicos. Implementa comandos como creación de consultas y actualización de historiales médicos, handlers para su procesamiento, servicios de consulta para recuperación de datos y repositorios para la persistencia de la información clínica.
 
 <br>
 
-**5. Bounded Context: `Reports`**
+**4. Bounded Context: `Store (Inventory)`**
 
 <br>
 
-El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
-
+Este diagrama corresponde al contexto de gestión de inventario, encargado de administrar los productos, proveedores y movimientos de stock dentro de la clínica veterinaria. El agregado principal Product contiene información como nombre, descripción, precio y stock disponible. Además, el modelo incluye la entidad Supplier, que representa a los proveedores de insumos, y StockMovement, que registra las entradas y salidas de productos. Este contexto permite mantener un control preciso del inventario, evitando desabastecimientos y facilitando la gestión de recursos médicos.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC5](pawtient-report/assets/images/class-diagrams/front-diagram-5.png)
+![Frontend Diagram BC4](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-4.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Store permite a los usuarios visualizar productos, registrar nuevos insumos y gestionar movimientos de inventario. Incluye vistas como InventoryDashboardView, ProductFormView y StockMovementView, junto con componentes reutilizables y un InventoryStore que maneja el estado de los productos y movimientos.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC5](pawtient-report/assets/images/class-diagrams/back-diagram-5.png)
+![Backend Diagram BC4](pawtient-report/assets/images/class-diagrams/backend/back-diagram-4.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Store gestiona la lógica de negocio relacionada con productos y control de inventario. Implementa comandos como creación de productos y registro de movimientos, handlers correspondientes y repositorios para la persistencia de datos.
 
+<br>
+
+**5. Bounded Context: `Reports & Billing`**
+
+<br>
+
+Este diagrama corresponde al contexto de reportes y gestión financiera, encargado de generar informes y controlar la facturación dentro del sistema. El agregado principal Report permite generar distintos tipos de reportes sobre el funcionamiento de la clínica, mientras que la entidad Billing gestiona la información financiera, incluyendo montos, fechas y transacciones. Este contexto permite obtener una visión global del rendimiento del negocio, facilitando la toma de decisiones estratégicas y el control económico.
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC5](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-5.png)
+
+</div>
+<br>
+
+El módulo Reports permite a los usuarios generar reportes y visualizar información financiera. Incluye vistas como ReportView y BillingView, junto con un ReportStore que gestiona los datos y coordina la comunicación con el backend.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC5](pawtient-report/assets/images/class-diagrams/backend/back-diagram-5.png)
+
+</div>
+<br>
+
+El módulo Reports gestiona la lógica de negocio relacionada con la generación de reportes y facturación. Implementa comandos para la generación de reportes, handlers para su procesamiento y repositorios para el almacenamiento de la información.
 
 <br>
 
@@ -1485,32 +1479,31 @@ Descripcion
 
 <br>
 
-El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
-
+Este diagrama corresponde al contexto de gestión de perfil de usuario, encargado de administrar la información personal de los usuarios dentro del sistema. El agregado principal Profile contiene datos como nombre, correo electrónico y la relación con el usuario del sistema. Este contexto permite a los usuarios actualizar su información personal y mantener sus datos actualizados dentro de la plataforma.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC6](pawtient-report/assets/images/class-diagrams/front-diagram-6.png)
+![Frontend Diagram BC6](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-6.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Profile permite a los usuarios visualizar y actualizar su información personal. Incluye la vista ProfileView y un ProfileStore que gestiona el estado del perfil y la comunicación con la API.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC6](pawtient-report/assets/images/class-diagrams/back-diagram-6.png)
+![Backend Diagram BC6](pawtient-report/assets/images/class-diagrams/backend/back-diagram-6.png)
 
 </div>
 <br>
 
-Descripcion
+El módulo Profile gestiona la lógica de negocio relacionada con la actualización de perfiles de usuario. Implementa comandos de actualización, handlers y repositorios para la persistencia de datos.
 
 <br>
 
@@ -1563,7 +1556,7 @@ Es el contexto de mayor profundidad del modelo. Medical_records actúa como raí
 
 <br>
 
-**Store** 
+**Store (Inventory)** 
 
 Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
 Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
