@@ -908,7 +908,8 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 ![Big Picture Final](pawtient-report/assets/images/Big-Picture-Event-Storming/Big-picture-event-storming.png)
 
-[Ver en miro](`https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919`)
+[Ver en miro](https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919)
+
 
 ---
 
@@ -1253,7 +1254,7 @@ En esta sección se explica y evidencia el proceso de Design-Level EventStorming
 ![Bounded Contexts](pawtient-report/assets/images/Design-Level-Event-Storming/Bounded-Context.png)
 En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente marco los eventos de dominio que fueron implementados.
 
-[Ver en miro](`https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919`)
+[Ver en miro](https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919)
 
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -1332,21 +1333,20 @@ En este último paso, el equipo buscó agregados que estén relacionados entre s
 
 ### 5.1.1. Software Development Environment Configuration
 
-*(Especificar los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida del producto digital)*
+Para el desarrollo de Pawtient, el equipo ha estandarizado un entorno de desarrollo y un conjunto de tecnologías que aseguran la compatibilidad y fluidez del trabajo conjunto en todo el ciclo de vida del producto:
 
-| Categoría | Producto | Propósito | Ruta / URL |
-|:----------|:--------:|:---------:|:-----------|
-| Project Management | `[Producto]` | `[Descripción del propósito]` | `[URL]` |
-| Requirements Management | `[Producto]` | `[Descripción del propósito]` | `[URL]` |
-| Product UX/UI Design | Figma | Wireframes, Mockups y Prototipos | https://figma.com |
-| Product UX/UI Design | UXPressia | User Personas, Journey Maps, Empathy Maps | https://uxpressia.com |
-| Software Development | IntelliJ IDEA / VS Code | Desarrollo de Web Services y Frontend | `[URL de descarga]` |
-| Software Development | Angular CLI | Frontend Web Application | https://angular.io |
-| Software Development | Spring Boot | RESTful Web Services | https://spring.io |
-| Software Deployment | `[Plataforma cloud]` | Despliegue de productos | `[URL]` |
-| Software Documentation | Swagger / OpenAPI | Documentación de Web Services | `[URL]` |
-| Version Control | Git + GitHub | Control de versiones | https://github.com |
-
+| Categoría | Producto |                                  Propósito                                  | Ruta / URL                     |
+|:----------|:--------:|:---------------------------------------------------------------------------:|:-------------------------------|
+| Project Management | Jira |              Gestión ágil de Sprints, tareas y Product Backlog              | https://jira.it.tuwien.ac.at/  |
+| Requirements Management | UXPressia |                 Elaboración de Impact Maps y User Personas                  | https://uxpressia.com          |
+| Product UX/UI Design | Figma |                     Wireframes, Mockups y Prototipos UI                     | https://figma.com              |
+| Software Development | Visual Studio Code |            Editor principal para desarrollo web (HTML, CSS, JS)             | https://code.visualstudio.com/ |
+| Software Development | Angular CLI |            Framework principal para el Frontend Web Application             | https://angular.io             |
+| Software Development | Spring Boot |              Framework principal para los RESTful Web Services              | https://spring.io              |
+| Software Deployment | GitHub Pages |                   Despliegue estático de la Landing Page                    | https://pages.github.com/      |
+| Software Documentation | Swagger / OpenAPI |                Documentación interactiva de los Web Services                | https://swagger.io/            |
+| Version Control | Git + GitHub |                 Control de versiones y trabajo colaborativo                 | https://github.com             |
+|Miro   |Diseño| Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be). |https://miro.com   |
 ---
 
 ### 5.1.2. Source Code Management
