@@ -1314,7 +1314,7 @@ A continuación, se presentan los diagramas de clases UML para cada bounded cont
 
 <br>
 
-**Bounded Context: `Identity & Access`**
+**Bounded Context: `IAM (Identity & Access)`**
 
 <br>
 
