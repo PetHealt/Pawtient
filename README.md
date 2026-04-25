@@ -454,7 +454,7 @@ A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 ![Lean UX Canvas](pawtient-report/assets/images/Capítulo1/Lean-UX-Canvas.png)
 
-**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=379450686428)
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=122548882114)
 
 ---
 
