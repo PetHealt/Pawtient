@@ -1185,14 +1185,176 @@ El orden del backlog responde a los siguientes criterios en cascada:
 
 ### 4.1.1. General Style Guidelines
 
+Las decisiones de estilo de Pawtient se basan en la necesidad de transmitir confianza, cercanía y profesionalismo en el contexto del cuidado de mascotas y la gestión de clínicas veterinarias. Se busca una interfaz clara, accesible y consistente, que facilite la interacción tanto de veterinarios como del personal administrativo.
 
+**Branding**
+
+El branding de Pawtient está orientado a representar el cuidado y bienestar de las mascotas a través de una identidad visual moderna y amigable.
+
+El nombre Pawtient surge de la combinación de “Paw” (pata) y “Patient” (paciente), haciendo referencia directa a las mascotas como los pacientes principales del sistema.
+
+El logotipo de *Pawtient* está compuesto por una tipografía sans-serif moderna y amigable, que transmite claridad, accesibilidad y confianza, valores fundamentales en el contexto de la gestión clínica veterinaria.
+
+El elemento distintivo del logotipo es la integración de una huella de mascota dentro de la letra inicial “P”, la cual funciona como isotipo. Este recurso visual refuerza de manera directa el enfoque del sistema en el cuidado de animales, permitiendo una identificación inmediata por parte del usuario.
+
+En cuanto a la paleta de colores, el logotipo utiliza una combinación de azul y verde. El azul (#3A86FF) representa confianza, profesionalismo y seguridad en el manejo de la información, mientras que el verde (#2ECC71) evoca salud, bienestar y conexión con el cuidado de las mascotas. Esta combinación cromática genera un equilibrio visual que comunica tanto el aspecto clínico como el humano del producto.
+
+El diseño del logotipo ha sido concebido para ser versátil y escalable, asegurando su correcta visualización en diferentes contextos, como interfaces web, aplicaciones móviles, iconos y material gráfico. Asimismo, el isotipo puede utilizarse de forma independiente en espacios reducidos, como favicon o elementos de navegación.
+
+![Logo Pawtient](pawtient-report/assets/images/pawtient2.png)
+
+Los principios de identidad visual se centran en:
+- Cercanía con el usuario
+- Claridad en la comunicación
+- Profesionalismo en el entorno clínico
+- Confianza en el manejo de información
+
+---
+
+**Typography**
+
+| Tipo |   Fuente    | Uso |
+|:-----|:-----------:|:----|
+| Display / Heading |   Poppins   | Títulos y encabezados |
+| Body |    Inter    | Texto de contenido |
+| Monospace | Roboto Mono | Código y datos técnicos |
+
+![roboto](pawtient-report/assets/images/roboto.png)
+
+![poppins](pawtient-report/assets/images/poppins.png)
+
+![inter](pawtient-report/assets/images/inter.png)
+
+Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digitales y su compatibilidad con interfaces modernas.
+
+**Colors**
+
+| Nombre | Hex | Uso                                |
+|:-------|:---:|:-----------------------------------|
+| Primary | #3A86FF | Color principal de la marca        |
+| Secondary | #2ECC71 | Color de apoyo (salud y bienestar) |
+| Accent | #FF9F1C | Énfasis y llamados a la acción     |
+| Background | #F5F5F5 | Fondo general                      |
+| Text | #2E2E2E | Texto principal                    |
+| Error | #E63946 | Estados de error                   |
+| Success | #2ECC71 | Estados de éxito                   |
+
+![paletacolores](pawtient-report/assets/images/paletacolores.png)
+
+La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
+
+**Spacing**
+
+El sistema de espaciado de *Pawtient* se basa en una unidad base de **8px**, siguiendo buenas prácticas de diseño UI modernas.
+
+Se utilizan múltiplos de esta unidad para mantener consistencia:
+- 8px → separación mínima
+- 16px → separación estándar
+- 24px / 32px → separación entre secciones
+- 48px+ → separación de bloques principales
+
+Esto permite una interfaz ordenada, clara y fácil de escanear visualmente.
+
+---
+**Tono de comunicación**
+
+| Dimensión |             Selección             |
+|:----------|:---------------------------------:|
+| Divertido / Serio |  Equilibrado (ligeramente serio)  |
+| Formal / Casual |            Semi-formal            |
+| Respetuoso / Irreverente |            Respetuoso             |
+| Entusiasta / Sereno | Sereno con toques positivos |
+
+El tono busca generar confianza en un entorno clínico, sin perder cercanía con los usuarios.
 
 ---
 
 ### 4.1.2. Web Style Guidelines
 
+Las Web Style Guidelines de Pawtient definen los estándares visuales y de interacción para garantizar una experiencia consistente en la aplicación web.
+
 ---
 
+#### Diseño Responsive 
+
+La aplicación se adapta a distintos dispositivos:
+- Desktop
+- Tablet
+- Mobile
+
+Se prioriza la usabilidad en pantallas pequeñas, asegurando navegación fluida y contenido legible.
+
+---
+#### Componentes del sistema
+
+Los componentes del sistema de *Pawtient* han sido diseñados siguiendo principios de simplicidad, consistencia y reutilización, tomando como referencia Material Design y adaptándose a la identidad visual del producto.
+
+- **Navbar (Barra de navegación):**  
+  Ubicada en la parte superior, permite el acceso a secciones principales como Inicio, Servicios, Nosotros y Contacto. Mantiene una estructura limpia y fija para facilitar la navegación.
+
+- **Buttons (Botones):**  
+  Botones con bordes ligeramente redondeados y estilos definidos (primary, secondary).
+    - Primary: color azul (#3A86FF) para acciones principales
+    - Secondary: verde (#2ECC71) para acciones complementarias  
+      Incluyen estados: hover, active y disabled.
+
+- **Hero Section:**  
+  Sección principal de bienvenida con título destacado, subtítulo y call-to-action (CTA), diseñada para captar la atención del usuario y comunicar el valor del sistema.
+
+- **Cards:**  
+  Utilizadas para mostrar información estructurada como servicios, mascotas o funcionalidades. Incluyen imagen, título y descripción breve.
+
+- **Forms (Formularios):**  
+  Inputs claros con etiquetas visibles y validaciones en tiempo real. Se utilizan para registro, inicio de sesión y gestión de datos.
+
+- **Icons (Iconos):**  
+  Basados en representaciones simples y reconocibles (usuario, menú, mascota), alineados con el estilo minimalista del sistema.
+---
+
+#### Interacciones
+
+Las interacciones en Pawtient están diseñadas para ser intuitivas, fluidas y consistentes, mejorando la experiencia del usuario sin sobrecargar la interfaz.
+
+- **Hover states:**  
+  Los elementos interactivos (botones, links, cards) cambian sutilmente de color o elevación al pasar el cursor.
+
+- **Feedback visual:**  
+  El sistema muestra respuestas inmediatas a las acciones del usuario, como mensajes de éxito, error o carga.
+
+- **Transiciones suaves:**  
+  Se utilizan animaciones ligeras para cambios de estado, navegación o aparición de componentes.
+
+- **Responsive interactions:**  
+  En dispositivos móviles, se priorizan interacciones táctiles claras, como botones grandes y menús desplegables.
+
+- **Call To Action (CTA):**  
+  Botones destacados como “Comenzar gratis” guían al usuario hacia las acciones principales del sistema.
+
+---
+#### Design System
+
+El diseño de *Pawtient* se basa en un sistema de diseño modular que garantiza consistencia visual y escalabilidad en toda la aplicación.
+
+Se toman como referencia los principios de **Material Design**, adaptados a la identidad del producto.
+
+- **Grid system:**  
+  Uso de grillas flexibles para organizar el contenido en diferentes resoluciones (desktop, tablet y mobile).
+
+- **Spacing system:**  
+  Basado en una unidad de 8px para mantener consistencia en márgenes y paddings.
+
+- **Color system:**  
+  Aplicación coherente de la paleta definida (primary, secondary, accent, neutrals) en todos los componentes.
+
+- **Typography system:**  
+  Uso consistente de jerarquías tipográficas (heading, subheading, body) para mejorar la legibilidad.
+
+- **Component-based design:**  
+  Todos los elementos UI (botones, cards, forms) son reutilizables, permitiendo mantener coherencia y facilitar el desarrollo en Angular.
+
+![Landing Pawtient](pawtient-report\assets\images\pcpet.PNG)
+
+---
 ## 4.2. Information Architecture
 
 
@@ -1258,12 +1420,38 @@ El orden del backlog responde a los siguientes criterios en cascada:
 
 ### 4.6.2. Software Architecture Context Diagram
 
+El diagrama de contexto del sistema Pawtient presenta una vista general del sistema dentro de su entorno, identificando los actores principales que interactúan con la plataforma y los sistemas externos con los que se integra.
+
+![System Context View](pawtient-report/assets/images/systemcontextview.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+El diagrama de contenedores del sistema Pawtient presenta una vista de alto nivel de la arquitectura, mostrando los principales bloques tecnológicos y la forma en que interactúan entre sí.
+
+El sistema está compuesto por una aplicación web (frontend), que permite la interacción de los usuarios mediante una interfaz intuitiva; un backend implementado como una API REST, encargado de procesar la lógica de negocio y gestionar las solicitudes; y una base de datos, donde se almacena la información del sistema, como usuarios, mascotas, citas e historiales médicos.
+
+Asimismo, el sistema se integra con servicios externos para el envío de notificaciones y el procesamiento de pagos. La comunicación entre los contenedores se realiza mediante protocolos estándar, garantizando una arquitectura organizada, escalable y mantenible.
+
+![Container View](pawtient-report/assets/images/containerview.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+Los diagramas de componentes del sistema Pawtient representan la estructura interna del backend siguiendo el enfoque de Domain-Driven Design (DDD). La arquitectura se organiza en distintos Bounded Contexts, cada uno enfocado en una responsabilidad específica del sistema: IAM, Profile, Organization, Monitoring and Control, y Reports.
+
+Dentro de cada Bounded Context, los componentes se estructuran en cuatro capas principales: Interfaces, Application, Domain e Infrastructure. La capa de Interfaces gestiona la interacción con los usuarios a través de endpoints REST; la capa de Application coordina la lógica de negocio y los casos de uso; la capa de Domain contiene las entidades y reglas de negocio; y la capa de Infrastructure se encarga de la persistencia de datos mediante repositorios. 
+
+La interacción entre estas capas sigue un flujo definido donde la capa de Interfaces invoca los servicios de Application, los cuales utilizan el Domain para ejecutar la lógica de negocio y la Infrastructure para acceder a la base de datos. Este enfoque permite una clara separación de responsabilidades, facilitando la escalabilidad, mantenibilidad y evolución del sistema.
+
+- Organization Bounded Context
+  ![Organization](pawtient-report/assets/images/organization.png)
+- Monitoring and Control Bounded Context
+  ![Monitoring](pawtient-report/assets/images/monitoring.png)
+- Reports Bounded Context
+  ![Reports](pawtient-report/assets/images/reports.png)
+- Profile Bounded Context
+  ![Profile](pawtient-report/assets/images/profile.png)
+- IAM Bounded Context
+  ![IAM](pawtient-report/assets/images/IAM.png)
 ---
 
 ## 4.7. Software Object-Oriented Design
