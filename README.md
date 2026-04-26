@@ -1357,23 +1357,63 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
 ---
 ## 4.2. Information Architecture
 
+En nuestra aplicación Pawtient nos basamos en un enfoque centrado en el usuario, diferenciando claramanete la experiencia de captación en la Landing Page de la experiencia operativa en la Web Application.
+
+Para la Landing Page, se ha optado por una estructura narrativa que guía al usuario a traves de toda la aplicación para guiarlo de una buena manera, centrandonos en el objetivo
+de ayudar a estos usuarios como una guía de lo que ofrecemos en los planes de membresia, en esta App priorizamos la claridad visual y la confianza hacia el usuario.
+Para esta Web Application, la organización es funcional y modular, permitiendo a veterinarios y administradores acceder a las herramientas de regirstro e inventario con la menor cantidad de clics
+posibles, optimizando asi los procesos diarios.
 
 ### 4.2.1. Organization Systems
 
+Se utiliza un sistema de organización jerárquica para la Landing Page, permitiendo que el usuario entienda primero la propuesta de valor y luego baje
+hacia los detalles de servicios y planes. Para la Web Application, se aplica un sistema orientado a tareas, facilitando que el veterinario acceda directamente a las funciones
+de registro clínico e inventario.
 
 ### 4.2.2. Labeling Systems
 
 
+|  Etiqueta   | Descripción del contenido que representa                 |
+|:-----------:|:---------------------------------------------------------|
+|  `Inicio`   | Página principal con la propuesta de valor de Pawtient.  |
+| `Servicios` | Detalle de las funcionalidades (Historial, Insumo, IoT). |
+| `Membresía` | Planes de Suscripción (Basic, Mid, Pro) y beneficios     |
+| `Contacto`  | Formulario para soporte y consultas de nuevos centros    |
+
 ### 4.2.3. SEO Tags and Meta Tags
 
+**Landing Page**
+
+```html
+<title>Pawtient - Gestión Veterinaria Inteligente e Integral</title>
+<meta name="description" content="Plataforma para digitalizar centros veterinarios, gestionar historiales clínicos" />
+<meta name="keywords" content="veterinaria, gestión clínica, historiales médicos,control de insumos, software veterinario" />
+<meta name="author" content="PetHealth" />
+```
+
+**Web Application**
+
+```html
+<title>[Título de la Web Application]</title>
+<meta name="description" content="Panel de administración para veterinarios: registro clínico, control de inventario de insumos" />
+<meta name="keywords" content="gestión veterinaria, dashboard, historial clínico digital" />
+<meta name="author" content="PetHealth" />
+```
 
 ### 4.2.4. Searching Systems
 
 
+El sistema de búsqueda en Pawtient está diseñado para ser reactivo y eficiente. Se implementará una barra de búsqueda global en el DashBoard que permitirá a los veterianos encontrar
+pacientes por nombre de la mascota, nombre del dueño o DNI del usuario. Ademas, se incluirán filtros avanzados en la sección de inventario para categorizar insumos por tipo. 
 
 ### 4.2.5. Navigation Systems
 
 
+Se han definido tres sistemas de navegación principales para garantizar la usabilidad:
+
+* Navegación Estructural (Menús):La Landing Page utiliza un menú superior fijo con enlaces ancla a las secciones de beneficios y precios. La Web Application utiliza una barra lateral con iconos reconocibles para el acceso rápido.
+* Navegación Asociativa: Se incluyen botones de 'Llamada a la Acción' (CTA) estratégicos como 'Comenzar gratis' para convertir visitantes en usuarios.
+* Navegación de Utilidad: Un menú de perfil de usuario en la esquina superior derecha para gestionar la configuración de la cuenta y el cierre de sesión, manteniendo la consistencia visual mediante el uso de avatars."
 
 ---
 
@@ -1383,10 +1423,55 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
 
 ### 4.3.1. Landing Page Wireframe
 
+En esta sección se presenta los wireframes de la versión Desktop de la Landing page, donde se observa la estructura
+que tiene esta landing, como diversos apartados en donde el usuario pueda interacturar de manera autonoma y con una interfaz fácil de usar.
+
+
+**Desktop Web Browser**
+
+![Page-Wireframe1](pawtient-report/assets/images/landing-page/Page-Wireframe1.png)
+![Page-Wireframe2](pawtient-report/assets/images/landing-page/Page-Wireframe2.png)
+![Page-Wireframe3](pawtient-report/assets/images/landing-page/Page-Wireframe3.png)
+![Page-Wireframe5](pawtient-report/assets/images/landing-page/Page-Wireframe5.png)
+![Page-Wireframe6](pawtient-report/assets/images/landing-page/Page-Wireframe6.png)
+![Page-Wireframe7](pawtient-report/assets/images/landing-page/Page-Wireframe7.png)
+
+**Mobile Web Browser**
+
+![Mobile-Wireframe1](pawtient-report/assets/images/mobile-app/Mobile-Wireframe1.png)
+![Mobile-Wireframe2](pawtient-report/assets/images/mobile-app/Mobile-Wireframe2.png)
+![Mobile-Wireframe3](pawtient-report/assets/images/mobile-app/Mobile-Wireframe3.png)
+![Mobile-Wireframe4](pawtient-report/assets/images/mobile-app/Mobile-Wireframe4.png)
+![Mobile-Wireframe5](pawtient-report/assets/images/mobile-app/Mobile-Wireframe5.png)
+![Mobile-Wireframe6](pawtient-report/assets/images/mobile-app/Mobile-Wireframe6.png)
+![Mobile-Wireframe7](pawtient-report/assets/images/mobile-app/Mobile-Wireframe7.png)
+![Mobile-Wireframe8](pawtient-report/assets/images/mobile-app/Mobile-Wireframe8.png)
 
 ### 4.3.2. Landing Page Mock-up
 
 
+En este apartado se muestra todos los Mocku-ups de nuestra App web, tanto desktop como mobile tienen una interfaz la cual es agradable para el usuario,
+además de ser fácil de poder utilizar, cumple con el objetivo que nosotros queremos ofrecer, asimismo sigue un lineamiento usando
+diversos tipos de colores, tipografías, etc.
+
+**Desktop Web Browser**
+
+![Desktop-Mockup1](pawtient-report/assets/images/landing-page/Page-Mockup1.png)
+![Desktop-Mockup2](pawtient-report/assets/images/landing-page/Page-Mockup2.png)
+![Desktop-Mockup3](pawtient-report/assets/images/landing-page/Page-Mockup3.png)
+![Desktop-Mockup5](pawtient-report/assets/images/landing-page/Page-Mockup5.png)
+![Desktop-Mockup7](pawtient-report/assets/images/landing-page/Page-Mockup7.png)
+**Mobile Web Browser**
+
+![Mobile-Mockup1](pawtient-report/assets/images/mobile-app/Mobile-Mockup1.png)
+![Mobile-Mockup2](pawtient-report/assets/images/mobile-app/Mobile-Mockup2.png)
+![Mobile-Mockup3](pawtient-report/assets/images/mobile-app/Mobile-Mockup3.png)
+![Mobile-Mockup4](pawtient-report/assets/images/mobile-app/Mobile-Mockup4.png)
+![Mobile-Mockup5](pawtient-report/assets/images/mobile-app/Mobile-Mockup5.png)
+![Mobile-Mockup6](pawtient-report/assets/images/mobile-app/Mobile-Mockup6.png)
+![Mobile-Mockup7](pawtient-report/assets/images/mobile-app/Mobile-Mockup7.png)
+![Mobile-Mockup8](pawtient-report/assets/images/mobile-app/Mobile-Mockup8.png)
+![Mobile-Mockup9](pawtient-report/assets/images/mobile-app/Mobile-Mockup9.png)
 ---
 
 ## 4.4. Web Applications UX/UI Design
@@ -1394,22 +1479,63 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
 
 ### 4.4.1. Web Applications Wireframes
 
+**Panorama Completo de los WireFrames Desktop and Mobile**
+
+![Web App Wireframes](pawtient-report/assets/images/landing-page/AllWireframes.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+En esta sección usamos los Wireframes. El objetivos es mostrar la lógica que queremos transmitir para nuestros usuarios
+
 ---
 
-**User goal: `[Nombre del User goal]`**
+**User goal: `[Usuario y selección de Perfil]`**
 
+El Wireflow describe la transición jerárquica desde el punto de entrada público hacia la función de la aplicación. 
+En este apartado se aplica un diseño de navegación lineal, el cual va a garantizar que el usuarios defina su rol
+antes de poder acceder al sistema y realizar los debido servicios. 
 
+![Wireflow Diagrama 4](pawtient-report/assets/images/landing-page/Page-Wireframe4.png)
+![Wireflow Diagrama 4](pawtient-report/assets/images/mobile-app/Mobile-Wireframe4.png)
+
+---
 ### 4.4.3. Web Applications Mock-ups
 
+**Panorama Completo de los Mock-ups Desktop and Mobile, teniendo en cuenta los diversos styles anteriormente puesto**
+
+![Web App Mockups](pawtient-report/assets/images/landing-page/AllMockUps.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+**User goal: `[Usuario y selección de Perfil/ Elección de Membresia]`**
+
+Los diagramas de User Flow presentados ilustran la lógica de navegación y la experiencia del usuario dentro de nuestro sistema
+Pawtient, centrándose en el proceso crítico de elección de rol y la elección de membresia. Esta estructura de flujos asegura 
+que la aplicación web mantenga la integridad de la base de datos y ofrezca una navegación intuitiva y segura en todo momento.
+
+![User Flow Diagrama 1](pawtient-report/assets/images/landing-page/Page-Mockup4.png)
+![User Flow Diagrama 2](pawtient-report/assets/images/mobile-app/Mobile-Mockup4.png)
+![User Flow Diagrama 2](pawtient-report/assets/images/landing-page/Page-Mockup6.png)
 
 ---
 
 ## 4.5. Web Applications Prototyping
+
+*(Introducción explicando los principales criterios para las decisiones de interacción)*
+
+*(Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación)*
+
+**Prototipo Desktop**
+
+![Screenshot Prototipo Desktop](../assets/prototypes/prototype-desktop-screenshot.png)
+
+[Ver video de prototipo Desktop en Microsoft Stream](`URL`)
+
+**Prototipo Mobile**
+
+![Screenshot Prototipo Mobile](../assets/prototypes/prototype-mobile-screenshot.png)
+
+[Ver video de prototipo Mobile en Microsoft Stream](`URL`)
 
 ---
 
@@ -1829,6 +1955,39 @@ Este contexto gestiona la información del perfil de usuario. Se basa en la tabl
 ### 5.3.2. Registro de Entrevistas
 
 
+![Validation Interview Screenshot](../assets/validation/validation-seg1-1.png)
+
+**Resumen:** *(Descripción de las principales apreciaciones del entrevistado)*
+
+### 5.3.3. Evaluaciones según heurísticas
+
+*(Ver formato completo en el Anexo D del enunciado del proyecto)*
+
+**UX Heuristics & Principles Evaluation**
+*Usability – Inclusive Design – Information Architecture*
+
+**Site o App a evaluar:** BrandRadar
+
+**Tareas a evaluar:**
+1. *(Tarea 1)*
+2. *(Tarea 2)*
+3. *(Tarea 3)*
+
+**Escala de Severidad:**
+
+| Nivel | Descripción |
+|:-----:|:------------|
+| 1 | Problema superficial — puede superarse fácilmente o rara vez ocurre |
+| 2 | Problema menor — ocurre con más frecuencia o es algo difícil de superar |
+| 3 | Problema mayor — ocurre frecuentemente o los usuarios no pueden resolverlo |
+| 4 | Problema muy grave — impide al usuario continuar usando la herramienta |
+
+**Tabla Resumen:**
+
+| # | Problema | Severidad | Heurística / Principio violado |
+|:-:|:---------|:---------:|:-------------------------------|
+| 1 | *(Descripción del problema)* | `[1-4]` | `[Heurística]` |
+| 2 | *(Descripción del problema)* | `[1-4]` | `[Heurística]` |
 
 ---
 
