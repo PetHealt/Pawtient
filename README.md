@@ -2465,7 +2465,7 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
-- video de exposición []()
+- video de exposición [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - prototipo web [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
