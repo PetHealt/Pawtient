@@ -189,142 +189,314 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.1.1. Descripción de la Startup
 
+**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales. Nuestro producto principal, **Pawtient**, es una plataforma web diseñada para gestionar la información médica de las mascotas, facilitando el registro de consultas, el seguimiento de tratamientos y el control de historiales clínicos. A través de esta solución, se conecta al personal de las clínicas veterinarias con los dueños de mascotas en un mismo sistema, facilitando la comunicación y el acceso a la información, mejorando la organización de los datos, la gestión de insumos médicos y el monitoreo continuo de cada paciente.
+
+
+- **Misión:** Desarrollar soluciones digitales que mejoren la gestión de los centros veterinarios, facilitando el acceso y control de la información clínica, así como promoviendo una mejor comunicación entre la parte profesional y los dueños de mascotas para brindar una atención de mejor calidad.
+
+
+- **Visión:** Posicionarnos como una startup líder en soluciones tecnológicas para el sector veterinario en Latinoamérica, destacando por una gestión más eficiente y moderna de la salud animal mediante el uso de herramientas digitales.
 
 ---
 
 ###   1.1.2. Perfiles de integrantes del equipo
 
-<div align="center">
-  
-#### Integrante 1
-
-<img src="pawtient-report/assets/images/team/integrante1.png" alt="Foto Integrante 1" width="200"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Salinas Guzmán, Brianna` |
-| **Código de estudiante** | `U202410239` |
-| **Carrera** | Ingeniería de Software |
-
-</div>
-<br>
-
-**Descripción:**
-*Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia trabajando con lenguajes como C++, Pyhton, SQL para base de datos y en la gestión de proyectos utilizando Git y GitHub para el control de versiones. Además, cuento con formación complementaria en marketing digital, lo que me permite aportar una perspectiva orientada al usuario y al posicionamiento del producto. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera clara.*
+|                                         Miembro                                         |                                                                                                                                                                                                                                                                                                                                                Descripción                                                                                                                                                                                                                                                                                                                                                |
+|:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="pawtient-report/assets/images/Capítulo1/members/Gonzalo.png " width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                             |
+| <img src="pawtient-report/assets/images/Capítulo1/members/Mathias.jpeg " width="3000"/> |                                                                                                                                                   **Mathias Joaquin Acuache Lucas \- U202314898** <br> Soy Mathias Joaquin Acuache Lucas, me encuentro en el sexto ciclo de la carrera de ingeniería de software, mi código de alumno es u202314898. Tengo experiencia en C++, SQL, MongoDB, además de utilizar GitHub de manera correcta . Me considero una persona que trata de apoyar en los diversos trabajos en equipo e investigar cosas nuevas.                                                                                                                                                    |
+| <img src="pawtient-report/assets/images/Capítulo1/members/Brianna.png " width="3000"/>  | **Brianna Cristina Salinas Guzman \- U202410239** <br> Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia trabajando con lenguajes como C++, Pyhton, SQL para base de datos y en la gestión de proyectos utilizando Git y GitHub para el control de versiones. Además, cuento con formación complementaria en marketing digital, lo que me permite aportar una perspectiva orientada al usuario y al posicionamiento del producto. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera clara. | 
+|  <img src="pawtient-report/assets/images/Capítulo1/members/Mateo.jpg " width="3000"/>   |                                                                                                                                                                                                                 **Mateo Paolo Salazar Miranda \- U202315171**   <br>  Soy un estudiante responsable y comprometido, con interés en el desarrollo de soluciones tecnológicas innovadoras. Tengo habilidades en trabajo en equipo, pensamiento analítico y resolución de problemas                                                                                                                                                                                                                          | 
+|  <img src="pawtient-report/assets/images/Capítulo1/members/Emily.png " width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
 
 ---
-
-<br>
-
-<div align="center">
-  
-#### Integrante 2
-
-<img src="../assets/team/integrante2.jpg" alt="Foto Integrante 2" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-
-<div align="center">
-  
-#### Integrante 3
-
-<img src="../assets/team/integrante3.jpg" alt="Foto Integrante 3" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-<div align="center">
-
-#### Integrante 4
-
-<img src="../assets/team/integrante4.jpg" alt="Foto Integrante 4" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-<div align="center">
-  
-#### Integrante 5
-
-<img src="../assets/team/integrante5.jpg" alt="Foto Integrante 5" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
 
+#### What? (¿Qué?)
 
+
+#### ¿Cuál es el problema?
+
+
+El problema es que en muchos centros veterinarios la información médica aún se gestiona de forma desordenada o poco organizada, con historiales clínicos dispersos y un control limitado de los insumos. Esto hace que sea más difícil dar un seguimiento adecuado a la salud de las mascotas, afectando la calidad de la atención y reduciendo la confianza de los dueños en el servicio.
+
+
+#### When? (¿Cuándo?)
+
+
+#### ¿Cuándo ocurre el problema?
+
+
+El problema ocurre principalmente durante el registro de consultas, el seguimiento de tratamientos y la gestión de insumos médicos, sobre todo cuando la información se maneja de forma manual o no se actualiza a tiempo, lo que aumenta el riesgo de errores e inconsistencias.
+
+
+#### Where? (¿Dónde?)
+
+
+#### ¿Dónde surge el problema?
+
+
+El problema surge en los procesos internos de la gestión clínica y administrativa dentro de los centros veterinarios, donde la información suele manejarse de forma poco organizada o no centralizada.
+
+
+#### ¿En qué tipo de centros o contextos ocurre esta problemática?
+
+
+Se presenta principalmente en centros veterinarios pequeños y medianos, donde aún se utilizan registros manuales o herramientas poco integradas. Sin embargo, también puede darse en centros más grandes que no cuentan con sistemas unificados, lo que dificulta el acceso oportuno a la información y su correcta gestión.
+
+
+#### Who? (¿Quién?)
+
+
+#### ¿Quiénes son los principales afectados por esta problemática?
+
+
+Los principales afectados son el personal de las clínicas veterinarias y los dueños de mascotas. El personal clínico enfrenta dificultades para acceder a información completa y actualizada, así como para gestionar insumos y operaciones de manera eficiente. Por su parte, los dueños de mascotas tienen un acceso limitado al seguimiento de sus animales y a información clara sobre la atención, lo que puede afectar su confianza en el servicio.
+
+
+#### ¿Quién lo utilizará?
+
+
+El sistema será utilizado por el personal de las clínicas veterinarias para registrar diagnósticos, gestionar tratamientos, supervisar operaciones y controlar insumos. Por su parte, los dueños de mascotas lo utilizarán para consultar el historial médico y dar seguimiento al estado de salud de sus mascotas.
+
+#### Why? (¿Por qué?)
+
+
+#### ¿Cuál es la causa del problema?
+
+
+La principal causa es la falta de digitalización e integración de los procesos dentro de los centros veterinarios, lo que hace que la información se maneje de forma desorganizada, se generen errores en los registros y exista poca comunicación entre los distintos usuarios. Como consecuencia, se dificulta la toma de decisiones, el control de los recursos y la calidad de la atención.
+
+
+#### How? (¿Cómo?)
+
+
+#### ¿En qué condiciones los usuarios usarán nuestro producto?
+
+
+Los usuarios utilizarán la plataforma en sus actividades diarias. El personal de las clínicas veterinarias la empleará durante la atención para registrar diagnósticos, gestionar tratamientos, supervisar insumos y consultar información en tiempo real. Por su parte, los dueños de mascotas la utilizarán para revisar el historial médico, dar seguimiento al estado de sus animales y conocer la información de los profesionales que los atienden.
+
+#### ¿Cómo les gustaría a los usuarios acceder a la plataforma?
+
+
+Los dueños de mascotas prefieren acceder desde sus teléfonos móviles para consultar rápidamente el historial médico, dar seguimiento al estado de salud de sus mascotas y revisar la información de los profesionales. Por su parte, el personal de las clínicas veterinarias utiliza tanto computadoras como dispositivos móviles, ya que esto les permite registrar información clínica en tiempo real y gestionar tratamientos, insumos y operaciones del centro de forma más eficiente.
+
+#### How much? (¿Cuánto?)
+
+
+#### ¿Cómo impacta la gestión ineficiente de la información clínica y de los insumos médicos en la calidad de atención en las clínicas veterinarias?
+
+
+Esto impacta de manera significativa en la calidad de atención en las clínicas o centros veterinarios, ya que el manejo manual y no centralizado de los datos puede generar pérdida, duplicidad y dificultad en el acceso a los registros clínicos, afectando el seguimiento adecuado de los pacientes.
+
+
+De acuerdo con Cedeno Ochoa et al. (2021), en muchos centros veterinarios la información aún se gestiona de forma manual, lo que dificulta la organización de los expedientes y puede ocasionar errores en los registros. Asimismo, la implementación de herramientas digitales permite reducir el tiempo de atención y mejorar la eficiencia en los procesos administrativos.
+
+
+En el contexto peruano, Lolimsa (2024) señala que una inadecuada gestión en centros veterinarios, especialmente en el manejo de información e insumos, puede generar retrasos de atención, desorganización y una disminución en la calidad del servicio. En este sentido, la falta de digitalización impacta negativamente, mientras que soluciones como Pawtient permiten optimizar procesos, reducir errores y ofrecer una atención más eficiente y confiable.
 
 ---
 
 ### 1.2.2. Lean UX Process
 
-
+El proceso de Lean UX es una metodología de diseño enfocada en el usuario que busca mejorar continuamente el producto a partir de la prueba de ideas, la evaluación y la retroalimentación constante. En el caso de Pawtient, se aplicará para entender mejor las necesidades del personal clínico y dueños de mascotas, permitiendo ajustar la plataforma en función de su uso real y mejorar su experiencia de manera progresiva.
 
 #### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro sistema busca mejorar la forma en que los centros veterinarios gestionan su información clínica, facilitando el acceso a datos y control de sus procesos.
+
+
+Hemos observado que en muchos centros la información se maneja de forma manual o mediante sistemas no integrados, lo que dificulta el acceso a datos actualizados, el seguimiento de historiales y la correcta gestión de los insumos médicos.
+
+
+**¿Cómo podemos lograr que los centros veterinarios gestionen su información clínica y sus insumos de manera más organizada, accesible y confiable?**
+
+
+Nuestro producto también busca mejorar la experiencia de los dueños de mascotas, brindándoles mayor acceso y visibilidad sobre la atención que reciben sus animales.
+
+
+Actualmente, muchos dueños cuentan con un acceso limitado a la información sobre la salud de sus mascotas y poca visibilidad sobre la experiencia de los veterinarios, lo que puede generar desconfianza.
+
+
+**¿Cómo podemos facilitar a los dueños de mascotas el acceso a información clara, actualizada y confiable sobre la salud de sus mascotas y la atención brindada?**
+
+
+Nuestro sistema busca optimizar la gestión de los recursos e insumos dentro de las clínicas veterinarias, mejorando la eficiencia de sus procesos operativos.
+
+
+Hemos identificado que la gestión de insumos suele realizarse de forma manual o con herramientas poco integradas, lo que genera desorganización, errores en el control de stock y dificultades en la toma de decisiones.
+
+
+**¿Cómo podemos mejorar el control y la gestión de los recursos e insumos en las clínicas veterinarias para optimizar sus procesos operativos?**
 
 ---
 
 #### 1.2.2.2. Lean UX Assumptions
 
+**Business Assumptions:**
+
+1. **Considero que** los centros veterinarios requieren una forma más ordenada y segura de manejar la información clínica y el seguimiento de sus pacientes.
+2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales médicos, control de insumos y gestión de citas.
+3. **Nuestros primeros usuarios serán** el personal clínico de los centros veterinarios, así como los dueños de mascotas interesados en acceder y dar seguimiento a la información de salud de sus mascotas.
+4. **El principal beneficio que buscan los usuarios es** mejorar la calidad de atención y tomar decisiones basadas en información actualizada.
+5. **El sistema también ofrece** control de inventario, seguimiento de tratamientos y acceso a información del personal veterinario.
+6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con centros veterinarios y recomendaciones dentro del sector.
+7. **Generaré ingresos mediante** un modelo de suscripción mensual con diferentes niveles: Paw Basic(5 USD), Paw Care(15 USD), Paw Pro(30 USD).
+8. **Mi competencia estará conformada** por otros sistemas de gestión veterinaria y soluciones digitales similares.
+9. **Nos diferenciamos por** ofrecer una plataforma fácil de usar, con información centralizada y mayor transparencia para los usuarios.
+10. **Mi principal riesgo** será la baja adopción del sistema debido a la resistencia al cambio o poca familiaridad con herramientas digitales.
+11. **Abordaremos este riesgo mediante** una interfaz simple, guías de uso dentro de la plataforma y un proceso de adopción progresivo que facilite el uso desde el primer momento.
+
+**User Assumptions:**
+
+**¿Quiénes son nuestros usuarios?**
+
+
+Los usuarios de Pawtient son centros veterinarios, incluyendo al personal clínico que buscan mejorar la gestión de la información clínica. También participan los dueños de mascotas, quienes necesitan acceder al historial médico de sus mascotas y conocer información sobre la atención y los profesionales que los atienden.
+
+
+**¿Qué problemas busca resolver nuestro producto?**
+
+
+Pawtient busca resolver la desorganización en los historiales clínicos, la falta de integración de la información y el control limitado de los insumos médicos. También aborda la poca visibilidad que tienen los dueños de mascotas sobre la salud de sus mascotas y la información de los veterinarios.
+
+
+**¿En qué momentos y de qué forma se utiliza el producto?**
+
+
+La plataforma se utiliza durante consultas, seguimiento de tratamientos, gestión de citas y control de insumos. Puede ser accedida desde computadoras o dispositivos móviles, lo que permite trabajar con información en tiempo real desde cualquier lugar.
+
+
+**¿Cómo se integra la solución en la rutina del usuario?**
+
+
+El sistema forma parte de la rutina diaria de los centros veterinarios. El personal clínico lo utiliza durante la atención para registrar diagnósticos, hacer seguimiento a los pacientes y gestionar la información y los recursos del centro. Por su parte, los dueños de mascotas lo utilizan para acceder al historial, consultar información y revisar las citas de sus mascotas.
+
+**¿Qué tan sencilla es la adopción de la plataforma?**
+
+
+La incorporación de la plataforma será progresiva, ya que reemplaza procesos manuales por una solución más organizada. Su diseño simple y fácil de usar permite que los usuarios se adapten rápidamente sin afectar sus actividades habituales.
+
+
+**¿Qué esperan ver los usuarios en la plataforma?**
+
+
+La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles de reconocer, colores adecuados y una estructura que facilite la navegación. Esto permite que los usuarios comprendan rápidamente las funciones y puedan interactuar de forma ágil y sencilla.
+
+
 ---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+- **Hypothesis 01:**
+
+  <br>**Creemos que** el personal clínico mejorará la organización de la información si centraliza los historiales clínicos en una sola plataforma.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** encuentren la información más rápido y disminuyan los errores al momento de registrar o consultar datos.
+
+
+- **Hypothesis 02:**
+
+  <br>**Creemos que** los dueños de mascotas se sentirán más tranquilos con la atención si pueden revisar la información médica de sus mascotas.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** consulten el historial de sus mascotas con frecuencia y expresen mayor seguridad en la información recibida.
+
+
+- **Hypothesis 03:**
+
+  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a que los usuarios cumplan mejor con estas actividades.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** disminuyan las citas perdidas y los usuarios respondan con mayor frecuencia a las notificaciones.
+
+
+- **Hypothesis 04:**
+
+  <br>**Creemos que** el personal clínico registrará la información más rápido si utilizan formularios dentro de la plataforma.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** los registros se completen en menos tiempo y sin repetir información.
+
+
+- **Hypothesis 05:**
+
+  <br>**Creemos que** mostrar el estado actualizado de las mascotas ayudará a los dueños a tomar mejores decisiones.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** los usuarios consulten con frecuencia esta información y la utilicen para el seguimiento de sus mascotas.
+
+
+- **Hypothesis 06:**
+
+  <br>**Creemos que** mostrar la experiencia y credenciales de los veterinarios generará mayor confianza en los dueños de mascotas.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** los usuarios consulten los perfiles de los veterinarios y manifiesten mayor confianza en la atención recibida.
 
 ---
 
 #### 1.2.2.4. Lean UX Canvas
 
+El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer. En el caso de Pawtient, se utiliza para identificar las necesidades del personal clínico y de los dueños de mascotas, y definir cómo la plataforma aporta valor dentro de los centros veterinarios
+
+A continuación, se presenta el Lean UX Canvas de Pawtient:
+
+![Lean UX Canvas](pawtient-report/assets/images/Capítulo1/Lean-UX-Canvas.png)
+
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=122548882114)
+
 ---
 
 ## 1.3. Segmentos objetivo
 
+En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán el personal clínico de los centros veterinarios y los dueños de mascotas.
+
+### Personal de clínico de centros veterinarios
+
+Incluye veterinarios y personal administrativo, quienes necesitan gestionar la información clínica, registrar consultas, controlar insumos y organizar los procesos del centro de forma eficiente.
+
+- **Edad:** 20 a 60 años
+
+
+- **Necesidad clave:** Centralizar información clínica y optimizar la gestión del centro.
+
+
+- **Nivel educativo:** Formación técnica o profesional
+
+
+- **Uso de tecnología:** Uso frecuente de computadoras y dispositivos móviles.
+
+### Dueños de mascotas
+
+
+Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y entender mejor la atención que reciben. Muchas veces no cuentan con acceso a esta.
+
+
+- **Edad:** 18 a 60 años
+
+
+- **Necesidad clave:** Consultar el estado de salud de sus mascotas.
+
+
+- **Nivel educativo:** Variado
+
+
+- **Uso de tecnología:** Uso frecuente de teléfonos móviles.
+
 
 ---
+
 
 <div align="center">
 
@@ -336,56 +508,345 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## 2.1. Competidores
 
+> *(Identificar y describir mínimo 3 competidores directos o indirectos con modelos de negocio basados en productos digitales similares)*
 
 ### 2.1.1. Análisis competitivo
 
+**¿Por qué llevar a cabo este análisis?**
+*(Escribir la pregunta que busca responder o el objetivo de este análisis)*
+
+#### Competitive Analysis Landscape
+
+| | **BrandRadar** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
+|:--|:--:|:--:|:--:|:--:|
+| **Logo** | *(logo)* | *(logo)* | *(logo)* | *(logo)* |
+| **Overview** | | | | |
+| **Ventaja competitiva** | | | | |
+| **Mercado objetivo** | | | | |
+| **Estrategias de marketing** | | | | |
+| **Productos & Servicios** | | | | |
+| **Precios & Costos** | | | | |
+| **Canales de distribución** | | | | |
+| **Fortalezas** | | | | |
+| **Debilidades** | | | | |
+| **Oportunidades** | | | | |
+| **Amenazas** | | | | |
 
 ---
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+*(Describir las estrategias y tácticas preliminares que aplicará el startup para afrontar las fortalezas y aprovechar las debilidades de los competidores, así como el contexto de oportunidades y amenazas)*
 
 ---
 
 ## 2.2. Entrevistas
 
+> *(Investigación basada en recolección de información mediante entrevistas a representantes de los segmentos objetivo)*
 
 ### 2.2.1. Diseño de entrevistas
 
+*(Incluir las preguntas principales y complementarias para entrevistas, dirigidas a cada segmento objetivo)*
+
+**Segmento objetivo 1: `[Nombre del segmento]`**
+
+*Preguntas principales:*
+1. *(Pregunta 1)*
+2. *(Pregunta 2)*
+3. *(Pregunta 3)*
+
+*Preguntas complementarias:*
+1. *(Pregunta complementaria 1)*
+2. *(Pregunta complementaria 2)*
 
 ---
 
+**Segmento objetivo 2: `[Nombre del segmento]`**
 
+*Preguntas principales:*
+1. *(Pregunta 1)*
+2. *(Pregunta 2)*
+3. *(Pregunta 3)*
+
+*Preguntas complementarias:*
+1. *(Pregunta complementaria 1)*
+2. *(Pregunta complementaria 2)*
+
+---
 
 ### 2.2.2. Registro de entrevistas
+<div align="center">
+  
+**Segmento objetivo 1: `nombre del segmento`**
+
+<br>
+
+#### Entrevista 1
+*Imagen de la entrevista*
+
+<img src="../assets/interviews/ss_entrevista_1.png" alt="Screenshot Entrevista 1" width="500"/>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+**Resumen:**
+
+</div>
+
+*(Redactar resumen de la entrevista)*
+
+<br>
+<div align="center">
+  
+#### Entrevista 2
+*Imagen de la entrevista*
+
+<img src="../assets/interviews/ss_entrevista_2.png" alt="Screenshot Entrevista 2" width="1000"/>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+**Resumen:**
+
+</div>
+
+*(Redactar resumen de la entrevista)*
+
+<br>
+<div align="center">
+  
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+<img src="../assets/interviews/ss_entrevista_3.png" alt="Screenshot Entrevista 3" width="500"/>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+**Resumen:**
+
+</div>
+
+*Redactar resumen de la entrevista*
+
+---
+<div align="center">
+  
+**Segmento objetivo 2: `nombre del segmento`**
+
+<br>
+
+#### Entrevista 1
+
+*Imagen de la entrevista*
+
+<img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="500"/>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+**Resumen:**
+
+</div>
+
+*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
+
+<br>
+
+<div align="center">
+  
+#### Entrevista 2
+
+*Imagen de la entrevista*
+
+<img src="../assets/interviews/ss_entrevista_5.png" alt="Screenshot Entrevista 5" width="500"/>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+**Resumen:**
+
+</div>
+
+*(Redactar resumen de la entrevista)*
+
+<br>
+
+<div align="center">
+
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+<img src="../assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="500"/>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+**Resumen:**
+
+</div>
+
+*(Redactar resumen de la entrevista)*
 
 ---
 
 ### 2.2.3. Análisis de entrevistas
 
+> *(Análisis por segmento objetivo con sustento estadístico — porcentajes)*
+
+**Segmento objetivo 1: `[Nombre del segmento]`**
+
+*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
+
+**Segmento objetivo 2: `[Nombre del segmento]`**
+
+*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
 
 ---
 
 ## 2.3. Needfinding
 
-
 ### 2.3.1. User Personas
 
+Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas, representando a los principales segmentos del proyecto. Cada uno sintetiza características, comportamientos y necesidades que orientan el diseño y la propuesta de valor de la plataforma.
+
+User Persona 1: Personal clínico veterinario
+
+Sebastián Navarro es un veterinario joven que trabaja en una clínica y atiende a varios pacientes al día. Su principal reto es organizar la información clínica, gestionar citas e insumos y optimizar su tiempo, por lo que busca herramientas digitales que le permitan trabajar de manera más eficiente.
+
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-2.png)
+
+User Persona 2: Dueña de mascota
+
+Camila Rodríguez es una joven dueña de mascota que busca mantener la salud de su perro bajo control. Su principal dificultad es no contar con información clara y centralizada, por lo que valora soluciones simples que le permitan hacer seguimiento y tomar decisiones con mayor seguridad.
+
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-1.png)
 
 ---
 
 ### 2.3.2. User Task Matrix
 
+##### User Task Matrix - Personal clínico 
+
+| **Tareas / Tasks**                   | **Frecuencia** | **Importancia** |
+|--------------------------------------|----------------|-----------------|
+| Registrar historias clínicas         | Alta           | Muy alta        |
+| Consultar información de pacientes   | Alta           | Muy alta        |
+| Gestionar citas                      | Alta           | Alta            |
+| Controlar inventario de insumos      | Media          | Alta            |
+| Coordinar atención con clientes      | Alta           | Muy alta        |
+| Revisar stock de insumos             | Media          | Alta            |
+| Organizar información clínica        | Alta           | Muy alta        |
+| Realizar seguimiento de tratamientos | Media          | Alta            |
+| Comunicar indicaciones a los dueños  | Alta           | Alta            |
+
+El personal clínico desarrolla tareas constantes enfocadas en el registro, consulta y gestión de información médica, así como en la coordinación de citas y control de insumos. Lo que refleja la necesidad de sistemas que centralicen la información y optimicen el tiempo de trabajo.
+
+##### User Task Matrix - Dueños de mascotas
+
+| **Tareas / Tasks**                          | **Frecuencia** | **Importancia** |
+|---------------------------------------------|----------------|-----------------|
+| Llevar a su mascota al veterinario          | Media          | Muy alta        |
+| Recordar vacunas y tratamiento              | Media          | Muy alta        |
+| Consultar información respecto a su mascota | Alta           | Alta            |
+| Organizar citas veterinarias                | Media          | Alta            |
+| Verificar el estado de salud de su mascota  | Alta           | Muy alta        |
+| Revisar historial antes de una consulta     | Baja           | Alta            |
+| Comprar productos para su mascota           | Media          | Media           |
+| Consultar reseñas de veterinarias           | Alta           | Alta            |
+| Registrar o guardar información médica      | Baja           | Alta            |
+
+Los dueños de mascotas realizan actividades para asegurar su bienestar, vigilar su estado y tomar decisiones sobre su salud. Las tareas principales incluyen administrar vacunas, buscar información confiable y agendar visitas, lo que resalta la necesidad de herramientas para llevar un registro y evitar la pérdida de información.
+
 ---
 
 ### 2.3.3. User Journey Mapping
 
+En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de comprender como es que interactúan los dueños de mascotas y el personal clínico en el contexto de atención veterinaria. Analizamos las distintas etapas que atraviesan, desde la detección de un problema hasta el seguimiento posterior al tratamiento, identificando dificultades y oportunidades de mejora. Este análisis nos permite plantear una solución que se integra de forma natural en sus actividades diarias, facilitando el acceso a la información, mejorando la organización de los procesos y fortaleciendo la calidad de la atención.
 
+**User Journey Map — Personal clínico**
+
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png">
+
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png)
+
+---
+
+**User Journey Map — Dueños de mascotas**
+
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png">
+
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png)
 
 ---
 
 ### 2.3.4. Empathy Mapping
 
+En esta sección se presentarán los Empathy Maps de cada segmento objetivo, construidos a partir de los User Persona previamente definidos. Esta herramienta permite analizar de forma integral lo que los usuarios piensan, sienten, dicen y hacen, facilitando la identificación de sus necesidades, frustraciones y motivaciones. De esta manera, se obtienen insights clave que orientan el diseño de la solución propuesta.
+
+**Empathy Map — Personal clínico**
+
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png">
+
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png)
+
+---
+
+**Empathy Map — Dueños de mascotas**
+
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png">
+
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png)
 
 ---
 
@@ -1204,16 +1665,19 @@ Este contexto gestiona la información del perfil de usuario. Se basa en la tabl
 
 ---
 
-<br>
 
 ##  Bibliografía
 
-*(Listar referencias en formato APA)*
+- Lolimsa(12 de Marzo, 2024 ) _Problemas Comunes en Clínicas Veterinarias y Cómo Prevenirlos_. Recuperado el 25 de abril del 2026 de:
+https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
 
+
+- Rafael Antonio Gutiérrez Lerma (5 de Octubre, 2024) VetStrategies Consulting  _Los principales problemas con clientes y motivos de insatisfacción en clínicas veterinarias_. Recuperado el 25 de abril del 2026 de:  https://www.vetstrategiesconsulting.com/blog/los-principales-problemas-con-clientes-y-motivos-de-insatisfaccion-en-clinicas-veterinarias-
+
+
+- Cedeno Ochoa, A., Catuto Murillo, A., & Rodas-Silva, J. (31 de agosto,2020)._Use of Web applications for the management of veterinary clinics and their impact on the improvement of administrative processes_. Recuperado el 25 de abril del 2026 de:  https://portal.amelica.org/ameli/jatsRepo/606/6062739010/index.html
 
 ---
-
-<br>
 
 ## Anexos
 
