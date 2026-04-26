@@ -1435,245 +1435,281 @@ Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama
 
 ---
 
+
+
 ## 5.2. Landing Page, Services & Applications Implementation
-
 ### 5.2.1. Sprint 1
-
 #### 5.2.1.1. Sprint Planning 1
 
-*(Introducción al Sprint Planning 1)*
+A continuación se presentará el sprint planning para esta primera entrega, donde definimos qué trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
-| Campo | Detalle |
-|:------|:--------|
-| **Sprint #** | Sprint 1 |
-| **Date** | `YYYY-MM-DD` |
-| **Time** | `HH:MM AM/PM` |
-| **Location** | `[Descripción de la ubicación — física o virtual]` |
-| **Prepared By** | `[Apellido, Nombre — Team Leader]` |
-| **Attendees** | `[Apellido1, Nombre1]` / `[Apellido2, Nombre2]` / ... |
-| **Sprint 0 Review Summary** | *(Para el primer sprint, describir el estado inicial del proyecto)* |
-| **Sprint 0 Retrospective Summary** | *(Para el primer sprint, describir las expectativas del equipo)* |
-| **Sprint 1 Goal** | *(Definir el Goal siguiendo la estructura: Our focus is on... We believe it delivers... This will be confirmed when...)* |
-| **Sprint 1 Velocity** | `[Story Points que puede aceptar el equipo]` |
-| **Sum of Story Points** | `[Suma de Story Points del Sprint]` |
-
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                          |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                                                                   |
+| Date                                 | 2026/04/10                                                                                                                                                                                                                                                                                        |
+| Time                                 | 8:00 PM                                                                                                                                                                                                                                                                                           |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                           |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                               |
+| Attendees <br> (to planning meeting) | Brianna Salinas, Emily Arroyo, Mateo Salazar, Mathias Acuache y Gonzalo Quintanilla                                                                                                                                                                                                               |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                   |
+| Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando la página esté desplegada, sea responsiva y sus enlaces funcionen correctamente. |
+| Sprint 1 Velocity                    | 15                                                                                                                                                                                                                                                                                                |
+| Sum of story points                  | 10                                                                                                                                                                                                                                                                                                |
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-*(Introducción explicando los principales aspectos del Sprint)*
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
+Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page desarrollados por el equipo de Pawtient.
 
-| Team Member (Last Name, First Name) | GitHub Username | `[Aspecto 1]` | `[Aspecto 2]` | `[Aspecto 3]` | `[Aspecto n]` |
-|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| `[Apellido, Nombre]` | `[username]` | L | C | C | L |
-| `[Apellido, Nombre]` | `[username]` | C | L | C | C |
-| `[Apellido, Nombre]` | `[username]` | C | C | L | C |
-| `[Apellido, Nombre]` | `[username]` | C | C | C | L |
-| `[Apellido, Nombre]` | `[username]` | L | C | C | C |
+<div style="font-size:70%;">
 
-> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
+| **Team Member** <br> Last Name, First Name |      **GitHub Username**       | **Hero & Global** <br> L/C | **Nav & About us** <br> L/C | **Services & Stats** <br> L/C | **IoT & Roles** <br> L/C | **Pricing & Contact** <br> L/C |
+|:------------------------------------------:|:------------------------------:|:-----------------:|:---------------------:|:---------------------:|:-------------------------:|:--------------------:|
+|         **Quintanilla, Gonzalo** |             GoldQP             |         L         |           C           |           C           |             C             |          C           |
+|         **Salinas, Brianna** |        brianna-salinas         |         C         |           L           |           C           |             C             |          C           |
+|         **Salazar, Mateo** |  Mateo Paolo Salazar Miranda   |         C         |           C           |           L           |             C             |          C           |
+|         **Arroyo, Emily** |             Em2920             |         C         |           C           |           C           |             L             |          C           |
+|         **Acuache, Mathias** |           mathiasA25           |         C         |           C           |           C           |             C             |          L           |
 
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
 ---
 
 #### 5.2.1.3. Sprint Backlog 1
 
-*(Introducción que resume el objetivo principal del Sprint 1)*
+El objetivo principal de este Sprint es **diseñar, implementar y desplegar la Landing Page** de la plataforma Pawtient, de modo que los usuarios (tanto personal clínico como dueños de mascotas) puedan conocer la propuesta de valor, características de la arquitectura, planes de suscripción y medios de contacto. Esto permitirá la primera validación con usuarios reales y sentará las bases para la adquisición B2B y B2C.
 
-**URL del Board en herramienta de control:** [`[URL pública del Board]`](`[URL]`)
-
-*(Screenshot del Board del Sprint 1)*
-
-![Sprint 1 Board](../assets/sprints/sprint1-board.png)
-
-| Sprint # | | | | | | | |
-|:--------:|---|---|---|---|---|---|---|
-| **Sprint 1** | **User Story** | | **Work-Item / Task** | | | | |
-| | **ID** | **Título** | **ID** | **Título** | **Descripción** | **Estimación (h)** | **Asignado a** | **Estado** |
-| | US01 | `[Título]` | T01 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | To-do / In-Process / To-Review / Done |
-| | US01 | | T02 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
-| | US02 | `[Título]` | T03 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="2"><b>Work-Item / Task</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Propuesta de valor para clínicas</td>
+    <td>T01</td>
+    <td>Implementar Hero y Global CSS</td>
+    <td>Estructurar base HTML, variables CSS nativas y vista principal de captación.</td>
+    <td>5</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Propuesta de valor para clínicas</td>
+    <td>T02</td>
+    <td>Implementar sección IoT y Roles</td>
+    <td>Maquetar tarjetas dinámicas de roles y sección de visualización de equipos IoT.</td>
+    <td>4</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Propuesta de valor para dueños</td>
+    <td>T03</td>
+    <td>Implementar Navbar y About Us</td>
+    <td>Crear encabezado interactivo, menús de navegación y sección "Nosotros".</td>
+    <td>4</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Navegación en landing page</td>
+    <td>T04</td>
+    <td>Implementar Servicios y Estadísticas</td>
+    <td>Estilos CSS responsive en Grid/Flexbox para los beneficios y estadísticas.</td>
+    <td>4</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Preguntas frecuentes y Contacto</td>
+    <td>T05</td>
+    <td>Implementar Pricing y Contacto</td>
+    <td>Formularios de contacto e interruptor interactivo para la tabla de precios.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T06</td>
+    <td>Configuración de entorno de trabajo (Git)</td>
+    <td>Crear repositorios, estructurar ramas (GitFlow) y resolver conflictos de fusión.</td>
+    <td>3</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T07</td>
+    <td>Despliegue del Frontend (CI/CD)</td>
+    <td>Configurar entorno en Netlify conectado a la rama main de GitHub.</td>
+    <td>2</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ---
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-*(Introducción resumiendo los principales avances en implementación del Sprint 1)*
+Durante el Sprint 1 se implementó la Landing Page de la solución Pawtient, la cual incluyó la creación de las secciones principales: Hero, Nosotros, Servicios, IoT & Roles, Precios y Contacto. El desarrollo se realizó en el repositorio público https://github.com/PetHealt/Pawtient-landing-page, utilizando un flujo de ramas basado en feature branches (GitFlow).
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
-|:----------:|:------:|:---------:|:--------------:|:-------------------:|:-------------------:|
-| `[user/repo]` | `[branch]` | `[commit-id]` | `[mensaje]` | `[cuerpo]` | `YYYY-MM-DD` |
-| | | | | | |
+**Development Evidence – Sprint 1**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PetHealt/Pawtient-landing-page | main | 8ea012a | release: integra todos los componentes de la landing page en main | Integración final de todos los módulos unificados en la rama principal lista para producción. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 9f54109 | fix:Bug fixes when joining branches | Corrección de errores de código generados durante la fusión de ramas del equipo. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | d2ebdb9 | fix: integra a gonzalo | Integración de los componentes de la rama feat/gonzalo a develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 872d972 | fix: integra a mathias | Integración de los componentes de la rama feat/mathias a develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | fafe731 | fix: integra a mateo | Integración de los componentes de la rama feat/mateo a develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 682dca8 | fix:resolves conflict by keeping Emilys CSS files | Resolución manual de conflictos de fusión priorizando los estilos CSS de Emily. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 02a7120 | Merge pull request #1 from PetHealt/feat/brianna | Aprobación e integración del Pull Request de Brianna hacia develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/emily | 2564363 | feat: add hero.css file | Implementación de estilos visuales específicos para la sección Hero. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/emily | a2e3058 | feat: add contact.css file | Implementación de estilos visuales para la sección y formulario de contacto. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mathias | 62c19f0 | feat: implement navigation bar styles | Desarrollo de estilos responsivos para la barra de navegación interactiva. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mathias | 4c2fa8c | feat: implement iot section styles and logic | Implementación visual y de lógica para el módulo de equipos IoT. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mateo | d9f1939 | feat: implement stats section | Desarrollo de la sección de estadísticas clave de la plataforma. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mateo | 4861df8 | feat: implement services section | Implementación de la sección descriptiva de servicios ofrecidos. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/brianna | a8efe10 | feat: update pricing responsive styles | Ajuste de estilos móviles y responsivos para la tabla de planes de suscripción. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/brianna | 7db2f60 | feat: update script behavior and refine styles | Refinamiento de la lógica de JavaScript y estilos generales del componente. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/brianna | edfe80e | feat: refactor styles structure | Refactorización de la estructura de archivos de estilos modulares. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/gonzalo | 3b3cffb | feat: add index, script, global and about code | Código base HTML, configuración global de CSS Variables y script principal. | 23/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | b38d1d8 | chore: creates an empty folder and file structure | Creación del "molde" inicial con carpetas y archivos CSS vacíos para el equipo. | 23/04/2026 |
+| PetHealt/Pawtient-landing-page | main | df95928 | landing page files | Primer commit con los recursos estáticos iniciales de la Landing Page. | 13/04/2026 |
 
 ---
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-*(Resumen de lo alcanzado en el Sprint 1 — screenshots de vistas implementadas)*
+Durante el **Sprint 1** se implementó la **Landing Page** de la plataforma Pawtient, cumpliendo satisfactoriamente con los objetivos definidos en el Sprint Backlog.  
+La Landing Page constituye el primer punto de interacción con los usuarios, mostrando de forma clara la propuesta de valor dual de la plataforma: herramientas de gestión clínica e inventario para centros veterinarios (B2B) y seguimiento médico para dueños de mascotas (B2C).
 
-*(Descripción de las vistas implementadas)*
+El desarrollo tecnológico se centró en:
+- Diseño responsive (Mobile-First) y navegación estructurada mediante anclas.
+- Secciones implementadas: *Hero, Nosotros, Servicios, Estadísticas, IoT & Roles, Precios y Contacto*.
+- Implementación de **Modo Oscuro (Dark Mode)** nativo e interactivo.
+- Tarjetas desplegables e interruptores dinámicos en la tabla de planes de suscripción.
 
-![Execution Evidence 1](../assets/sprints/sprint1-execution-1.png)
+A continuación, se presentan las capturas de las principales vistas desarrolladas y desplegadas en producción:
 
-[Ver video de ejecución Sprint 1](`URL`)
+*(Nota: Reemplaza las siguientes líneas con las imágenes/capturas reales de tu Landing Page)*
+![Vista del Hero Section y Navbar](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+![Vista de la sección Nosotros y Servicios](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-2.png)
+![Vista de la sección IoT y Roles](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-3.png)
+![Vista de Tabla de Precios y Contacto en Modo Oscuro](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-4.png)
+![Vista de la Landing Page adaptada a formato Móvil](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-5.png)
+![Vista de la Landing Page adaptada a formato Móvil](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.png)
+
+
+Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida de la Landing Page, comprobando su responsividad, el cambio de temas (claro/oscuro) y explicando cada una de las secciones implementadas por el equipo:  
+[Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D])
 
 ---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-*(Introducción resumiendo los logros de Documentación de Web Services para el Sprint 1)*
+Durante el Sprint 1, el esfuerzo técnico y el alcance principal se centraron exclusivamente en el diseño, implementación y despliegue de la Landing Page de captación. Por este motivo, en esta fase iterativa no se desarrollaron servicios de backend (RESTful API) asociados a la lógica de negocio profunda.
 
-> *(Para el Sprint 1, enfocado en Landing Page, puede no aplicar. Documentar si se implementaron endpoints)*
-
-| Endpoint | Acción | Verbo HTTP | Sintaxis | Parámetros | Response ejemplo | URL documentación |
-|:--------:|:------:|:----------:|:--------:|:----------:|:----------------:|:-----------------:|
-| `[endpoint]` | `[acción]` | `GET/POST/PUT/DELETE` | `[sintaxis]` | `[params]` | `[JSON]` | `[URL]` |
+Sin embargo, a partir de las *Technical Stories* definidas en el Product Backlog, se ha establecido la arquitectura inicial de los Web Services y se ha previsto la integración con OpenAPI/Swagger. Esto permitirá, en los sprints posteriores, documentar formalmente los contratos de los endpoints que darán soporte a las funcionalidades *Core* de la plataforma, tales como la autenticación de roles (IAM), la programación de citas médicas, la gestión de historiales clínicos y el control de inventario de suministros veterinarios.
 
 ---
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-*(Introducción explicando las actividades de despliegue realizadas durante el Sprint 1)*
+## Software Deployment Evidence for Sprint Review
 
-*(Capturas e instrucciones de los pasos realizados durante el Sprint: creación de cuentas, configuración de recursos en cloud, configuración de proyectos)*
+Durante el **Sprint 1** se realizó el despliegue exitoso de la **Landing Page** en la plataforma **Netlify**, utilizando el repositorio [PetHealt/Pawtient-landing-page](https://github.com/PetHealt/Pawtient-landing-page).  
+Se optó por Netlify debido a su facilidad para implementar **Continuous Deployment (CD)** desde GitHub. Esto asegura que cualquier cambio aprobado y subido a la rama `main` se publique automáticamente en el servidor de producción sin intervención manual adicional.
 
-![Deployment Evidence 1](../assets/sprints/sprint1-deployment-1.png)
+### 🔹 Proceso seguido
+1. **Conexión de cuenta:** Se vinculó la cuenta de GitHub de la organización **PetHealt** con la plataforma Netlify.
+2. **Selección de repositorio:** Se seleccionó el proyecto `Pawtient-landing-page` para la creación del nuevo sitio.
+3. **Configuración de Build:** Se definió la rama `main` como la rama de producción. Dado que es un sitio estático, no se requirieron comandos de compilación (Build commands) complejos.
+4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos HTML, CSS y JavaScript del repositorio.
+5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
 
+**URL del despliegue:** [https://pawtient.netlify.app/](https://pethealt.netlify.app/)
+
+### 🔹 Evidencias
+A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
+
+1. **Captura del Panel de Netlify:** Donde se vea el estado "Site is live" y la conexión con el repo de GitHub.
+2. **Captura de Deploys Log:** Mostrando el historial de despliegues exitosos.
+3. **Captura del Sitio Web:** La Landing Page cargada en el navegador con el candado de seguridad HTTPS activo.
+
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
 ---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-*(Descripción de las actividades de implementación y capturas de analíticos de colaboración en GitHub)*
+Durante el Sprint 1, el equipo trabajó siguiendo la estrategia de ramificación estandarizada **GitFlow**, creando ramas específicas por cada desarrollador y característica asignada (ejemplo: `feat/gonzalo`, `feat/brianna`, `feat/mateo`, `feat/emily`, `feat/mathias`).
 
-*(Capturas de analíticos de commits por miembro del equipo en GitHub)*
+El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó (*push*) sus cambios a su respectiva rama remota. Posteriormente, el Líder Técnico se encargó de realizar la integración progresiva (*merge*) de todas las ramas hacia `develop`, resolviendo los conflictos de fusión de estilos CSS que surgieron al unir los componentes. Tras la validación en el entorno de desarrollo, el código unificado se consolidó en la rama principal `main` para su despliegue a producción.
 
-![Team Collaboration Sprint 1](../assets/sprints/sprint1-collaboration.png)
+A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
 
----
+*(Nota: Reemplaza las siguientes líneas con tus capturas de GitHub Insights / Network)*
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-graph.png)
+![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors.png)
 
-## 5.3. Validation Interviews
-
-### 5.3.1. Diseño de Entrevistas
-
-*(Elementos a incluir en la sesión de validación por segmento objetivo — Landing Page y aplicaciones)*
-
-**Segmento objetivo 1:**
-*(Especificar user flows que formarán parte del proceso de validación)*
-
-**Segmento objetivo 2:**
-*(Especificar user flows que formarán parte del proceso de validación)*
-
-### 5.3.2. Registro de Entrevistas
-
-*(Para cada segmento se requiere de 3 a 5 entrevistas de validación)*
-
-**Segmento objetivo 1:**
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre]` |
-| **Edad** | `[Edad]` |
-| **Distrito** | `[Distrito]` |
-| **Enlace al video** | [Ver en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-*(Screenshot del video de validación)*
-
-![Validation Interview Screenshot](../assets/validation/validation-seg1-1.png)
-
-**Resumen:** *(Descripción de las principales apreciaciones del entrevistado)*
-
-### 5.3.3. Evaluaciones según heurísticas
-
-*(Ver formato completo en el Anexo D del enunciado del proyecto)*
-
-**UX Heuristics & Principles Evaluation**
-*Usability – Inclusive Design – Information Architecture*
-
-**Site o App a evaluar:** BrandRadar
-
-**Tareas a evaluar:**
-1. *(Tarea 1)*
-2. *(Tarea 2)*
-3. *(Tarea 3)*
-
-**Escala de Severidad:**
-
-| Nivel | Descripción |
-|:-----:|:------------|
-| 1 | Problema superficial — puede superarse fácilmente o rara vez ocurre |
-| 2 | Problema menor — ocurre con más frecuencia o es algo difícil de superar |
-| 3 | Problema mayor — ocurre frecuentemente o los usuarios no pueden resolverlo |
-| 4 | Problema muy grave — impide al usuario continuar usando la herramienta |
-
-**Tabla Resumen:**
-
-| # | Problema | Severidad | Heurística / Principio violado |
-|:-:|:---------|:---------:|:-------------------------------|
-| 1 | *(Descripción del problema)* | `[1-4]` | `[Heurística]` |
-| 2 | *(Descripción del problema)* | `[1-4]` | `[Heurística]` |
-
----
-
-## 5.4. Video About-the-Product
-
-*(Introducción y descripción del Video About-the-Product)*
-
-- **Público objetivo:** Visitantes del Landing Page y usuarios de las aplicaciones
-- **Duración:** 1 a 3 minutos
-- **URL Microsoft Stream:** [`[Nombre del video]`](`URL`)
-- **URL YouTube (para incrustar en Landing Page):** [`[Nombre del video]`](`URL`)
-
-*(Screenshot del video)*
-
-![About the Product Video Screenshot](../assets/videos/about-the-product-screenshot.png)
-
----
-<br>
 
 ## Conclusiones
 
-*(Esta sección se desarrolla progresivamente en cada entrega)*
+1. **Integración y Despliegue Continuo (CI/CD) Exitoso:** La adopción estricta de la metodología de control de versiones *GitFlow* permitió al equipo gestionar de manera asíncrona y eficiente el código fuente de la *Landing Page*. La resolución efectiva de conflictos de fusión (merge conflicts) en la rama `develop` y la posterior automatización del despliegue en Netlify desde la rama `main` demuestran la madurez técnica del equipo en la gestión de la configuración del software.
+2. **Validación Efectiva de la Propuesta de Valor:** El uso de herramientas de diseño UX (Impact Mapping, Wireframes, Mockups) y el desarrollo de una interfaz responsiva con *Dark Mode* nativo garantizaron que la *Landing Page* comunique eficazmente la propuesta de valor dual (B2B2C) de Pawtient. Esto establece un canal de adquisición sólido tanto para el personal clínico como para los dueños de mascotas.
+3. **Arquitectura Escalable basada en DDD:** La aplicación del *Domain-Driven Design* a través del *Event Storming*, sumado al diseño de la base de datos relacional y los diagramas de arquitectura C4, proporciona una base técnica robusta, modular y altamente cohesiva. Esta estructuración mitiga riesgos técnicos tempranos y prepara el terreno para el desarrollo de los módulos de Gestión Clínica e Inventario en los próximos Sprints.
 
-## Recomendaciones
+## Bibliografía
 
-*(Esta sección se desarrolla progresivamente en cada entrega)*
-
-## Video About-The-Team
-
-*(Incluir screenshot, URL de Microsoft Stream y YouTube, y timing del video)*
-
+1. Cedeño Ochoa, A., Catuto Murillo, A., & Rodas-Silva, J. (31 de agosto de 2020). *Use of Web applications for the management of veterinary clinics and their impact on the improvement of administrative processes*. Portal AmeliCA. https://portal.amelica.org/ameli/jatsRepo/606/6062739010/index.html
+2. Chacon, S., & Straub, B. (2014). *Pro Git* (2nd ed.). Apress. https://git-scm.com/book/en/v2
+3. Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+4. Gutiérrez Lerma, R. A. (5 de octubre de 2024). *Los principales problemas con clientes y motivos de insatisfacción en clínicas veterinarias*. VetStrategies Consulting. https://www.vetstrategiesconsulting.com/blog/los-principales-problemas-con-clientes-y-motivos-de-insatisfaccion-en-clinicas-veterinarias
+5. Lolimsa. (12 de marzo de 2024). *Problemas comunes en clínicas veterinarias y cómo prevenirlos*. Lolimsa Blog. https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
+6. Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/scrum-guide.html
+7. W3C. (2023). *HTML5 Semantic Elements*. World Wide Web Consortium. https://www.w3.org/TR/html52/
 ---
 
-<br>
-
-##  Bibliografía
-
-*(Listar referencias en formato APA)*
-
-
----
-
-<br>
 
 ## Anexos
+- Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
+- video de exposición []()
+- prototipo web [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
-### Anexo A: Participant Performance Report
-
-*(Adjuntar como documento Word y PDF por separado)*
-
-### Anexo B: Videos de Exposiciones
-
-| Entrega | Título | Enlace |
-|:-------:|:------:|:------:|
-| AV1 | `upc-pre-202610-1asi0729-[10203]-[pethealt]-expo-av1` | `[URL Microsoft Stream]` |
-
-
----
-
-<div align="center">
-
-<br>
-
-*PetHealt · Aplicaciones Web · UPC 2026-10*
-
-</div>
