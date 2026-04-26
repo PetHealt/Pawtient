@@ -508,100 +508,241 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 
 ## 2.1. Competidores
 
-> *(Identificar y describir mínimo 3 competidores directos o indirectos con modelos de negocio basados en productos digitales similares)*
-
 ### 2.1.1. Análisis competitivo
 
-**¿Por qué llevar a cabo este análisis?**
-*(Escribir la pregunta que busca responder o el objetivo de este análisis)*
+Ahora veremos un análisis competitivo para identificar a los principales actores del mercado de software veterinario (vet-tech) en el Perú y Latinoamérica,
+y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de valor de PetHealth y crear estrategias que nos ayuden a diferenciarnos y capturar la atención de nuestros usuarios, tanto clínicas veterinarias como dueños de mascotas.
 
 #### Competitive Analysis Landscape
-
-| | **BrandRadar** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
-|:--|:--:|:--:|:--:|:--:|
-| **Logo** | *(logo)* | *(logo)* | *(logo)* | *(logo)* |
-| **Overview** | | | | |
-| **Ventaja competitiva** | | | | |
-| **Mercado objetivo** | | | | |
-| **Estrategias de marketing** | | | | |
-| **Productos & Servicios** | | | | |
-| **Precios & Costos** | | | | |
-| **Canales de distribución** | | | | |
-| **Fortalezas** | | | | |
-| **Debilidades** | | | | |
-| **Oportunidades** | | | | |
-| **Amenazas** | | | | |
+<table>
+  <thead>
+    <tr>
+      <th colspan="7"><b>Competitive Analysis Landscape</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="5" align="center">El objetivo de este análisis es identificar las características de los competidores, evaluar sus fortalezas y debilidades, y encontrar maneras de diferenciarnos para obtener una ventaja competitiva en el mercado de software veterinario.</td>
+    </tr>
+      <tr>
+    <td colspan="2" rowspan="2" valign="top">Startup y Competidores</td>
+        <td valign="top" align="center">Nuestra Startup</td>
+        <td valign="top" align="center"></td>
+        <td valign="top" align="center"></td>
+        <td valign="top" align="center"></td>
+  </tr>
+  <tr>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/pawtient.png" alt="Pawtient" height="80" /></td>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/Competidores-logo/SmartVet.png" alt="SmartVet" height="80" /></td>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/Competidores-logo/Qvet.jpg" alt="Qvet" height="80" /></td>
+    <td valign="top" align="center"><img src="pawtient-report/assets/images/Competidores-logo/Provet-cloud.jpeg" alt="Provet Cloud" height="80" /></td>
+   </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Es una plataforma web SaaS orientada a la gestión integral de clínicas veterinarias. Permite gestionar historiales clínicos, citas e inventarios, además de conectar directamente al veterinario con el dueño de la mascota a través de un portal de seguimiento en tiempo real.</td>
+    <td valign="top">Software en la nube para la gestión de clínicas veterinarias, enfocado en simplificar la facturación, los registros médicos y la agenda para consultorios pequeños y medianos en Latinoamérica.</td>
+    <td valign="top">Software de gestión veterinaria muy completo y consolidado. Centraliza desde la historia clínica hasta la facturación y cuenta con un ecosistema de herramientas empresariales muy robusto para el sector hispanohablante.</td>
+    <td valign="top">Es una plataforma veterinaria avanzada basada en la nube que tiene incluido diversas herramientas de IA para dictado de notas médicas para las mascotas. Tiene un sistema “limpio”, esto permite tener una propiedad de los datos para la organización.</td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">Ofrecemos una herramienta simple, accesible y centralizada. Nuestro mayor valor es la visibilidad total que le damos al dueño de la mascota sobre los tratamientos y credenciales de su veterinario, generando confianza y fidelización, todo en un entorno web fácil de usar.</td>
+    <td valign="top">Destaca por su facilidad de uso inicial y su bajo costo para clínicas que recién empiezan a digitalizarse. Su soporte técnico en español es muy valorado en la región.</td>
+    <td valign="top">Destaca por su extrema robustez, capacidad para administrar grupos de clínicas interconectadas, e innovación tecnológica (como el uso de IA para recomendar productos y servicios médicos al cliente).</td>
+    <td valign="top">La principal diferencia es la innovación mediante IA navita. Ofrece un asistente que redacta notas médicas, además de tener un resumen del historial y automatiza la captura de cargos omitidos,etc.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">Clínicas veterinarias de tamaño pequeño a mediano en Perú y Latinoamérica, y dueños de mascotas que exigen transparencia y seguimiento digital de la salud de sus animales.</td>
+    <td valign="top">Consultorios independientes y pequeñas clínicas en Latinoamérica que buscan salir del papel y usar su primer software de gestión.</td>
+    <td valign="top">Clínicas veterinarias de tamaño medio, grandes hospitales y grupos corporativos veterinarios que buscan un control empresarial, clínico y financiero total a gran escala.</td>
+    <td valign="top">Clínicas veterinarias de alta complejidad, además de clínicas con múltiples sedes y servicios especialidades o medicina móvil.</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Marketing digital en redes sociales, demostraciones gratuitas a dueños de clínicas, y estrategias de referidos (dueños de mascotas que recomiendan la plataforma a su veterinario de confianza).</td>
+    <td valign="top">Campañas en Google Ads, presencia en grupos de Facebook de veterinarios y un fuerte enfoque en el marketing de contenidos (blogs y webinars sobre gestión).</td>
+    <td valign="top">Fuerte presencia institucional en congresos veterinarios internacionales, alianzas con colegios veterinarios, y una fuerza de ventas consultiva (B2B) para grandes cuentas.</td>
+    <td valign="top">Herramientas integradas para enviar campañas, promociones y recordatorios automáticos sin esfuerzo manual. Utilizan anuncios diversos de Google Ads.</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Historial clínico digital, agenda de citas, gestión de insumos médicos, portal web para el dueño de la mascota y registro de credenciales del personal médico.</td>
+    <td valign="top">Historias clínicas, agenda, recordatorios automáticos por WhatsApp/Email, control de caja e inventario básico.</td>
+    <td valign="top">Historias clínicas avanzadas, integración directa con equipos de laboratorio, módulo de hospitalización, planes de salud, compras/stock inteligente y gestión de salas de espera.</td>
+    <td valign="top">Gestión de turnos, historias clínicas electrónicas, telemedicina, recetas electrónicas, informes personalizados y gestión de salud de rebaños en un solo click.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">Anual: Desde $60 USD hasta $360 USD. Mensual: plan escalonado de $5, $15, $30 USD.</td>
+    <td valign="top">Anual: Desde $240 USD hasta $480 USD. Mensual: Desde $20 a $40 USD dependiendo del país y funciones.</td>
+    <td valign="top">Anual: Desde $600 USD hasta cotizaciones personalizadas elevadas para grupos de clínicas. Mensual: Desde $50 USD a $100+ USD mensuales, dependiendo fuertemente de los módulos adicionales contratados.</td>
+    <td valign="top">Plan Core: Desde $249/mes incluye 1 veterinarios; personal de apoyo ilimitado gratuito. Plan Pro Desde $299/mes para clínicas con múltiples sedes.</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Plataforma web responsiva (SaaS) accesible desde navegadores en PC o móvil, sin necesidad de instalación.</td>
+    <td valign="top">100% Software como Servicio (SaaS) accesible vía navegador web</td>
+    <td valign="top">Despliegue en la nube (SaaS Cloud) o en servidor local, distribuido a través de asesores de ventas corporativos con procesos de implementación guiada.</td>
+    <td valign="top">100% Web (SaaS) accesible desde cualquier navegador (PC, Mac, tablets) y App móvil para dueños de mascotas.</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">Enfoque dual que empodera al dueño de la mascota. Precios altamente accesibles. Interfaz moderna y sin curva de aprendizaje pronunciada.</td>
+    <td valign="top">Muy posicionado en el mercado hispanohablante. Simple y directo al grano para tareas diarias.</td>
+    <td valign="top">Altamente funcional y personalizable. Cuenta con control exhaustivo de inventario e integraciones con casi cualquier equipo médico de laboratorio.</td>
+    <td valign="top">Alta capacidad de integración (+150 herramientas) y API abierta. Seguridad de datos con 5 capas de producción. Asistente de IA nativo para reducir la carga administrativa del médico.</td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">Al ser una startup nueva, la notoriedad de marca es baja inicialmente. Dependencia de que ambos usuarios (clínica y dueño) adopten la plataforma para generar el valor completo.</td>
+    <td valign="top">Interfaz un poco anticuada. Carece de funciones avanzadas para clínicas que crecen rápidamente y abren nuevas sedes.</td>
+    <td valign="top">Al tener tantas opciones y módulos, la interfaz puede resultar abrumadora y la curva de aprendizaje es larga para el personal nuevo.</td>
+    <td valign="top">Costo inicial más elevado que las soluciones locales básicas.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">La nueva generación de dueños de mascotas exige transparencia digital. Oportunidad de crear alianzas con proveedores de alimentos y medicinas.</td>
+    <td valign="top">Expansión de sus integraciones con métodos de pago locales en diferentes países de Latinoamérica.</td>
+    <td valign="top">Aprovechar su inmensa base de datos clínica para ofrecer analíticas predictivas y expandir versiones "Lite" a consultorios más pequeños.</td>
+    <td valign="top">Creciente demanda en telemedicina y comunicación “mobile-first” en dueños de mascotas jóvenes.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">Resistencia al cambio tecnológico por parte de veterinarios. Que los sistemas consolidados (como SmartVet) bajen sus precios.</td>
+    <td valign="top">La aparición de startups más ágiles con mejores diseños y modelos de precios más agresivos (como PetHealth).</td>
+    <td valign="top">Startups modernas con interfaces más limpias y amigables que resulten más atractivas para las nuevas generaciones de veterinarios.</td>
+    <td valign="top">Inestabilidad de conexiones a internet en zonas rurales, lo que afecta a sistemas 100% nube. Surgimiento de startups locales con precios más bajos y soporte presencial en la región.</td>
+  </tr>
+  <tr>
+</table>
 
 ---
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-*(Describir las estrategias y tácticas preliminares que aplicará el startup para afrontar las fortalezas y aprovechar las debilidades de los competidores, así como el contexto de oportunidades y amenazas)*
+#### Estrategias:
+
+- Posicionar a PetHealth como una solución moderna, accesible e intuitiva, diseñada específicamente para las clínicas veterinarias pequeñas y medianas en Perú, a diferencia de los sistemas ERP corporativos complejos y costosos (como Qvet) o plataformas con interfaces anticuadas (como SmartVet).
+- Enfocarse en la funcionalidad única del modelo dual (B2B2C) que conecta al veterinario directamente con el dueño de la mascota a través de una "Libreta Sanitaria Digital", transformando el software de una simple herramienta administrativa a un canal de fidelización y marketing para la clínica.
+- Ofrecer un modelo de suscripción SaaS escalonado con un plan básico de muy bajo costo ($5 USD), lo cual elimina el riesgo financiero para los emprendedores que buscan dejar el papel, haciéndolo mucho más atractivo que los competidores premium.
+- Posicionar a PetHealth como una alternativa "Lite" y veloz frente a la complejidad de otras aplicaciones (como Provet Cloud). Mientras que otros requieren una curva de aprendizaje alta debido a sus múltiples módulos hospitalarios y de IA, PetHealth elimina la fricción operativa ofreciendo una interfaz web 100% responsive, optimizada para procesos de consulta rápida en clínicas medianas, garantizando que el personal médico no pierda tiempo en menús complejos.
+
+#### Tácticas:
+
+- Desarrollar un proceso de onboarding (registro inicial) autogestionable de menos de 10 minutos y tutoriales interactivos dentro de la plataforma para facilitar la rápida adopción por parte del personal veterinario con baja familiaridad tecnológica.
+- Implementar campañas de educación y marketing en redes sociales (Instagram, TikTok, Facebook) dirigidas a los dueños de mascotas ("Pet Parents") para que sean ellos quienes exijan historiales clínicos transparentes y recomienden PetHealth a sus veterinarios.
+- Establecer alianzas estratégicas con proveedores de insumos médicos, marcas de alimentos para mascotas y colegios veterinarios para llegar a un gran número de clínicas de manera directa y generar confianza institucional.
+- Crear una calculadora interactiva (ROI) dentro de la Landing Page que le muestre a los dueños de las clínicas el ahorro de tiempo, la reducción de inasistencias (gracias a los recordatorios) y el aumento de ganancias que obtendrán al usar PetHealth versus sus métodos manuales actuales
+
 
 ---
 
 ## 2.2. Entrevistas
 
-> *(Investigación basada en recolección de información mediante entrevistas a representantes de los segmentos objetivo)*
+Esta sección expone la investigación basada en entrevistas realizadas a médicos veterinarios (incluyendo administradores de clínicas) y dueños de mascotas, segmentos clave del proyecto. A través de sus testimonios se buscó identificar las principales dificultades en la gestión clínica, administrativa y en el seguimiento de la salud animal, para explorar cómo una solución digital integral podría responder de manera efectiva a sus necesidades
 
 ### 2.2.1. Diseño de entrevistas
 
-*(Incluir las preguntas principales y complementarias para entrevistas, dirigidas a cada segmento objetivo)*
+Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación cualitativa, estructurando las preguntas de lo general a lo específico. El objetivo principal es recolectar información demográfica, psicográfica, conductual y tecnológica de los entrevistados. Estos datos son fundamentales para construir posteriormente nuestros arquetipos (User Personas), identificando su biografía, dispositivos de preferencia, influencias, metas y puntos de dolor respecto a la gestión de salud veterinaria.
 
-**Segmento objetivo 1: `[Nombre del segmento]`**
+**Segmento 1: Médicos Veterinarios y Administradores de Clínicas**
 
-*Preguntas principales:*
-1. *(Pregunta 1)*
-2. *(Pregunta 2)*
-3. *(Pregunta 3)*
+**A. Información Demográfica y Antecedentes**
 
-*Preguntas complementarias:*
-1. *(Pregunta complementaria 1)*
-2. *(Pregunta complementaria 2)*
+- ¿Podría indicarnos su edad, en qué distrito reside y cuál es su estado civil o composición familiar actual?
+
+- ¿Cuál es su cargo exacto en la clínica y cuántos años de experiencia tiene en el rubro veterinario?
+
+- ¿Cómo describiría su personalidad en su entorno de trabajo? (Ej. metódico, tradicional, innovador, acelerado).
+
+**B. Objetivos y Frustraciones**
+
+- ¿Cuáles son sus objetivos profesionales principales para su clínica este año y qué es lo que más le impide lograrlos actualmente?
+
+- Pensando en la gestión diaria (citas, historias clínicas, inventario), ¿cuál es la tarea que considera más tediosa, desordenada o propensa a errores?
+
+- ¿Cómo le afecta a nivel personal (estrés, falta de tiempo libre) el no tener la información de sus pacientes o el stock de insumos centralizados?
+
+**C. Tecnología y Canales de Interacción**
+
+- ¿Qué dispositivos utiliza con mayor frecuencia en su día a día (Smartphone, Laptop) tanto para su vida personal como para la clínica?
+
+- ¿Qué tan hábil se considera aprendiendo a usar nuevos programas y cuáles son sus redes sociales favoritas para informarse o interactuar con colegas?
+
+- ¿Hay alguna marca, empresa o figura pública dentro del rubro veterinario o tecnológico que considere un referente o influencia?
+
+**D. Comportamiento frente a la solución**
+
+Si existiera una herramienta integral que le permitiera gestionar la clínica y fidelizar a sus clientes, ¿qué funciones serían indispensables para que usted decida implementarla?
 
 ---
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
+**Segmento 2: Dueños de Mascotas (Pet Parents)**
 
-*Preguntas principales:*
-1. *(Pregunta 1)*
-2. *(Pregunta 2)*
-3. *(Pregunta 3)*
+**A. Información Demográfica y Antecedentes**
 
-*Preguntas complementarias:*
-1. *(Pregunta complementaria 1)*
-2. *(Pregunta complementaria 2)*
+- ¿Podría indicarnos su edad, ocupación actual, en qué distrito reside y con quiénes vive actualmente?
+
+- Hábleme de su mascota: ¿Qué especie es, cuántos años tiene y cómo llegó a su vida?
+
+- ¿Cómo describiría su personalidad como dueño de mascota? (Ej. sobreprotector, relajado, muy organizado con sus cosas).
+
+**B. Objetivos y Frustraciones**
+
+- ¿Cuál es su objetivo principal respecto a la salud de su mascota y qué es lo que más le genera estrés cuando tiene que llevarla al veterinario?
+
+- ¿Cómo se organiza para recordar sus vacunas, citas o encontrar su historial médico si tiene que ir a una clínica nueva?
+
+- ¿Alguna vez ha olvidado una indicación médica importante o ha perdido una receta física? ¿Cómo resolvió esa situación?
+
+**C. Tecnología y Canales de Interacción**
+
+- ¿Qué dispositivos tecnológicos utiliza principalmente en su rutina y cuáles son las aplicaciones o redes sociales donde pasa más tiempo?
+
+- Cuando compra productos para su mascota (comida, accesorios), ¿qué marcas suele preferir y por qué confía en ellas?
+
+- ¿Sigue a algún influencer de mascotas, veterinario en redes sociales o blog que influya en la manera en que cuida a su animal?
+
+**D. Comportamiento frente a la solución**
+
+- Si existiera una plataforma web donde pudiera ver todo el historial de su mascota, recibir recordatorios y agendar citas desde su celular, ¿qué características harían que la use constantemente?
 
 ---
 
 ### 2.2.2. Registro de entrevistas
 <div align="center">
   
-**Segmento objetivo 1: `nombre del segmento`**
+**Segmento objetivo 1: `Personal de clínico de centros veterinarios`**
 
 <br>
 
 #### Entrevista 1
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_1.png" alt="Screenshot Entrevista 1" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/valeria.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                                                       |
+|:------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombres y apellidos** | Valeria Nomberto                                                                                                                                                                                                                                                                                                                                              |
+| **Edad** | 23                                                                                                                                                                                                                                                                                                                                                            |
+| **Ubicación** | Lince                                                                                                                                                                                                                                                                                                                                                         |
+| **Fecha de entrevista** | 21-04-2026                                                                                                                                                                                                                                                                                                                                                    |
+| **Duración** | 05:59 min                                                                                                                                                                                                                                                                                                                                                     |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAz3Em-fhe6R7-5goCWq0-YAWzVewgdUXIBFNEKZiFuhOE?e=kimAI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Valeria es una médica veterinaria de 23 años que trabaja en el distrito de Lince, Lima. Se define como una profesional responsable, empática y muy organizada, con aproximadamente dos años de experiencia en el sector. Su principal meta para este año es digitalizar los procesos de su clínica para mejorar la fidelización de los clientes y optimizar la gestión interna. Actualmente, su mayor dificultad es el desorden y la dispersión de las historias clínicas físicas, lo que le genera estrés y le resta tiempo libre. Por ello, busca una herramienta que centralice la gestión de citas, inventarios e historiales médicos en una plataforma accesible desde el celular.
 
 <br>
 <div align="center">
@@ -609,24 +750,24 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 #### Entrevista 2
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_2.png" alt="Screenshot Entrevista 2" width="1000"/>
+<img src="pawtient-report/assets/images/Entrevista/Adrian.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                     |
+|:------|:------------------------------------------------------------|
+| **Nombres y apellidos** | Adrian                                                      |
+| **Edad** | 35                                                          |
+| **Ubicación** | Miraflores                                                  |
+| **Fecha de entrevista** | 22-04-2026                                                  |
+| **Duración** | 05:44 min                                                   |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQBBtDDT9R0bQpGUDj6Uw9XeAbjQ6oExcvphcoKBd82sQ7o?e=80gFgA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Adrián es un médico veterinario de 35 años residente en Miraflores con una década de experiencia profesional, quien se define como una persona metódica y responsable que busca optimizar la gestión interna y la fidelización de clientes en su clínica. Su mayor desafío es el estrés provocado por la gestión manual de citas y el uso de historias clínicas en papel o Excel, lo que le genera errores y le impide desconectarse totalmente del trabajo, por lo cual considera fundamental implementar una agenda digital automatizada y un control de inventarios en tiempo real que facilite su labor diaria y mejore la comunicación con los dueños de las mascotas.
 
 <br>
 <div align="center">
@@ -635,29 +776,29 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_3.png" alt="Screenshot Entrevista 3" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Luciana.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                      |
+|:------|:-------------------------------------------------------------|
+| **Nombres y apellidos** | Luciana Quintana                                             |
+| **Edad** | 28                                                           |
+| **Ubicación** | Surco                                                        |
+| **Fecha de entrevista** | 22-04-2026                                                   |
+| **Duración** | 05:18 min                                                     |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCMlNh3l3N6TZPQPy1mHg6RAVOCx3wuJoNC11qLxFvlMrY?e=4XiPy9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*Redactar resumen de la entrevista*
+Luciana es una veterinaria y administradora de 28 años que reside en Surco y cuenta con tres años de experiencia, desempeñando un rol multifuncional donde su perfil organizado choca frecuentemente con la falta de tiempo y el desorden en los procesos internos. Para ella, el manejo de información no centralizada y la necesidad de resolver temas administrativos fuera del horario laboral representan su principal fuente de estrés, por lo que aspira a que la clínica crezca mediante una herramienta integral que digitalice las historias médicas y automatice los recordatorios mediante dispositivos móviles, permitiéndole ser más práctica y elevar la calidad del servicio.
 
 ---
 <div align="center">
   
-**Segmento objetivo 2: `nombre del segmento`**
+**Segmento objetivo 2: `Dueños de mascotas`**
 
 <br>
 
@@ -665,25 +806,24 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Pierina.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                     |
+|:------|:------------------------------------------------------------|
+| **Nombres y apellidos** | Pierina                                                     |
+| **Edad** | 29                                                          |
+| **Ubicación** | Surco                                                       |
+| **Fecha de entrevista** | 20-04-2026                                                  |
+| **Duración** | 07:57 min                                                   |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAFfPb10NeoRrgpyDAsrwO9AV0mvrXDNFWqMpHT4T8IZZ4?e=LIlQpN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
-
+Pierina es una estudiante de Ingeniería de Software de 19 años que vive en San Juan de Lurigancho y tiene dos perros de raza pequeña de cuatro años, adoptados de la camada de un familiar. Se considera una dueña sobreprotectora y su principal objetivo es mantener a sus mascotas saludables y libres de parásitos, especialmente por la presencia de perros callejeros en su zona. Le genera preocupación llevarlos al veterinario por posibles malos tratos y tiene dificultades para organizar el historial médico y las vacunas, ya que utiliza una cartilla física que puede perderse o no siempre está disponible. Utiliza TikTok e Instagram para buscar recomendaciones y sigue a veterinarios en redes sociales. Además, señala que usaría una plataforma digital si le permitiera organizar el historial médico, recibir recordatorios de vacunas, agendar citas y ver reseñas de veterinarias.
 <br>
 
 <div align="center">
@@ -692,24 +832,24 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_5.png" alt="Screenshot Entrevista 5" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Mauricio.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                     |
+|:------|:------------------------------------------------------------|
+| **Nombres y apellidos** | Mauricio Canchis                                            |
+| **Edad** | 29                                                          |
+| **Ubicación** | Surco                                                       |
+| **Fecha de entrevista** | 18-04-2026                                                  |
+| **Duración** | 08:42 min                                                   |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDpOEyAXDKrSabjI835Bo8_AaRMpQ-XQfXEVC77FQGQYfo?e=vnulnX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Mauricio es un estudiante universitario de 29 años que reside en Surco y es dueño de un perro pequeño. Debido a su pesada carga académica y a que posee una memoria que él mismo describe como "frágil", le resulta complicado mantenerse al día con los cuidados de su mascota. Su principal frustración es el tiempo que consume ir al veterinario y la dificultad para recordar las fechas de vacunación o citas médicas. Es un usuario intensivo de smartphone y WhatsApp, y admite que no recuerda nombres de marcas, sino que compra productos guiándose por el reconocimiento visual de los colores del empaque. Para él, lo más valioso de una plataforma digital sería recibir notificaciones y recordatorios automáticos que le quiten la preocupación de olvidar los eventos de salud de su perro.
 
 <br>
 
@@ -719,38 +859,61 @@ Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Jorge.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                      |
+|:------|:-------------------------------------------------------------|
+| **Nombres y apellidos** | Jorge                                                        |
+| **Edad** | 20                                                           |
+| **Ubicación** | La Victoria                                                  |
+| **Fecha de entrevista** | 21-04-2026                                                   |
+| **Duración** | 06:16 min                                                    |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQACXesV91lmRpPN6yBDOZ3EAa3Z8Y0G0-DjIC18S1qX8jk?e=1VGFIk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Jorge es un estudiante universitario de 20 años que vive en La Victoria junto a su hermano y tiene un perro Golden Retriever de 6 años que llegó como regalo. Se considera un dueño equilibrado entre relajado y sobreprotector, y su principal objetivo es brindarle calidad de vida a su mascota. Le genera estrés llevarlo al veterinario porque su perro le tiene miedo y porque a veces detecta problemas tarde, lo que aumenta los costos. Ha perdido indicaciones médicas anteriormente y ha tenido que volver al veterinario. Utiliza principalmente su celular y computadora, y aplicaciones como Instagram, WhatsApp y Google Calendar. Prefiere marcas de comida recomendadas como Pro Plan y sigue consejos de veterinarios en redes sociales. Además, usaría una plataforma digital si incluyera historial médico, recordatorios y recomendaciones para el cuidado de su mascota.
 
 ---
 
 ### 2.2.3. Análisis de entrevistas
 
-> *(Análisis por segmento objetivo con sustento estadístico — porcentajes)*
+**Segmento objetivo 1: `Personal de clínico de centros veterinarios`**
 
-**Segmento objetivo 1: `[Nombre del segmento]`**
+Tras analizar las entrevistas realizadas a los profesionales del sector veterinario, se han identificado las siguientes características objetivas y subjetivas, las cuales servirán de base para la construcción de nuestro User Persona:
 
-*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
+* **Perfil Demográfico (Características objetivas):** El 100% de los entrevistados son profesionales activos (médicos veterinarios y administradores) con edades comprendidas entre los 23 y 35 años, operando en diversos distritos de Lima Metropolitana. El 100% cuenta con experiencia laboral previa en el rubro, variando entre 2 y 10 años.
 
-*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
+
+* **Perfil Psicológico y Conductual (Características subjetivas):** El 100% de la muestra se autodefine con rasgos de personalidad orientados al orden (organizados, metódicos y responsables). A nivel de metas profesionales, el 100% tiene como objetivo principal optimizar la gestión interna de sus clínicas para mejorar la calidad del servicio y fidelizar a sus clientes.
+
+
+* **Puntos de Dolor (Pain Points):** Existe una coincidencia absoluta; el 100% de los profesionales reporta altos niveles de estrés derivados de la gestión manual y desordenada de la información (uso de historias clínicas en papel o Excel y agendas manuales). Asimismo, el 100% manifiesta que esta ineficiencia operativa invade su vida personal, obligándolos a realizar labores administrativas fuera de su horario y dificultando su desconexión del trabajo.
+
+
+* **Necesidades y Soluciones Esperadas:** El 100% de los entrevistados expresa la necesidad urgente de una transformación digital. Buscan una herramienta tecnológica integral, con accesibilidad móvil (mencionada explícitamente), que les permita centralizar tres pilares fundamentales: historias clínicas, agendamiento de citas y control de inventarios en tiempo real.
+
+
+**Segmento objetivo 2: `Dueños de mascotas`**
+
+El análisis de las entrevistas a los dueños de mascotas revela patrones de comportamiento muy marcados respecto a la responsabilidad y la gestión del tiempo, delineando el siguiente perfil para el arquetipo:
+
+
+* **Perfil Demográfico (Características objetivas):** El 100% de los entrevistados son jóvenes adultos y estudiantes universitarios (rango de 19 a 29 años) residentes en Lima. El 100% son dueños de perros y son usuarios intensivos de dispositivos móviles (smartphones) y plataformas digitales (Instagram, WhatsApp, TikTok).
+
+
+* **Perfil Psicológico y Conductual (Características subjetivas):** El 100% tiene como prioridad fundamental garantizar la salud, prevención (libre de parásitos) y calidad de vida de sus mascotas. A nivel de personalidad frente a su mascota, el 66.7% (2 de 3) se autodenomina con tendencias "sobreprotectoras". Además, el 100% lleva un ritmo de vida acelerado y con alta carga de responsabilidades académicas.
+
+
+* **Puntos de Dolor (Pain Points):** El 100% de la muestra experimenta frustración y dificultades severas para organizar la información médica de sus mascotas. Manifiestan problemas de "memoria frágil", pérdida de indicaciones médicas y extravío de cartillas físicas de vacunación. Adicionalmente, el 66.7% asocia la visita al veterinario con experiencias de estrés, ya sea por el tiempo que consume o por el miedo que experimentan sus mascotas.
+
+
+* **Necesidades y Soluciones Esperadas:** El 100% de los dueños afirma que utilizaría activamente una plataforma digital si esta resuelve su problema de memoria y organización. Su necesidad principal, exigida por el 100% de la muestra, es un sistema que envíe notificaciones y recordatorios automáticos (vacunas, citas) y que digitalice el historial médico para tenerlo siempre disponible en el celular.
 
 ---
 
@@ -851,6 +1014,32 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 ---
 
 ## 2.4. Big Picture Event Storming
+
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
+
+**1. OPEN**
+
+En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden en el negocio) escribiendo en los post-its naranjas.
+
+![Open](pawtient-report/assets/images/Big-Picture-Event-Storming/open.png)
+
+**2. Explore**
+
+Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos, identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
+
+![Explore](pawtient-report/assets/images/Big-Picture-Event-Storming/Explore.png)
+
+**3. Close**
+
+En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados, junto con aspectos que debíamos investigar más a fondo o descartar según el alcance definido.
+
+![Close](pawtient-report/assets/images/Big-Picture-Event-Storming/Close.png)
+
+Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
+
+![Big Picture Final](pawtient-report/assets/images/Big-Picture-Event-Storming/Big-picture-event-storming.png)
+
+[Ver en miro](https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919)
 
 
 ---
@@ -1543,6 +1732,32 @@ que la aplicación web mantenga la integridad de la base de datos y ofrezca una 
 
 ### 4.6.1. Design-Level Event Storming
 
+En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
+
+
+**IAM Bounded Context**
+![IAM](pawtient-report/assets/images/Design-Level-Event-Storming/IAM.png)
+
+**Profile Bounded Context**
+![Profile](pawtient-report/assets/images/Design-Level-Event-Storming/Profile.png)
+
+**Clinic Bounded Context**
+![Clinic](pawtient-report/assets/images/Design-Level-Event-Storming/Clinic.png)
+
+**Appointment Bounded Context**
+![Appointment](pawtient-report/assets/images/Design-Level-Event-Storming/Appoiments.png)
+
+**Report Bounded Context**
+![Report](pawtient-report/assets/images/Design-Level-Event-Storming/Reports.png)
+
+**Store Bounded Context**
+![Store](pawtient-report/assets/images/Design-Level-Event-Storming/Store.png)
+
+**Bounded Contexts y sus relaciones**
+![Bounded Contexts](pawtient-report/assets/images/Design-Level-Event-Storming/Bounded-Context.png)
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente marco los eventos de dominio que fueron implementados.
+
+[Ver en miro](https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919)
 
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -1879,173 +2094,378 @@ Este contexto gestiona la información del perfil de usuario. Se basa en la tabl
 
 ### 5.1.1. Software Development Environment Configuration
 
+Para el desarrollo de Pawtient, el equipo ha estandarizado un entorno de desarrollo y un conjunto de tecnologías que aseguran la compatibilidad y fluidez del trabajo conjunto en todo el ciclo de vida del producto:
 
+| Categoría | Producto |                                  Propósito                                  | Ruta / URL                     |
+|:----------|:--------:|:---------------------------------------------------------------------------:|:-------------------------------|
+| Project Management | Jira |              Gestión ágil de Sprints, tareas y Product Backlog              | https://jira.it.tuwien.ac.at/  |
+| Requirements Management | UXPressia |                 Elaboración de Impact Maps y User Personas                  | https://uxpressia.com          |
+| Product UX/UI Design | Figma |                     Wireframes, Mockups y Prototipos UI                     | https://figma.com              |
+| Software Development | Visual Studio Code |            Editor principal para desarrollo web (HTML, CSS, JS)             | https://code.visualstudio.com/ |
+| Software Development | Angular CLI |            Framework principal para el Frontend Web Application             | https://angular.io             |
+| Software Development | Spring Boot |              Framework principal para los RESTful Web Services              | https://spring.io              |
+| Software Deployment | GitHub Pages |                   Despliegue estático de la Landing Page                    | https://pages.github.com/      |
+| Software Documentation | Swagger / OpenAPI |                Documentación interactiva de los Web Services                | https://swagger.io/            |
+| Version Control | Git + GitHub |                 Control de versiones y trabajo colaborativo                 | https://github.com             |
+|Miro   |Diseño| Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be). |https://miro.com   |
 ---
 
 ### 5.1.2. Source Code Management
 
+El código fuente de Pawtient se gestiona bajo una arquitectura de repositorios separados para garantizar modularidad.
+
+**Organización de GitHub:** [PetHealt](https://github.com/PetHealt)
+
+|      Producto       |       Repositorio       | URL                                             |
+|:-------------------:|:-----------------------:|:------------------------------------------------|
+| Organización Flowey |       `Pawtient`        | https://github.com/FloweyTech     |
+|    Landing Page     | `Pawtient-landing-page` | https://github.com/PetHealt/Pawtient-landing-page     |
+|       Report        |    `Pawtient-report`    | https://github.com/PetHealt/Pawtient-report    |
+
+**GitFlow Workflow:**
+
+Se implementará GitFlow con las siguientes ramas:
+
+| Rama | Propósito | Convención de nombre |
+|:-----|:---------:|:---------------------|
+| `main` | Código en producción | `main` |
+| `develop` | Integración de features | `develop` |
+| `feature/*` | Desarrollo de características | `feature/<nombre-descriptivo>` |
+| `release/*` | Preparación de releases | `release/vX.Y.Z` (ej: `release/1.0.0`) |
+| `hotfix/*` | Correcciones urgentes en producción | `hotfix/<problema>` |
+
+**Semantic Versioning:** Se aplica [Semantic Versioning 2.0.0](https://semver.org/) para nombrar los releases (`MAJOR.MINOR.PATCH`).
+
+**Conventional Commits:** Se aplican [Conventional Commits](https://www.conventionalcommits.org/) para los mensajes de commits:
 
 
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+| Lenguaje / Framework | Convención adoptada | Referencia |
+|:--------------------:|:-------------------:|:-----------|
+| HTML | HTML Style Guide | https://www.w3schools.com/html/html5_syntax.asp |
+| CSS | BEM & Custom Properties | Guía de estilo interna (Uso estricto de variables en `:root`) |
+| JavaScript / TypeScript | Google TypeScript Style Guide | https://google.github.io/styleguide/tsguide.html |
+| Angular | Angular coding style guide | https://angular.io/guide/styleguide |
+| Java | Google Java Style Guide | https://google.github.io/styleguide/javaguide.html |
+| Spring Boot | Spring Boot Features | https://docs.spring.io/spring-boot/docs/current/reference/html/features.html |
+| Gherkin (Acceptance Criteria) | Gherkin Conventions | https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ |
 
+> **Nota:** Para todos los lenguajes se aplica la nomenclatura en **inglés**.
 
 ---
 
 ### 5.1.4. Software Deployment Configuration
 
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-1.png)
 
+2. **Autorizar a Netlify**<br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+    ![Screenshot 2 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-2.jpeg)
+3. **Escoger tu deploy**<br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+    ![Screenshot 3 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
+
+4. **Escoger tu repositorio**<br>
+    Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+    ![Screenshot 4 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-4.png)
+5. **Configurar el despliegue**<br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+    ![Screenshot 5 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-5.png)
+
+6. **Seguir configurando**<br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+    ![Screenshot 6 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-6.png)
+
+7. **Despliegue listo**<br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos.
+
+[Ver Landing Page desplegada](`https://pethealt.netlify.app/`)
 
 ---
 
+
+
 ## 5.2. Landing Page, Services & Applications Implementation
-
 ### 5.2.1. Sprint 1
-
 #### 5.2.1.1. Sprint Planning 1
 
+A continuación se presentará el sprint planning para esta primera entrega, donde definimos qué trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
-
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                          |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                                                                   |
+| Date                                 | 2026/04/10                                                                                                                                                                                                                                                                                        |
+| Time                                 | 8:00 PM                                                                                                                                                                                                                                                                                           |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                           |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                               |
+| Attendees <br> (to planning meeting) | Brianna Salinas, Emily Arroyo, Mateo Salazar, Mathias Acuache y Gonzalo Quintanilla                                                                                                                                                                                                               |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                   |
+| Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando la página esté desplegada, sea responsiva y sus enlaces funcionen correctamente. |
+| Sprint 1 Velocity                    | 15                                                                                                                                                                                                                                                                                                |
+| Sum of story points                  | 10                                                                                                                                                                                                                                                                                                |
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
+Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page desarrollados por el equipo de Pawtient.
 
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name |      **GitHub Username**       | **Hero & Global** <br> L/C | **Nav & About us** <br> L/C | **Services & Stats** <br> L/C | **IoT & Roles** <br> L/C | **Pricing & Contact** <br> L/C |
+|:------------------------------------------:|:------------------------------:|:-----------------:|:---------------------:|:---------------------:|:-------------------------:|:--------------------:|
+|         **Quintanilla, Gonzalo** |             GoldQP             |         L         |           C           |           C           |             C             |          C           |
+|         **Salinas, Brianna** |        brianna-salinas         |         C         |           L           |           C           |             C             |          C           |
+|         **Salazar, Mateo** |  Mateo Paolo Salazar Miranda   |         C         |           C           |           L           |             C             |          C           |
+|         **Arroyo, Emily** |             Em2920             |         C         |           C           |           C           |             L             |          C           |
+|         **Acuache, Mathias** |           mathiasA25           |         C         |           C           |           C           |             C             |          L           |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
 ---
 
 #### 5.2.1.3. Sprint Backlog 1
 
+El objetivo principal de este Sprint es **diseñar, implementar y desplegar la Landing Page** de la plataforma Pawtient, de modo que los usuarios (tanto personal clínico como dueños de mascotas) puedan conocer la propuesta de valor, características de la arquitectura, planes de suscripción y medios de contacto. Esto permitirá la primera validación con usuarios reales y sentará las bases para la adquisición B2B y B2C.
+
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="2"><b>Work-Item / Task</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Propuesta de valor para clínicas</td>
+    <td>T01</td>
+    <td>Implementar Hero y Global CSS</td>
+    <td>Estructurar base HTML, variables CSS nativas y vista principal de captación.</td>
+    <td>5</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Propuesta de valor para clínicas</td>
+    <td>T02</td>
+    <td>Implementar sección IoT y Roles</td>
+    <td>Maquetar tarjetas dinámicas de roles y sección de visualización de equipos IoT.</td>
+    <td>4</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Propuesta de valor para dueños</td>
+    <td>T03</td>
+    <td>Implementar Navbar y About Us</td>
+    <td>Crear encabezado interactivo, menús de navegación y sección "Nosotros".</td>
+    <td>4</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Navegación en landing page</td>
+    <td>T04</td>
+    <td>Implementar Servicios y Estadísticas</td>
+    <td>Estilos CSS responsive en Grid/Flexbox para los beneficios y estadísticas.</td>
+    <td>4</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Preguntas frecuentes y Contacto</td>
+    <td>T05</td>
+    <td>Implementar Pricing y Contacto</td>
+    <td>Formularios de contacto e interruptor interactivo para la tabla de precios.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T06</td>
+    <td>Configuración de entorno de trabajo (Git)</td>
+    <td>Crear repositorios, estructurar ramas (GitFlow) y resolver conflictos de fusión.</td>
+    <td>3</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T07</td>
+    <td>Despliegue del Frontend (CI/CD)</td>
+    <td>Configurar entorno en Netlify conectado a la rama main de GitHub.</td>
+    <td>2</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ---
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+Durante el Sprint 1 se implementó la Landing Page de la solución Pawtient, la cual incluyó la creación de las secciones principales: Hero, Nosotros, Servicios, IoT & Roles, Precios y Contacto. El desarrollo se realizó en el repositorio público https://github.com/PetHealt/Pawtient-landing-page, utilizando un flujo de ramas basado en feature branches (GitFlow).
+
+**Development Evidence – Sprint 1**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PetHealt/Pawtient-landing-page | main | 8ea012a | release: integra todos los componentes de la landing page en main | Integración final de todos los módulos unificados en la rama principal lista para producción. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 9f54109 | fix:Bug fixes when joining branches | Corrección de errores de código generados durante la fusión de ramas del equipo. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | d2ebdb9 | fix: integra a gonzalo | Integración de los componentes de la rama feat/gonzalo a develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 872d972 | fix: integra a mathias | Integración de los componentes de la rama feat/mathias a develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | fafe731 | fix: integra a mateo | Integración de los componentes de la rama feat/mateo a develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 682dca8 | fix:resolves conflict by keeping Emilys CSS files | Resolución manual de conflictos de fusión priorizando los estilos CSS de Emily. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | 02a7120 | Merge pull request #1 from PetHealt/feat/brianna | Aprobación e integración del Pull Request de Brianna hacia develop. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/emily | 2564363 | feat: add hero.css file | Implementación de estilos visuales específicos para la sección Hero. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/emily | a2e3058 | feat: add contact.css file | Implementación de estilos visuales para la sección y formulario de contacto. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mathias | 62c19f0 | feat: implement navigation bar styles | Desarrollo de estilos responsivos para la barra de navegación interactiva. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mathias | 4c2fa8c | feat: implement iot section styles and logic | Implementación visual y de lógica para el módulo de equipos IoT. | 25/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mateo | d9f1939 | feat: implement stats section | Desarrollo de la sección de estadísticas clave de la plataforma. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/mateo | 4861df8 | feat: implement services section | Implementación de la sección descriptiva de servicios ofrecidos. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/brianna | a8efe10 | feat: update pricing responsive styles | Ajuste de estilos móviles y responsivos para la tabla de planes de suscripción. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/brianna | 7db2f60 | feat: update script behavior and refine styles | Refinamiento de la lógica de JavaScript y estilos generales del componente. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/brianna | edfe80e | feat: refactor styles structure | Refactorización de la estructura de archivos de estilos modulares. | 24/04/2026 |
+| PetHealt/Pawtient-landing-page | feat/gonzalo | 3b3cffb | feat: add index, script, global and about code | Código base HTML, configuración global de CSS Variables y script principal. | 23/04/2026 |
+| PetHealt/Pawtient-landing-page | develop | b38d1d8 | chore: creates an empty folder and file structure | Creación del "molde" inicial con carpetas y archivos CSS vacíos para el equipo. | 23/04/2026 |
+| PetHealt/Pawtient-landing-page | main | df95928 | landing page files | Primer commit con los recursos estáticos iniciales de la Landing Page. | 13/04/2026 |
 
 ---
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+Durante el **Sprint 1** se implementó la **Landing Page** de la plataforma Pawtient, cumpliendo satisfactoriamente con los objetivos definidos en el Sprint Backlog.  
+La Landing Page constituye el primer punto de interacción con los usuarios, mostrando de forma clara la propuesta de valor dual de la plataforma: herramientas de gestión clínica e inventario para centros veterinarios (B2B) y seguimiento médico para dueños de mascotas (B2C).
+
+El desarrollo tecnológico se centró en:
+- Diseño responsive (Mobile-First) y navegación estructurada mediante anclas.
+- Secciones implementadas: *Hero, Nosotros, Servicios, Estadísticas, IoT & Roles, Precios y Contacto*.
+- Implementación de **Modo Oscuro (Dark Mode)** nativo e interactivo.
+- Tarjetas desplegables e interruptores dinámicos en la tabla de planes de suscripción.
+
+A continuación, se presentan las capturas de las principales vistas desarrolladas y desplegadas en producción:
+
+*(Nota: Reemplaza las siguientes líneas con las imágenes/capturas reales de tu Landing Page)*
+![Vista del Hero Section y Navbar](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+![Vista de la sección Nosotros y Servicios](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-2.png)
+![Vista de la sección IoT y Roles](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-3.png)
+![Vista de Tabla de Precios y Contacto en Modo Oscuro](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-4.png)
+![Vista de la Landing Page adaptada a formato Móvil](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-5.png)
+![Vista de la Landing Page adaptada a formato Móvil](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.png)
+
+
+Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida de la Landing Page, comprobando su responsividad, el cambio de temas (claro/oscuro) y explicando cada una de las secciones implementadas por el equipo:  
+[Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D])
 
 ---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1, el esfuerzo técnico y el alcance principal se centraron exclusivamente en el diseño, implementación y despliegue de la Landing Page de captación. Por este motivo, en esta fase iterativa no se desarrollaron servicios de backend (RESTful API) asociados a la lógica de negocio profunda.
+
+Sin embargo, a partir de las *Technical Stories* definidas en el Product Backlog, se ha establecido la arquitectura inicial de los Web Services y se ha previsto la integración con OpenAPI/Swagger. Esto permitirá, en los sprints posteriores, documentar formalmente los contratos de los endpoints que darán soporte a las funcionalidades *Core* de la plataforma, tales como la autenticación de roles (IAM), la programación de citas médicas, la gestión de historiales clínicos y el control de inventario de suministros veterinarios.
+
 ---
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+## Software Deployment Evidence for Sprint Review
 
+Durante el **Sprint 1** se realizó el despliegue exitoso de la **Landing Page** en la plataforma **Netlify**, utilizando el repositorio [PetHealt/Pawtient-landing-page](https://github.com/PetHealt/Pawtient-landing-page).  
+Se optó por Netlify debido a su facilidad para implementar **Continuous Deployment (CD)** desde GitHub. Esto asegura que cualquier cambio aprobado y subido a la rama `main` se publique automáticamente en el servidor de producción sin intervención manual adicional.
 
+### 🔹 Proceso seguido
+1. **Conexión de cuenta:** Se vinculó la cuenta de GitHub de la organización **PetHealt** con la plataforma Netlify.
+2. **Selección de repositorio:** Se seleccionó el proyecto `Pawtient-landing-page` para la creación del nuevo sitio.
+3. **Configuración de Build:** Se definió la rama `main` como la rama de producción. Dado que es un sitio estático, no se requirieron comandos de compilación (Build commands) complejos.
+4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos HTML, CSS y JavaScript del repositorio.
+5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
+
+**URL del despliegue:** [https://pawtient.netlify.app/](https://pethealt.netlify.app/)
+
+### 🔹 Evidencias
+A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
+
+1. **Captura del Panel de Netlify:** Donde se vea el estado "Site is live" y la conexión con el repo de GitHub.
+2. **Captura de Deploys Log:** Mostrando el historial de despliegues exitosos.
+3. **Captura del Sitio Web:** La Landing Page cargada en el navegador con el candado de seguridad HTTPS activo.
+
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
 ---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 1, el equipo trabajó siguiendo la estrategia de ramificación estandarizada **GitFlow**, creando ramas específicas por cada desarrollador y característica asignada (ejemplo: `feat/gonzalo`, `feat/brianna`, `feat/mateo`, `feat/emily`, `feat/mathias`).
 
+El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó (*push*) sus cambios a su respectiva rama remota. Posteriormente, el Líder Técnico se encargó de realizar la integración progresiva (*merge*) de todas las ramas hacia `develop`, resolviendo los conflictos de fusión de estilos CSS que surgieron al unir los componentes. Tras la validación en el entorno de desarrollo, el código unificado se consolidó en la rama principal `main` para su despliegue a producción.
 
----
+A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
 
-## 5.3. Validation Interviews
+*(Nota: Reemplaza las siguientes líneas con tus capturas de GitHub Insights / Network)*
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-graph.png)
+![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors.png)
 
-### 5.3.1. Diseño de Entrevistas
-
-
-
-### 5.3.2. Registro de Entrevistas
-
-
-![Validation Interview Screenshot](../assets/validation/validation-seg1-1.png)
-
-**Resumen:** *(Descripción de las principales apreciaciones del entrevistado)*
-
-### 5.3.3. Evaluaciones según heurísticas
-
-*(Ver formato completo en el Anexo D del enunciado del proyecto)*
-
-**UX Heuristics & Principles Evaluation**
-*Usability – Inclusive Design – Information Architecture*
-
-**Site o App a evaluar:** BrandRadar
-
-**Tareas a evaluar:**
-1. *(Tarea 1)*
-2. *(Tarea 2)*
-3. *(Tarea 3)*
-
-**Escala de Severidad:**
-
-| Nivel | Descripción |
-|:-----:|:------------|
-| 1 | Problema superficial — puede superarse fácilmente o rara vez ocurre |
-| 2 | Problema menor — ocurre con más frecuencia o es algo difícil de superar |
-| 3 | Problema mayor — ocurre frecuentemente o los usuarios no pueden resolverlo |
-| 4 | Problema muy grave — impide al usuario continuar usando la herramienta |
-
-**Tabla Resumen:**
-
-| # | Problema | Severidad | Heurística / Principio violado |
-|:-:|:---------|:---------:|:-------------------------------|
-| 1 | *(Descripción del problema)* | `[1-4]` | `[Heurística]` |
-| 2 | *(Descripción del problema)* | `[1-4]` | `[Heurística]` |
-
----
-
-## 5.4. Video About-the-Product
-
-
-
----
-<br>
 
 ## Conclusiones
 
-*(Esta sección se desarrolla progresivamente en cada entrega)*
+1. **Integración y Despliegue Continuo (CI/CD) Exitoso:** La adopción estricta de la metodología de control de versiones *GitFlow* permitió al equipo gestionar de manera asíncrona y eficiente el código fuente de la *Landing Page*. La resolución efectiva de conflictos de fusión (merge conflicts) en la rama `develop` y la posterior automatización del despliegue en Netlify desde la rama `main` demuestran la madurez técnica del equipo en la gestión de la configuración del software.
+2. **Validación Efectiva de la Propuesta de Valor:** El uso de herramientas de diseño UX (Impact Mapping, Wireframes, Mockups) y el desarrollo de una interfaz responsiva con *Dark Mode* nativo garantizaron que la *Landing Page* comunique eficazmente la propuesta de valor dual (B2B2C) de Pawtient. Esto establece un canal de adquisición sólido tanto para el personal clínico como para los dueños de mascotas.
+3. **Arquitectura Escalable basada en DDD:** La aplicación del *Domain-Driven Design* a través del *Event Storming*, sumado al diseño de la base de datos relacional y los diagramas de arquitectura C4, proporciona una base técnica robusta, modular y altamente cohesiva. Esta estructuración mitiga riesgos técnicos tempranos y prepara el terreno para el desarrollo de los módulos de Gestión Clínica e Inventario en los próximos Sprints.
 
-## Recomendaciones
+## Bibliografía
 
-*(Esta sección se desarrolla progresivamente en cada entrega)*
-
-## Video About-The-Team
-
-*(Incluir screenshot, URL de Microsoft Stream y YouTube, y timing del video)*
-
+1. Cedeño Ochoa, A., Catuto Murillo, A., & Rodas-Silva, J. (31 de agosto de 2020). *Use of Web applications for the management of veterinary clinics and their impact on the improvement of administrative processes*. Portal AmeliCA. https://portal.amelica.org/ameli/jatsRepo/606/6062739010/index.html
+2. Chacon, S., & Straub, B. (2014). *Pro Git* (2nd ed.). Apress. https://git-scm.com/book/en/v2
+3. Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+4. Gutiérrez Lerma, R. A. (5 de octubre de 2024). *Los principales problemas con clientes y motivos de insatisfacción en clínicas veterinarias*. VetStrategies Consulting. https://www.vetstrategiesconsulting.com/blog/los-principales-problemas-con-clientes-y-motivos-de-insatisfaccion-en-clinicas-veterinarias
+5. Lolimsa. (12 de marzo de 2024). *Problemas comunes en clínicas veterinarias y cómo prevenirlos*. Lolimsa Blog. https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
+6. Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/scrum-guide.html
+7. W3C. (2023). *HTML5 Semantic Elements*. World Wide Web Consortium. https://www.w3.org/TR/html52/
 ---
 
-
-##  Bibliografía
-
-- Lolimsa(12 de Marzo, 2024 ) _Problemas Comunes en Clínicas Veterinarias y Cómo Prevenirlos_. Recuperado el 25 de abril del 2026 de:
-https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
-
-
-- Rafael Antonio Gutiérrez Lerma (5 de Octubre, 2024) VetStrategies Consulting  _Los principales problemas con clientes y motivos de insatisfacción en clínicas veterinarias_. Recuperado el 25 de abril del 2026 de:  https://www.vetstrategiesconsulting.com/blog/los-principales-problemas-con-clientes-y-motivos-de-insatisfaccion-en-clinicas-veterinarias-
-
-
-- Cedeno Ochoa, A., Catuto Murillo, A., & Rodas-Silva, J. (31 de agosto,2020)._Use of Web applications for the management of veterinary clinics and their impact on the improvement of administrative processes_. Recuperado el 25 de abril del 2026 de:  https://portal.amelica.org/ameli/jatsRepo/606/6062739010/index.html
-
----
 
 ## Anexos
+- Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
+- video de exposición []()
+- prototipo web [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
-### Anexo A: Participant Performance Report
-
-*(Adjuntar como documento Word y PDF por separado)*
-
-### Anexo B: Videos de Exposiciones
-
-| Entrega | Título | Enlace |
-|:-------:|:------:|:------:|
-| AV1 | `upc-pre-202610-1asi0729-[10203]-[pethealt]-expo-av1` | `[URL Microsoft Stream]` |
-
-
----
-
-<div align="center">
-
-<br>
-
-*PetHealt · Aplicaciones Web · UPC 2026-10*
-
-</div>
